@@ -1,0 +1,17 @@
+[package]
+name = "datapackage_convert_py"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#datapackage_convert = { path = "../datapackage_convert" }
+datapackage_convert = "0.1"
+pyo3 = { version = "0.16.2", features = ["extension-module", "eyre"] }
+eyre = "*"
+
+
+[lib]
+name = "datapackage_convert"
+crate-type = ["cdylib"]
