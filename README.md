@@ -6,7 +6,7 @@ Conversions from tabular-data-packages. Currently:
 * To SQLite  
 * To Parquet 
 
-All conversions aim to be memory efficiant and fast as they can be. This is the python library, providing python bindings to the [rust librrary](https://github.com/kindly/datapackage_convert).
+All conversions aim to be memory efficiant and fast as they can be. This is the python library, providing python bindings to the [rust library](https://github.com/kindly/datapackage_convert).
 
 ## Install
 
