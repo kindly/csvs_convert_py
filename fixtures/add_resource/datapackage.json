@@ -1,0 +1,45 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+      {
+        "profile": "tabular-data-resource",
+        "name": "games",
+        "schema": {
+          "fields": [
+            {
+              "name": "id",
+              "type": "number",
+              "count": 2
+            },
+            {
+              "name": "title",
+              "type": "string",
+              "count": 2
+            }
+          ],
+          "primaryKey": "id"
+        },
+        "path": "csv/games.csv"
+      },
+      {
+        "profile": "tabular-data-resource",
+        "name": "games2",
+        "schema": {
+          "fields": [
+            {
+              "name": "id",
+              "type": "number",
+              "count": 2
+            },
+            {
+              "name": "title",
+              "type": "string",
+              "count": 2
+            }
+          ],
+          "primaryKey": "id"
+        },
+        "path": "csv/games2.csv"
+      }
+    ]
+  }

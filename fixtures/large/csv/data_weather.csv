@@ -1,0 +1,1680 @@
+_link,_link_data,_link_daily_16,id,main,description,icon
+0.data.0.weather.0,0.data.0,0,500,Rain,light rain,10d
+0.data.1.weather.0,0.data.1,0,500,Rain,light rain,10d
+0.data.2.weather.0,0.data.2,0,500,Rain,light rain,10d
+0.data.3.weather.0,0.data.3,0,501,Rain,moderate rain,10d
+0.data.4.weather.0,0.data.4,0,500,Rain,light rain,10d
+0.data.5.weather.0,0.data.5,0,500,Rain,light rain,10d
+0.data.6.weather.0,0.data.6,0,800,Clear,sky is clear,01d
+0.data.7.weather.0,0.data.7,0,500,Rain,light rain,10d
+0.data.8.weather.0,0.data.8,0,502,Rain,heavy intensity rain,10d
+0.data.9.weather.0,0.data.9,0,500,Rain,light rain,10d
+0.data.10.weather.0,0.data.10,0,500,Rain,light rain,10d
+0.data.11.weather.0,0.data.11,0,500,Rain,light rain,10d
+0.data.12.weather.0,0.data.12,0,800,Clear,sky is clear,01d
+0.data.13.weather.0,0.data.13,0,500,Rain,light rain,10d
+0.data.14.weather.0,0.data.14,0,500,Rain,light rain,10d
+0.data.15.weather.0,0.data.15,0,500,Rain,light rain,10d
+0.data.16.weather.0,0.data.16,0,800,Clear,sky is clear,01ddd
+1.data.0.weather.0,1.data.0,1,802,Clouds,scattered clouds,03d
+1.data.1.weather.0,1.data.1,1,802,Clouds,scattered clouds,03d
+1.data.2.weather.0,1.data.2,1,800,Clear,sky is clear,01d
+1.data.3.weather.0,1.data.3,1,600,Snow,light snow,13d
+1.data.4.weather.0,1.data.4,1,500,Rain,light rain,10d
+1.data.5.weather.0,1.data.5,1,500,Rain,light rain,10d
+1.data.6.weather.0,1.data.6,1,800,Clear,sky is clear,01d
+1.data.7.weather.0,1.data.7,1,501,Rain,moderate rain,10d
+1.data.8.weather.0,1.data.8,1,501,Rain,moderate rain,10d
+1.data.9.weather.0,1.data.9,1,800,Clear,sky is clear,01d
+1.data.10.weather.0,1.data.10,1,600,Snow,light snow,13d
+1.data.11.weather.0,1.data.11,1,600,Snow,light snow,13d
+1.data.12.weather.0,1.data.12,1,800,Clear,sky is clear,01d
+1.data.13.weather.0,1.data.13,1,500,Rain,light rain,10d
+1.data.14.weather.0,1.data.14,1,600,Snow,light snow,13d
+1.data.15.weather.0,1.data.15,1,500,Rain,light rain,10d
+1.data.16.weather.0,1.data.16,1,800,Clear,sky is clear,01ddd
+2.data.0.weather.0,2.data.0,2,600,Snow,light snow,13d
+2.data.1.weather.0,2.data.1,2,800,Clear,sky is clear,01d
+2.data.2.weather.0,2.data.2,2,600,Snow,light snow,13d
+2.data.3.weather.0,2.data.3,2,601,Snow,snow,13d
+2.data.4.weather.0,2.data.4,2,600,Snow,light snow,13d
+2.data.5.weather.0,2.data.5,2,601,Snow,snow,13d
+2.data.6.weather.0,2.data.6,2,600,Snow,light snow,13d
+2.data.7.weather.0,2.data.7,2,800,Clear,sky is clear,01d
+2.data.8.weather.0,2.data.8,2,800,Clear,sky is clear,01d
+2.data.9.weather.0,2.data.9,2,500,Rain,light rain,10d
+2.data.10.weather.0,2.data.10,2,500,Rain,light rain,10d
+2.data.11.weather.0,2.data.11,2,800,Clear,sky is clear,01d
+2.data.12.weather.0,2.data.12,2,600,Snow,light snow,13d
+2.data.13.weather.0,2.data.13,2,600,Snow,light snow,13d
+2.data.14.weather.0,2.data.14,2,601,Snow,snow,13d
+2.data.15.weather.0,2.data.15,2,800,Clear,sky is clear,01d
+3.data.0.weather.0,3.data.0,3,801,Clouds,few clouds,02d
+3.data.1.weather.0,3.data.1,3,801,Clouds,few clouds,02d
+3.data.2.weather.0,3.data.2,3,800,Clear,sky is clear,01d
+3.data.3.weather.0,3.data.3,3,800,Clear,sky is clear,01d
+3.data.4.weather.0,3.data.4,3,501,Rain,moderate rain,10d
+3.data.5.weather.0,3.data.5,3,500,Rain,light rain,10d
+3.data.6.weather.0,3.data.6,3,800,Clear,sky is clear,01d
+3.data.7.weather.0,3.data.7,3,800,Clear,sky is clear,01d
+3.data.8.weather.0,3.data.8,3,800,Clear,sky is clear,01d
+3.data.9.weather.0,3.data.9,3,500,Rain,light rain,10d
+3.data.10.weather.0,3.data.10,3,500,Rain,light rain,10d
+3.data.11.weather.0,3.data.11,3,800,Clear,sky is clear,01d
+3.data.12.weather.0,3.data.12,3,500,Rain,light rain,10d
+3.data.13.weather.0,3.data.13,3,800,Clear,sky is clear,01d
+3.data.14.weather.0,3.data.14,3,800,Clear,sky is clear,01d
+3.data.15.weather.0,3.data.15,3,500,Rain,light rain,10dd
+4.data.0.weather.0,4.data.0,4,500,Rain,light rain,10d
+4.data.1.weather.0,4.data.1,4,500,Rain,light rain,10d
+4.data.2.weather.0,4.data.2,4,500,Rain,light rain,10d
+4.data.3.weather.0,4.data.3,4,501,Rain,moderate rain,10d
+4.data.4.weather.0,4.data.4,4,500,Rain,light rain,10d
+4.data.5.weather.0,4.data.5,4,500,Rain,light rain,10d
+4.data.6.weather.0,4.data.6,4,800,Clear,sky is clear,01d
+4.data.7.weather.0,4.data.7,4,500,Rain,light rain,10d
+4.data.8.weather.0,4.data.8,4,502,Rain,heavy intensity rain,10d
+4.data.9.weather.0,4.data.9,4,500,Rain,light rain,10d
+4.data.10.weather.0,4.data.10,4,500,Rain,light rain,10d
+4.data.11.weather.0,4.data.11,4,500,Rain,light rain,10d
+4.data.12.weather.0,4.data.12,4,800,Clear,sky is clear,01d
+4.data.13.weather.0,4.data.13,4,500,Rain,light rain,10d
+4.data.14.weather.0,4.data.14,4,500,Rain,light rain,10d
+4.data.15.weather.0,4.data.15,4,500,Rain,light rain,10d
+4.data.16.weather.0,4.data.16,4,800,Clear,sky is clear,01ddd
+5.data.0.weather.0,5.data.0,5,600,Snow,light snow,13d
+5.data.1.weather.0,5.data.1,5,800,Clear,sky is clear,01d
+5.data.2.weather.0,5.data.2,5,600,Snow,light snow,13d
+5.data.3.weather.0,5.data.3,5,601,Snow,snow,13d
+5.data.4.weather.0,5.data.4,5,600,Snow,light snow,13d
+5.data.5.weather.0,5.data.5,5,601,Snow,snow,13d
+5.data.6.weather.0,5.data.6,5,600,Snow,light snow,13d
+5.data.7.weather.0,5.data.7,5,800,Clear,sky is clear,01d
+5.data.8.weather.0,5.data.8,5,800,Clear,sky is clear,01d
+5.data.9.weather.0,5.data.9,5,500,Rain,light rain,10d
+5.data.10.weather.0,5.data.10,5,500,Rain,light rain,10d
+5.data.11.weather.0,5.data.11,5,800,Clear,sky is clear,01d
+5.data.12.weather.0,5.data.12,5,600,Snow,light snow,13d
+5.data.13.weather.0,5.data.13,5,600,Snow,light snow,13d
+5.data.14.weather.0,5.data.14,5,601,Snow,snow,13d
+5.data.15.weather.0,5.data.15,5,800,Clear,sky is clear,01d
+6.data.0.weather.0,6.data.0,6,802,Clouds,scattered clouds,03d
+6.data.1.weather.0,6.data.1,6,802,Clouds,scattered clouds,03d
+6.data.2.weather.0,6.data.2,6,800,Clear,sky is clear,01d
+6.data.3.weather.0,6.data.3,6,600,Snow,light snow,13d
+6.data.4.weather.0,6.data.4,6,500,Rain,light rain,10d
+6.data.5.weather.0,6.data.5,6,500,Rain,light rain,10d
+6.data.6.weather.0,6.data.6,6,800,Clear,sky is clear,01d
+6.data.7.weather.0,6.data.7,6,501,Rain,moderate rain,10d
+6.data.8.weather.0,6.data.8,6,501,Rain,moderate rain,10d
+6.data.9.weather.0,6.data.9,6,800,Clear,sky is clear,01d
+6.data.10.weather.0,6.data.10,6,600,Snow,light snow,13d
+6.data.11.weather.0,6.data.11,6,600,Snow,light snow,13d
+6.data.12.weather.0,6.data.12,6,800,Clear,sky is clear,01d
+6.data.13.weather.0,6.data.13,6,500,Rain,light rain,10d
+6.data.14.weather.0,6.data.14,6,600,Snow,light snow,13d
+6.data.15.weather.0,6.data.15,6,500,Rain,light rain,10d
+6.data.16.weather.0,6.data.16,6,800,Clear,sky is clear,01ddd
+7.data.0.weather.0,7.data.0,7,800,Clear,sky is clear,01d
+7.data.1.weather.0,7.data.1,7,800,Clear,sky is clear,01d
+7.data.2.weather.0,7.data.2,7,500,Rain,light rain,10d
+7.data.3.weather.0,7.data.3,7,500,Rain,light rain,10d
+7.data.4.weather.0,7.data.4,7,800,Clear,sky is clear,01d
+7.data.5.weather.0,7.data.5,7,800,Clear,sky is clear,01d
+7.data.6.weather.0,7.data.6,7,800,Clear,sky is clear,01d
+7.data.7.weather.0,7.data.7,7,800,Clear,sky is clear,01d
+7.data.8.weather.0,7.data.8,7,800,Clear,sky is clear,01d
+7.data.9.weather.0,7.data.9,7,800,Clear,sky is clear,01d
+7.data.10.weather.0,7.data.10,7,800,Clear,sky is clear,01d
+7.data.11.weather.0,7.data.11,7,500,Rain,light rain,10d
+7.data.12.weather.0,7.data.12,7,500,Rain,light rain,10d
+7.data.13.weather.0,7.data.13,7,501,Rain,moderate rain,10d
+7.data.14.weather.0,7.data.14,7,500,Rain,light rain,10d
+7.data.15.weather.0,7.data.15,7,800,Clear,sky is clear,01dd
+8.data.0.weather.0,8.data.0,8,600,Snow,light snow,13d
+8.data.1.weather.0,8.data.1,8,800,Clear,sky is clear,01d
+8.data.2.weather.0,8.data.2,8,600,Snow,light snow,13d
+8.data.3.weather.0,8.data.3,8,601,Snow,snow,13d
+8.data.4.weather.0,8.data.4,8,600,Snow,light snow,13d
+8.data.5.weather.0,8.data.5,8,601,Snow,snow,13d
+8.data.6.weather.0,8.data.6,8,600,Snow,light snow,13d
+8.data.7.weather.0,8.data.7,8,800,Clear,sky is clear,01d
+8.data.8.weather.0,8.data.8,8,800,Clear,sky is clear,01d
+8.data.9.weather.0,8.data.9,8,500,Rain,light rain,10d
+8.data.10.weather.0,8.data.10,8,500,Rain,light rain,10d
+8.data.11.weather.0,8.data.11,8,800,Clear,sky is clear,01d
+8.data.12.weather.0,8.data.12,8,600,Snow,light snow,13d
+8.data.13.weather.0,8.data.13,8,600,Snow,light snow,13d
+8.data.14.weather.0,8.data.14,8,601,Snow,snow,13d
+8.data.15.weather.0,8.data.15,8,800,Clear,sky is clear,01d
+9.data.0.weather.0,9.data.0,9,501,Rain,moderate rain,10d
+9.data.1.weather.0,9.data.1,9,502,Rain,heavy intensity rain,10d
+9.data.2.weather.0,9.data.2,9,500,Rain,light rain,10d
+9.data.3.weather.0,9.data.3,9,500,Rain,light rain,10d
+9.data.4.weather.0,9.data.4,9,500,Rain,light rain,10d
+9.data.5.weather.0,9.data.5,9,500,Rain,light rain,10d
+9.data.6.weather.0,9.data.6,9,800,Clear,sky is clear,01d
+9.data.7.weather.0,9.data.7,9,500,Rain,light rain,10d
+9.data.8.weather.0,9.data.8,9,501,Rain,moderate rain,10d
+9.data.9.weather.0,9.data.9,9,800,Clear,sky is clear,01d
+9.data.10.weather.0,9.data.10,9,500,Rain,light rain,10d
+9.data.11.weather.0,9.data.11,9,500,Rain,light rain,10d
+9.data.12.weather.0,9.data.12,9,500,Rain,light rain,10d
+9.data.13.weather.0,9.data.13,9,501,Rain,moderate rain,10d
+9.data.14.weather.0,9.data.14,9,500,Rain,light rain,10d
+9.data.15.weather.0,9.data.15,9,500,Rain,light rain,10d
+9.data.16.weather.0,9.data.16,9,800,Clear,sky is clear,01ddd
+10.data.0.weather.0,10.data.0,10,500,Rain,light rain,10n
+10.data.1.weather.0,10.data.1,10,501,Rain,moderate rain,10d
+10.data.2.weather.0,10.data.2,10,500,Rain,light rain,10d
+10.data.3.weather.0,10.data.3,10,501,Rain,moderate rain,10d
+10.data.4.weather.0,10.data.4,10,500,Rain,light rain,10d
+10.data.5.weather.0,10.data.5,10,500,Rain,light rain,10d
+10.data.6.weather.0,10.data.6,10,501,Rain,moderate rain,10d
+10.data.7.weather.0,10.data.7,10,500,Rain,light rain,10d
+10.data.8.weather.0,10.data.8,10,501,Rain,moderate rain,10d
+10.data.9.weather.0,10.data.9,10,501,Rain,moderate rain,10d
+10.data.10.weather.0,10.data.10,10,501,Rain,moderate rain,10d
+10.data.11.weather.0,10.data.11,10,501,Rain,moderate rain,10d
+10.data.12.weather.0,10.data.12,10,501,Rain,moderate rain,10d
+10.data.13.weather.0,10.data.13,10,501,Rain,moderate rain,10d
+10.data.14.weather.0,10.data.14,10,500,Rain,light rain,10d
+10.data.15.weather.0,10.data.15,10,501,Rain,moderate rain,10d
+11.data.0.weather.0,11.data.0,11,801,Clouds,few clouds,02d
+11.data.1.weather.0,11.data.1,11,800,Clear,sky is clear,02d
+11.data.2.weather.0,11.data.2,11,600,Snow,light snow,13d
+11.data.3.weather.0,11.data.3,11,600,Snow,light snow,13d
+11.data.4.weather.0,11.data.4,11,600,Snow,light snow,13d
+11.data.5.weather.0,11.data.5,11,500,Rain,light rain,10d
+11.data.6.weather.0,11.data.6,11,500,Rain,light rain,10d
+11.data.7.weather.0,11.data.7,11,501,Rain,moderate rain,10d
+11.data.8.weather.0,11.data.8,11,500,Rain,light rain,10d
+11.data.9.weather.0,11.data.9,11,500,Rain,light rain,10d
+11.data.10.weather.0,11.data.10,11,600,Snow,light snow,13d
+11.data.11.weather.0,11.data.11,11,500,Rain,light rain,10d
+11.data.12.weather.0,11.data.12,11,800,Clear,sky is clear,01d
+11.data.13.weather.0,11.data.13,11,500,Rain,light rain,10d
+11.data.14.weather.0,11.data.14,11,601,Snow,snow,13d
+11.data.15.weather.0,11.data.15,11,800,Clear,sky is clear,01d
+11.data.16.weather.0,11.data.16,11,800,Clear,sky is clear,01ddd
+12.data.0.weather.0,12.data.0,12,502,Rain,heavy intensity rain,10d
+12.data.1.weather.0,12.data.1,12,800,Clear,sky is clear,01d
+12.data.2.weather.0,12.data.2,12,800,Clear,sky is clear,01d
+12.data.3.weather.0,12.data.3,12,601,Snow,snow,13d
+12.data.4.weather.0,12.data.4,12,500,Rain,light rain,10d
+12.data.5.weather.0,12.data.5,12,502,Rain,heavy intensity rain,10d
+12.data.6.weather.0,12.data.6,12,500,Rain,light rain,10d
+12.data.7.weather.0,12.data.7,12,500,Rain,light rain,10d
+12.data.8.weather.0,12.data.8,12,500,Rain,light rain,10d
+12.data.9.weather.0,12.data.9,12,501,Rain,moderate rain,10d
+12.data.10.weather.0,12.data.10,12,500,Rain,light rain,10d
+12.data.11.weather.0,12.data.11,12,501,Rain,moderate rain,10d
+12.data.12.weather.0,12.data.12,12,501,Rain,moderate rain,10d
+12.data.13.weather.0,12.data.13,12,501,Rain,moderate rain,10d
+12.data.14.weather.0,12.data.14,12,502,Rain,heavy intensity rain,10d
+12.data.15.weather.0,12.data.15,12,501,Rain,moderate rain,10d
+12.data.16.weather.0,12.data.16,12,500,Rain,light rain,10ddd
+13.data.0.weather.0,13.data.0,13,802,Clouds,scattered clouds,03d
+13.data.1.weather.0,13.data.1,13,802,Clouds,scattered clouds,03d
+13.data.2.weather.0,13.data.2,13,800,Clear,sky is clear,01d
+13.data.3.weather.0,13.data.3,13,600,Snow,light snow,13d
+13.data.4.weather.0,13.data.4,13,500,Rain,light rain,10d
+13.data.5.weather.0,13.data.5,13,500,Rain,light rain,10d
+13.data.6.weather.0,13.data.6,13,800,Clear,sky is clear,01d
+13.data.7.weather.0,13.data.7,13,501,Rain,moderate rain,10d
+13.data.8.weather.0,13.data.8,13,501,Rain,moderate rain,10d
+13.data.9.weather.0,13.data.9,13,800,Clear,sky is clear,01d
+13.data.10.weather.0,13.data.10,13,600,Snow,light snow,13d
+13.data.11.weather.0,13.data.11,13,600,Snow,light snow,13d
+13.data.12.weather.0,13.data.12,13,800,Clear,sky is clear,01d
+13.data.13.weather.0,13.data.13,13,500,Rain,light rain,10d
+13.data.14.weather.0,13.data.14,13,600,Snow,light snow,13d
+13.data.15.weather.0,13.data.15,13,500,Rain,light rain,10d
+13.data.16.weather.0,13.data.16,13,800,Clear,sky is clear,01ddd
+14.data.0.weather.0,14.data.0,14,501,Rain,moderate rain,10d
+14.data.1.weather.0,14.data.1,14,502,Rain,heavy intensity rain,10d
+14.data.2.weather.0,14.data.2,14,500,Rain,light rain,10d
+14.data.3.weather.0,14.data.3,14,500,Rain,light rain,10d
+14.data.4.weather.0,14.data.4,14,500,Rain,light rain,10d
+14.data.5.weather.0,14.data.5,14,500,Rain,light rain,10d
+14.data.6.weather.0,14.data.6,14,800,Clear,sky is clear,01d
+14.data.7.weather.0,14.data.7,14,500,Rain,light rain,10d
+14.data.8.weather.0,14.data.8,14,501,Rain,moderate rain,10d
+14.data.9.weather.0,14.data.9,14,800,Clear,sky is clear,01d
+14.data.10.weather.0,14.data.10,14,500,Rain,light rain,10d
+14.data.11.weather.0,14.data.11,14,500,Rain,light rain,10d
+14.data.12.weather.0,14.data.12,14,500,Rain,light rain,10d
+14.data.13.weather.0,14.data.13,14,501,Rain,moderate rain,10d
+14.data.14.weather.0,14.data.14,14,500,Rain,light rain,10d
+14.data.15.weather.0,14.data.15,14,500,Rain,light rain,10d
+14.data.16.weather.0,14.data.16,14,800,Clear,sky is clear,01ddd
+15.data.0.weather.0,15.data.0,15,500,Rain,light rain,10d
+15.data.1.weather.0,15.data.1,15,500,Rain,light rain,10d
+15.data.2.weather.0,15.data.2,15,800,Clear,sky is clear,01d
+15.data.3.weather.0,15.data.3,15,800,Clear,sky is clear,01d
+15.data.4.weather.0,15.data.4,15,500,Rain,light rain,10d
+15.data.5.weather.0,15.data.5,15,501,Rain,moderate rain,10d
+15.data.6.weather.0,15.data.6,15,501,Rain,moderate rain,10d
+15.data.7.weather.0,15.data.7,15,501,Rain,moderate rain,10d
+15.data.8.weather.0,15.data.8,15,500,Rain,light rain,10d
+15.data.9.weather.0,15.data.9,15,800,Clear,sky is clear,01d
+15.data.10.weather.0,15.data.10,15,800,Clear,sky is clear,01d
+15.data.11.weather.0,15.data.11,15,500,Rain,light rain,10d
+15.data.12.weather.0,15.data.12,15,800,Clear,sky is clear,01d
+15.data.13.weather.0,15.data.13,15,800,Clear,sky is clear,01d
+15.data.14.weather.0,15.data.14,15,501,Rain,moderate rain,10d
+15.data.15.weather.0,15.data.15,15,501,Rain,moderate rain,10d
+15.data.16.weather.0,15.data.16,15,500,Rain,light rain,10d
+16.data.0.weather.0,16.data.0,16,802,Clouds,scattered clouds,03d
+16.data.1.weather.0,16.data.1,16,802,Clouds,scattered clouds,03d
+16.data.2.weather.0,16.data.2,16,800,Clear,sky is clear,01d
+16.data.3.weather.0,16.data.3,16,600,Snow,light snow,13d
+16.data.4.weather.0,16.data.4,16,500,Rain,light rain,10d
+16.data.5.weather.0,16.data.5,16,500,Rain,light rain,10d
+16.data.6.weather.0,16.data.6,16,800,Clear,sky is clear,01d
+16.data.7.weather.0,16.data.7,16,501,Rain,moderate rain,10d
+16.data.8.weather.0,16.data.8,16,501,Rain,moderate rain,10d
+16.data.9.weather.0,16.data.9,16,800,Clear,sky is clear,01d
+16.data.10.weather.0,16.data.10,16,600,Snow,light snow,13d
+16.data.11.weather.0,16.data.11,16,600,Snow,light snow,13d
+16.data.12.weather.0,16.data.12,16,800,Clear,sky is clear,01d
+16.data.13.weather.0,16.data.13,16,500,Rain,light rain,10d
+16.data.14.weather.0,16.data.14,16,600,Snow,light snow,13d
+16.data.15.weather.0,16.data.15,16,500,Rain,light rain,10d
+16.data.16.weather.0,16.data.16,16,800,Clear,sky is clear,01ddd
+17.data.0.weather.0,17.data.0,17,501,Rain,moderate rain,10d
+17.data.1.weather.0,17.data.1,17,500,Rain,light rain,10d
+17.data.2.weather.0,17.data.2,17,501,Rain,moderate rain,10d
+17.data.3.weather.0,17.data.3,17,500,Rain,light rain,10d
+17.data.4.weather.0,17.data.4,17,501,Rain,moderate rain,10d
+17.data.5.weather.0,17.data.5,17,502,Rain,heavy intensity rain,10d
+17.data.6.weather.0,17.data.6,17,502,Rain,heavy intensity rain,10d
+17.data.7.weather.0,17.data.7,17,500,Rain,light rain,10d
+17.data.8.weather.0,17.data.8,17,500,Rain,light rain,10d
+17.data.9.weather.0,17.data.9,17,500,Rain,light rain,10d
+17.data.10.weather.0,17.data.10,17,501,Rain,moderate rain,10d
+17.data.11.weather.0,17.data.11,17,500,Rain,light rain,10d
+17.data.12.weather.0,17.data.12,17,500,Rain,light rain,10d
+17.data.13.weather.0,17.data.13,17,501,Rain,moderate rain,10d
+17.data.14.weather.0,17.data.14,17,501,Rain,moderate rain,10d
+17.data.15.weather.0,17.data.15,17,500,Rain,light rain,10d
+17.data.16.weather.0,17.data.16,17,800,Clear,sky is clear,01ddd
+18.data.0.weather.0,18.data.0,18,800,Clear,sky is clear,01d
+18.data.1.weather.0,18.data.1,18,802,Clouds,scattered clouds,03d
+18.data.2.weather.0,18.data.2,18,800,Clear,sky is clear,01d
+18.data.3.weather.0,18.data.3,18,500,Rain,light rain,10d
+18.data.4.weather.0,18.data.4,18,500,Rain,light rain,10d
+18.data.5.weather.0,18.data.5,18,500,Rain,light rain,10d
+18.data.6.weather.0,18.data.6,18,800,Clear,sky is clear,01d
+18.data.7.weather.0,18.data.7,18,800,Clear,sky is clear,01d
+18.data.8.weather.0,18.data.8,18,800,Clear,sky is clear,01d
+18.data.9.weather.0,18.data.9,18,800,Clear,sky is clear,01d
+18.data.10.weather.0,18.data.10,18,800,Clear,sky is clear,01d
+18.data.11.weather.0,18.data.11,18,500,Rain,light rain,10d
+18.data.12.weather.0,18.data.12,18,501,Rain,moderate rain,10d
+18.data.13.weather.0,18.data.13,18,501,Rain,moderate rain,10d
+18.data.14.weather.0,18.data.14,18,800,Clear,sky is clear,01d
+18.data.15.weather.0,18.data.15,18,800,Clear,sky is clear,01dd
+19.data.0.weather.0,19.data.0,19,501,Rain,moderate rain,10d
+19.data.1.weather.0,19.data.1,19,502,Rain,heavy intensity rain,10d
+19.data.2.weather.0,19.data.2,19,500,Rain,light rain,10d
+19.data.3.weather.0,19.data.3,19,500,Rain,light rain,10d
+19.data.4.weather.0,19.data.4,19,500,Rain,light rain,10d
+19.data.5.weather.0,19.data.5,19,500,Rain,light rain,10d
+19.data.6.weather.0,19.data.6,19,800,Clear,sky is clear,01d
+19.data.7.weather.0,19.data.7,19,500,Rain,light rain,10d
+19.data.8.weather.0,19.data.8,19,501,Rain,moderate rain,10d
+19.data.9.weather.0,19.data.9,19,800,Clear,sky is clear,01d
+19.data.10.weather.0,19.data.10,19,500,Rain,light rain,10d
+19.data.11.weather.0,19.data.11,19,500,Rain,light rain,10d
+19.data.12.weather.0,19.data.12,19,500,Rain,light rain,10d
+19.data.13.weather.0,19.data.13,19,501,Rain,moderate rain,10d
+19.data.14.weather.0,19.data.14,19,500,Rain,light rain,10d
+19.data.15.weather.0,19.data.15,19,500,Rain,light rain,10d
+19.data.16.weather.0,19.data.16,19,800,Clear,sky is clear,01ddd
+20.data.0.weather.0,20.data.0,20,800,Clear,sky is clear,01d
+20.data.1.weather.0,20.data.1,20,801,Clouds,few clouds,02d
+20.data.2.weather.0,20.data.2,20,600,Snow,light snow,13d
+20.data.3.weather.0,20.data.3,20,600,Snow,light snow,13d
+20.data.4.weather.0,20.data.4,20,600,Snow,light snow,13d
+20.data.5.weather.0,20.data.5,20,500,Rain,light rain,10d
+20.data.6.weather.0,20.data.6,20,501,Rain,moderate rain,10d
+20.data.7.weather.0,20.data.7,20,501,Rain,moderate rain,10d
+20.data.8.weather.0,20.data.8,20,500,Rain,light rain,10d
+20.data.9.weather.0,20.data.9,20,800,Clear,sky is clear,01d
+20.data.10.weather.0,20.data.10,20,600,Snow,light snow,13d
+20.data.11.weather.0,20.data.11,20,600,Snow,light snow,13d
+20.data.12.weather.0,20.data.12,20,600,Snow,light snow,13d
+20.data.13.weather.0,20.data.13,20,800,Clear,sky is clear,01d
+20.data.14.weather.0,20.data.14,20,600,Snow,light snow,13d
+20.data.15.weather.0,20.data.15,20,800,Clear,sky is clear,01d
+20.data.16.weather.0,20.data.16,20,800,Clear,sky is clear,01ddd
+21.data.0.weather.0,21.data.0,21,500,Rain,light rain,10d
+21.data.1.weather.0,21.data.1,21,500,Rain,light rain,10d
+21.data.2.weather.0,21.data.2,21,500,Rain,light rain,10d
+21.data.3.weather.0,21.data.3,21,501,Rain,moderate rain,10d
+21.data.4.weather.0,21.data.4,21,500,Rain,light rain,10d
+21.data.5.weather.0,21.data.5,21,500,Rain,light rain,10d
+21.data.6.weather.0,21.data.6,21,800,Clear,sky is clear,01d
+21.data.7.weather.0,21.data.7,21,500,Rain,light rain,10d
+21.data.8.weather.0,21.data.8,21,502,Rain,heavy intensity rain,10d
+21.data.9.weather.0,21.data.9,21,500,Rain,light rain,10d
+21.data.10.weather.0,21.data.10,21,500,Rain,light rain,10d
+21.data.11.weather.0,21.data.11,21,500,Rain,light rain,10d
+21.data.12.weather.0,21.data.12,21,800,Clear,sky is clear,01d
+21.data.13.weather.0,21.data.13,21,500,Rain,light rain,10d
+21.data.14.weather.0,21.data.14,21,500,Rain,light rain,10d
+21.data.15.weather.0,21.data.15,21,500,Rain,light rain,10d
+21.data.16.weather.0,21.data.16,21,800,Clear,sky is clear,01ddd
+22.data.0.weather.0,22.data.0,22,500,Rain,light rain,10d
+22.data.1.weather.0,22.data.1,22,500,Rain,light rain,10d
+22.data.2.weather.0,22.data.2,22,500,Rain,light rain,10d
+22.data.3.weather.0,22.data.3,22,501,Rain,moderate rain,10d
+22.data.4.weather.0,22.data.4,22,500,Rain,light rain,10d
+22.data.5.weather.0,22.data.5,22,500,Rain,light rain,10d
+22.data.6.weather.0,22.data.6,22,800,Clear,sky is clear,01d
+22.data.7.weather.0,22.data.7,22,500,Rain,light rain,10d
+22.data.8.weather.0,22.data.8,22,502,Rain,heavy intensity rain,10d
+22.data.9.weather.0,22.data.9,22,500,Rain,light rain,10d
+22.data.10.weather.0,22.data.10,22,500,Rain,light rain,10d
+22.data.11.weather.0,22.data.11,22,500,Rain,light rain,10d
+22.data.12.weather.0,22.data.12,22,800,Clear,sky is clear,01d
+22.data.13.weather.0,22.data.13,22,500,Rain,light rain,10d
+22.data.14.weather.0,22.data.14,22,500,Rain,light rain,10d
+22.data.15.weather.0,22.data.15,22,500,Rain,light rain,10d
+22.data.16.weather.0,22.data.16,22,800,Clear,sky is clear,01ddd
+23.data.0.weather.0,23.data.0,23,501,Rain,moderate rain,10d
+23.data.1.weather.0,23.data.1,23,601,Snow,snow,13d
+23.data.2.weather.0,23.data.2,23,601,Snow,snow,13d
+23.data.3.weather.0,23.data.3,23,600,Snow,light snow,13d
+23.data.4.weather.0,23.data.4,23,600,Snow,light snow,13d
+23.data.5.weather.0,23.data.5,23,600,Snow,light snow,13d
+23.data.6.weather.0,23.data.6,23,600,Snow,light snow,13d
+23.data.7.weather.0,23.data.7,23,800,Clear,sky is clear,01d
+23.data.8.weather.0,23.data.8,23,500,Rain,light rain,10d
+23.data.9.weather.0,23.data.9,23,600,Snow,light snow,13d
+23.data.10.weather.0,23.data.10,23,800,Clear,sky is clear,01d
+23.data.11.weather.0,23.data.11,23,500,Rain,light rain,10d
+23.data.12.weather.0,23.data.12,23,800,Clear,sky is clear,01d
+23.data.13.weather.0,23.data.13,23,501,Rain,moderate rain,10d
+23.data.14.weather.0,23.data.14,23,501,Rain,moderate rain,10d
+23.data.15.weather.0,23.data.15,23,500,Rain,light rain,10d
+23.data.16.weather.0,23.data.16,23,500,Rain,light rain,10ddd
+24.data.0.weather.0,24.data.0,24,800,Clear,sky is clear,01d
+24.data.1.weather.0,24.data.1,24,600,Snow,light snow,13d
+24.data.2.weather.0,24.data.2,24,601,Snow,snow,13d
+24.data.3.weather.0,24.data.3,24,601,Snow,snow,13d
+24.data.4.weather.0,24.data.4,24,600,Snow,light snow,13d
+24.data.5.weather.0,24.data.5,24,601,Snow,snow,13d
+24.data.6.weather.0,24.data.6,24,601,Snow,snow,13d
+24.data.7.weather.0,24.data.7,24,800,Clear,sky is clear,01d
+24.data.8.weather.0,24.data.8,24,500,Rain,light rain,10d
+24.data.9.weather.0,24.data.9,24,600,Snow,light snow,13d
+24.data.10.weather.0,24.data.10,24,600,Snow,light snow,13d
+24.data.11.weather.0,24.data.11,24,500,Rain,light rain,10d
+24.data.12.weather.0,24.data.12,24,800,Clear,sky is clear,01d
+24.data.13.weather.0,24.data.13,24,501,Rain,moderate rain,10d
+24.data.14.weather.0,24.data.14,24,600,Snow,light snow,13d
+24.data.15.weather.0,24.data.15,24,600,Snow,light snow,13d
+24.data.16.weather.0,24.data.16,24,800,Clear,sky is clear,01ddd
+25.data.0.weather.0,25.data.0,25,502,Rain,heavy intensity rain,10d
+25.data.1.weather.0,25.data.1,25,501,Rain,moderate rain,10d
+25.data.2.weather.0,25.data.2,25,800,Clear,sky is clear,01d
+25.data.3.weather.0,25.data.3,25,501,Rain,moderate rain,10d
+25.data.4.weather.0,25.data.4,25,600,Snow,light snow,13d
+25.data.5.weather.0,25.data.5,25,600,Snow,light snow,13d
+25.data.6.weather.0,25.data.6,25,800,Clear,sky is clear,01d
+25.data.7.weather.0,25.data.7,25,800,Clear,sky is clear,01d
+25.data.8.weather.0,25.data.8,25,500,Rain,light rain,10d
+25.data.9.weather.0,25.data.9,25,600,Snow,light snow,13d
+25.data.10.weather.0,25.data.10,25,500,Rain,light rain,10d
+25.data.11.weather.0,25.data.11,25,800,Clear,sky is clear,01d
+25.data.12.weather.0,25.data.12,25,500,Rain,light rain,10d
+25.data.13.weather.0,25.data.13,25,500,Rain,light rain,10d
+25.data.14.weather.0,25.data.14,25,500,Rain,light rain,10d
+25.data.15.weather.0,25.data.15,25,500,Rain,light rain,10d
+25.data.16.weather.0,25.data.16,25,800,Clear,sky is clear,01ddd
+26.data.0.weather.0,26.data.0,26,502,Rain,heavy intensity rain,10d
+26.data.1.weather.0,26.data.1,26,501,Rain,moderate rain,10d
+26.data.2.weather.0,26.data.2,26,800,Clear,sky is clear,01d
+26.data.3.weather.0,26.data.3,26,501,Rain,moderate rain,10d
+26.data.4.weather.0,26.data.4,26,600,Snow,light snow,13d
+26.data.5.weather.0,26.data.5,26,600,Snow,light snow,13d
+26.data.6.weather.0,26.data.6,26,800,Clear,sky is clear,01d
+26.data.7.weather.0,26.data.7,26,800,Clear,sky is clear,01d
+26.data.8.weather.0,26.data.8,26,500,Rain,light rain,10d
+26.data.9.weather.0,26.data.9,26,600,Snow,light snow,13d
+26.data.10.weather.0,26.data.10,26,500,Rain,light rain,10d
+26.data.11.weather.0,26.data.11,26,800,Clear,sky is clear,01d
+26.data.12.weather.0,26.data.12,26,500,Rain,light rain,10d
+26.data.13.weather.0,26.data.13,26,500,Rain,light rain,10d
+26.data.14.weather.0,26.data.14,26,500,Rain,light rain,10d
+26.data.15.weather.0,26.data.15,26,500,Rain,light rain,10d
+26.data.16.weather.0,26.data.16,26,800,Clear,sky is clear,01ddd
+27.data.0.weather.0,27.data.0,27,500,Rain,light rain,10d
+27.data.1.weather.0,27.data.1,27,800,Clear,sky is clear,01d
+27.data.2.weather.0,27.data.2,27,801,Clouds,few clouds,02d
+27.data.3.weather.0,27.data.3,27,800,Clear,sky is clear,01d
+27.data.4.weather.0,27.data.4,27,800,Clear,sky is clear,01d
+27.data.5.weather.0,27.data.5,27,800,Clear,sky is clear,01d
+27.data.6.weather.0,27.data.6,27,800,Clear,sky is clear,01d
+27.data.7.weather.0,27.data.7,27,800,Clear,sky is clear,01d
+27.data.8.weather.0,27.data.8,27,500,Rain,light rain,10d
+27.data.9.weather.0,27.data.9,27,800,Clear,sky is clear,01d
+27.data.10.weather.0,27.data.10,27,800,Clear,sky is clear,01d
+27.data.11.weather.0,27.data.11,27,800,Clear,sky is clear,01d
+27.data.12.weather.0,27.data.12,27,800,Clear,sky is clear,01d
+27.data.13.weather.0,27.data.13,27,500,Rain,light rain,10d
+27.data.14.weather.0,27.data.14,27,500,Rain,light rain,10d
+27.data.15.weather.0,27.data.15,27,500,Rain,light rain,10d
+27.data.16.weather.0,27.data.16,27,500,Rain,light rain,10d
+28.data.0.weather.0,28.data.0,28,600,Snow,light snow,13d
+28.data.1.weather.0,28.data.1,28,800,Clear,sky is clear,01d
+28.data.2.weather.0,28.data.2,28,800,Clear,sky is clear,02d
+28.data.3.weather.0,28.data.3,28,500,Rain,light rain,10d
+28.data.4.weather.0,28.data.4,28,500,Rain,light rain,10d
+28.data.5.weather.0,28.data.5,28,800,Clear,sky is clear,01d
+28.data.6.weather.0,28.data.6,28,800,Clear,sky is clear,01d
+28.data.7.weather.0,28.data.7,28,800,Clear,sky is clear,01d
+28.data.8.weather.0,28.data.8,28,600,Snow,light snow,13d
+28.data.9.weather.0,28.data.9,28,600,Snow,light snow,13d
+28.data.10.weather.0,28.data.10,28,600,Snow,light snow,13d
+28.data.11.weather.0,28.data.11,28,600,Snow,light snow,13d
+28.data.12.weather.0,28.data.12,28,600,Snow,light snow,13d
+28.data.13.weather.0,28.data.13,28,800,Clear,sky is clear,01d
+28.data.14.weather.0,28.data.14,28,800,Clear,sky is clear,01d
+28.data.15.weather.0,28.data.15,28,500,Rain,light rain,10dd
+29.data.0.weather.0,29.data.0,29,600,Snow,light snow,13d
+29.data.1.weather.0,29.data.1,29,600,Snow,light snow,13d
+29.data.2.weather.0,29.data.2,29,601,Snow,snow,13d
+29.data.3.weather.0,29.data.3,29,601,Snow,snow,13d
+29.data.4.weather.0,29.data.4,29,601,Snow,snow,13d
+29.data.5.weather.0,29.data.5,29,601,Snow,snow,13d
+29.data.6.weather.0,29.data.6,29,601,Snow,snow,13d
+29.data.7.weather.0,29.data.7,29,600,Snow,light snow,13d
+29.data.8.weather.0,29.data.8,29,600,Snow,light snow,13d
+29.data.9.weather.0,29.data.9,29,601,Snow,snow,13d
+29.data.10.weather.0,29.data.10,29,601,Snow,snow,13d
+29.data.11.weather.0,29.data.11,29,800,Clear,sky is clear,01d
+29.data.12.weather.0,29.data.12,29,500,Rain,light rain,10d
+29.data.13.weather.0,29.data.13,29,500,Rain,light rain,10d
+29.data.14.weather.0,29.data.14,29,600,Snow,light snow,13d
+29.data.15.weather.0,29.data.15,29,600,Snow,light snow,13d
+29.data.16.weather.0,29.data.16,29,800,Clear,sky is clear,01ddd
+30.data.0.weather.0,30.data.0,30,501,Rain,moderate rain,10d
+30.data.1.weather.0,30.data.1,30,601,Snow,snow,13d
+30.data.2.weather.0,30.data.2,30,601,Snow,snow,13d
+30.data.3.weather.0,30.data.3,30,600,Snow,light snow,13d
+30.data.4.weather.0,30.data.4,30,600,Snow,light snow,13d
+30.data.5.weather.0,30.data.5,30,600,Snow,light snow,13d
+30.data.6.weather.0,30.data.6,30,600,Snow,light snow,13d
+30.data.7.weather.0,30.data.7,30,800,Clear,sky is clear,01d
+30.data.8.weather.0,30.data.8,30,500,Rain,light rain,10d
+30.data.9.weather.0,30.data.9,30,600,Snow,light snow,13d
+30.data.10.weather.0,30.data.10,30,800,Clear,sky is clear,01d
+30.data.11.weather.0,30.data.11,30,500,Rain,light rain,10d
+30.data.12.weather.0,30.data.12,30,800,Clear,sky is clear,01d
+30.data.13.weather.0,30.data.13,30,501,Rain,moderate rain,10d
+30.data.14.weather.0,30.data.14,30,501,Rain,moderate rain,10d
+30.data.15.weather.0,30.data.15,30,500,Rain,light rain,10d
+30.data.16.weather.0,30.data.16,30,500,Rain,light rain,10ddd
+31.data.0.weather.0,31.data.0,31,800,Clear,sky is clear,01d
+31.data.1.weather.0,31.data.1,31,800,Clear,sky is clear,02d
+31.data.2.weather.0,31.data.2,31,800,Clear,sky is clear,02d
+31.data.3.weather.0,31.data.3,31,800,Clear,sky is clear,01d
+31.data.4.weather.0,31.data.4,31,500,Rain,light rain,10d
+31.data.5.weather.0,31.data.5,31,500,Rain,light rain,10d
+31.data.6.weather.0,31.data.6,31,500,Rain,light rain,10d
+31.data.7.weather.0,31.data.7,31,501,Rain,moderate rain,10d
+31.data.8.weather.0,31.data.8,31,501,Rain,moderate rain,10d
+31.data.9.weather.0,31.data.9,31,500,Rain,light rain,10d
+31.data.10.weather.0,31.data.10,31,800,Clear,sky is clear,01d
+31.data.11.weather.0,31.data.11,31,800,Clear,sky is clear,01d
+31.data.12.weather.0,31.data.12,31,500,Rain,light rain,10d
+31.data.13.weather.0,31.data.13,31,500,Rain,light rain,10d
+31.data.14.weather.0,31.data.14,31,500,Rain,light rain,10d
+31.data.15.weather.0,31.data.15,31,501,Rain,moderate rain,10d
+31.data.16.weather.0,31.data.16,31,500,Rain,light rain,10d
+32.data.0.weather.0,32.data.0,32,500,Rain,light rain,10d
+32.data.1.weather.0,32.data.1,32,500,Rain,light rain,10d
+32.data.2.weather.0,32.data.2,32,800,Clear,sky is clear,01d
+32.data.3.weather.0,32.data.3,32,800,Clear,sky is clear,01d
+32.data.4.weather.0,32.data.4,32,500,Rain,light rain,10d
+32.data.5.weather.0,32.data.5,32,501,Rain,moderate rain,10d
+32.data.6.weather.0,32.data.6,32,501,Rain,moderate rain,10d
+32.data.7.weather.0,32.data.7,32,500,Rain,light rain,10d
+32.data.8.weather.0,32.data.8,32,500,Rain,light rain,10d
+32.data.9.weather.0,32.data.9,32,800,Clear,sky is clear,01d
+32.data.10.weather.0,32.data.10,32,800,Clear,sky is clear,01d
+32.data.11.weather.0,32.data.11,32,500,Rain,light rain,10d
+32.data.12.weather.0,32.data.12,32,500,Rain,light rain,10d
+32.data.13.weather.0,32.data.13,32,800,Clear,sky is clear,01d
+32.data.14.weather.0,32.data.14,32,500,Rain,light rain,10d
+32.data.15.weather.0,32.data.15,32,501,Rain,moderate rain,10d
+32.data.16.weather.0,32.data.16,32,500,Rain,light rain,10d
+33.data.0.weather.0,33.data.0,33,500,Rain,light rain,10d
+33.data.1.weather.0,33.data.1,33,500,Rain,light rain,10d
+33.data.2.weather.0,33.data.2,33,800,Clear,sky is clear,01d
+33.data.3.weather.0,33.data.3,33,800,Clear,sky is clear,01d
+33.data.4.weather.0,33.data.4,33,500,Rain,light rain,10d
+33.data.5.weather.0,33.data.5,33,501,Rain,moderate rain,10d
+33.data.6.weather.0,33.data.6,33,501,Rain,moderate rain,10d
+33.data.7.weather.0,33.data.7,33,501,Rain,moderate rain,10d
+33.data.8.weather.0,33.data.8,33,500,Rain,light rain,10d
+33.data.9.weather.0,33.data.9,33,800,Clear,sky is clear,01d
+33.data.10.weather.0,33.data.10,33,800,Clear,sky is clear,01d
+33.data.11.weather.0,33.data.11,33,500,Rain,light rain,10d
+33.data.12.weather.0,33.data.12,33,800,Clear,sky is clear,01d
+33.data.13.weather.0,33.data.13,33,800,Clear,sky is clear,01d
+33.data.14.weather.0,33.data.14,33,501,Rain,moderate rain,10d
+33.data.15.weather.0,33.data.15,33,501,Rain,moderate rain,10d
+33.data.16.weather.0,33.data.16,33,500,Rain,light rain,10d
+34.data.0.weather.0,34.data.0,34,800,Clear,sky is clear,01d
+34.data.1.weather.0,34.data.1,34,801,Clouds,few clouds,02d
+34.data.2.weather.0,34.data.2,34,500,Rain,light rain,10d
+34.data.3.weather.0,34.data.3,34,500,Rain,light rain,10d
+34.data.4.weather.0,34.data.4,34,500,Rain,light rain,10d
+34.data.5.weather.0,34.data.5,34,500,Rain,light rain,10d
+34.data.6.weather.0,34.data.6,34,500,Rain,light rain,10d
+34.data.7.weather.0,34.data.7,34,501,Rain,moderate rain,10d
+34.data.8.weather.0,34.data.8,34,501,Rain,moderate rain,10d
+34.data.9.weather.0,34.data.9,34,501,Rain,moderate rain,10d
+34.data.10.weather.0,34.data.10,34,500,Rain,light rain,10d
+34.data.11.weather.0,34.data.11,34,500,Rain,light rain,10d
+34.data.12.weather.0,34.data.12,34,501,Rain,moderate rain,10d
+34.data.13.weather.0,34.data.13,34,501,Rain,moderate rain,10d
+34.data.14.weather.0,34.data.14,34,500,Rain,light rain,10d
+34.data.15.weather.0,34.data.15,34,500,Rain,light rain,10d
+34.data.16.weather.0,34.data.16,34,800,Clear,sky is clear,01ddd
+35.data.0.weather.0,35.data.0,35,800,Clear,sky is clear,01d
+35.data.1.weather.0,35.data.1,35,800,Clear,sky is clear,01d
+35.data.2.weather.0,35.data.2,35,600,Snow,light snow,13d
+35.data.3.weather.0,35.data.3,35,601,Snow,snow,13d
+35.data.4.weather.0,35.data.4,35,601,Snow,snow,13d
+35.data.5.weather.0,35.data.5,35,600,Snow,light snow,13d
+35.data.6.weather.0,35.data.6,35,601,Snow,snow,13d
+35.data.7.weather.0,35.data.7,35,600,Snow,light snow,13d
+35.data.8.weather.0,35.data.8,35,600,Snow,light snow,13d
+35.data.9.weather.0,35.data.9,35,600,Snow,light snow,13d
+35.data.10.weather.0,35.data.10,35,600,Snow,light snow,13d
+35.data.11.weather.0,35.data.11,35,600,Snow,light snow,13d
+35.data.12.weather.0,35.data.12,35,601,Snow,snow,13d
+35.data.13.weather.0,35.data.13,35,601,Snow,snow,13d
+35.data.14.weather.0,35.data.14,35,601,Snow,snow,13d
+35.data.15.weather.0,35.data.15,35,600,Snow,light snow,13d
+36.data.0.weather.0,36.data.0,36,501,Rain,moderate rain,10d
+36.data.1.weather.0,36.data.1,36,501,Rain,moderate rain,10d
+36.data.2.weather.0,36.data.2,36,500,Rain,light rain,10d
+36.data.3.weather.0,36.data.3,36,500,Rain,light rain,10d
+36.data.4.weather.0,36.data.4,36,501,Rain,moderate rain,10d
+36.data.5.weather.0,36.data.5,36,500,Rain,light rain,10d
+36.data.6.weather.0,36.data.6,36,500,Rain,light rain,10d
+36.data.7.weather.0,36.data.7,36,501,Rain,moderate rain,10d
+36.data.8.weather.0,36.data.8,36,501,Rain,moderate rain,10d
+36.data.9.weather.0,36.data.9,36,800,Clear,sky is clear,01d
+36.data.10.weather.0,36.data.10,36,800,Clear,sky is clear,01d
+36.data.11.weather.0,36.data.11,36,500,Rain,light rain,10d
+36.data.12.weather.0,36.data.12,36,501,Rain,moderate rain,10d
+36.data.13.weather.0,36.data.13,36,500,Rain,light rain,10d
+36.data.14.weather.0,36.data.14,36,500,Rain,light rain,10d
+36.data.15.weather.0,36.data.15,36,500,Rain,light rain,10d
+36.data.16.weather.0,36.data.16,36,800,Clear,sky is clear,01ddd
+37.data.0.weather.0,37.data.0,37,800,Clear,sky is clear,02n
+37.data.1.weather.0,37.data.1,37,500,Rain,light rain,10d
+37.data.2.weather.0,37.data.2,37,500,Rain,light rain,10d
+37.data.3.weather.0,37.data.3,37,501,Rain,moderate rain,10d
+37.data.4.weather.0,37.data.4,37,501,Rain,moderate rain,10d
+37.data.5.weather.0,37.data.5,37,501,Rain,moderate rain,10d
+37.data.6.weather.0,37.data.6,37,501,Rain,moderate rain,10d
+37.data.7.weather.0,37.data.7,37,500,Rain,light rain,10d
+37.data.8.weather.0,37.data.8,37,500,Rain,light rain,10d
+37.data.9.weather.0,37.data.9,37,500,Rain,light rain,10d
+37.data.10.weather.0,37.data.10,37,501,Rain,moderate rain,10d
+37.data.11.weather.0,37.data.11,37,500,Rain,light rain,10d
+37.data.12.weather.0,37.data.12,37,500,Rain,light rain,10d
+37.data.13.weather.0,37.data.13,37,501,Rain,moderate rain,10d
+37.data.14.weather.0,37.data.14,37,501,Rain,moderate rain,10d
+37.data.15.weather.0,37.data.15,37,501,Rain,moderate rain,10d
+38.data.0.weather.0,38.data.0,38,600,Snow,light snow,13d
+38.data.1.weather.0,38.data.1,38,600,Snow,light snow,13d
+38.data.2.weather.0,38.data.2,38,600,Snow,light snow,13d
+38.data.3.weather.0,38.data.3,38,800,Clear,sky is clear,01d
+38.data.4.weather.0,38.data.4,38,600,Snow,light snow,13d
+38.data.5.weather.0,38.data.5,38,600,Snow,light snow,13d
+38.data.6.weather.0,38.data.6,38,600,Snow,light snow,13d
+38.data.7.weather.0,38.data.7,38,600,Snow,light snow,13d
+38.data.8.weather.0,38.data.8,38,600,Snow,light snow,13d
+38.data.9.weather.0,38.data.9,38,600,Snow,light snow,13d
+38.data.10.weather.0,38.data.10,38,600,Snow,light snow,13d
+38.data.11.weather.0,38.data.11,38,600,Snow,light snow,13d
+38.data.12.weather.0,38.data.12,38,601,Snow,snow,13d
+38.data.13.weather.0,38.data.13,38,601,Snow,snow,13d
+38.data.14.weather.0,38.data.14,38,601,Snow,snow,13d
+38.data.15.weather.0,38.data.15,38,800,Clear,sky is clear,01dd
+39.data.0.weather.0,39.data.0,39,600,Snow,light snow,13d
+39.data.1.weather.0,39.data.1,39,800,Clear,sky is clear,01d
+39.data.2.weather.0,39.data.2,39,500,Rain,light rain,10d
+39.data.3.weather.0,39.data.3,39,500,Rain,light rain,10d
+39.data.4.weather.0,39.data.4,39,500,Rain,light rain,10d
+39.data.5.weather.0,39.data.5,39,500,Rain,light rain,10d
+39.data.6.weather.0,39.data.6,39,500,Rain,light rain,10d
+39.data.7.weather.0,39.data.7,39,500,Rain,light rain,10d
+39.data.8.weather.0,39.data.8,39,600,Snow,light snow,13d
+39.data.9.weather.0,39.data.9,39,800,Clear,sky is clear,01d
+39.data.10.weather.0,39.data.10,39,800,Clear,sky is clear,01d
+39.data.11.weather.0,39.data.11,39,500,Rain,light rain,10d
+39.data.12.weather.0,39.data.12,39,500,Rain,light rain,10d
+39.data.13.weather.0,39.data.13,39,500,Rain,light rain,10d
+39.data.14.weather.0,39.data.14,39,800,Clear,sky is clear,01d
+39.data.15.weather.0,39.data.15,39,500,Rain,light rain,10dd
+40.data.0.weather.0,40.data.0,40,600,Snow,light snow,13d
+40.data.1.weather.0,40.data.1,40,600,Snow,light snow,13d
+40.data.2.weather.0,40.data.2,40,600,Snow,light snow,13d
+40.data.3.weather.0,40.data.3,40,600,Snow,light snow,13d
+40.data.4.weather.0,40.data.4,40,600,Snow,light snow,13d
+40.data.5.weather.0,40.data.5,40,600,Snow,light snow,13d
+40.data.6.weather.0,40.data.6,40,600,Snow,light snow,13d
+40.data.7.weather.0,40.data.7,40,600,Snow,light snow,13d
+40.data.8.weather.0,40.data.8,40,601,Snow,snow,13d
+40.data.9.weather.0,40.data.9,40,601,Snow,snow,13d
+40.data.10.weather.0,40.data.10,40,601,Snow,snow,13d
+40.data.11.weather.0,40.data.11,40,601,Snow,snow,13d
+40.data.12.weather.0,40.data.12,40,600,Snow,light snow,13d
+40.data.13.weather.0,40.data.13,40,800,Clear,sky is clear,01d
+40.data.14.weather.0,40.data.14,40,800,Clear,sky is clear,01d
+40.data.15.weather.0,40.data.15,40,800,Clear,sky is clear,01d
+41.data.0.weather.0,41.data.0,41,600,Snow,light snow,13d
+41.data.1.weather.0,41.data.1,41,601,Snow,snow,13d
+41.data.2.weather.0,41.data.2,41,601,Snow,snow,13d
+41.data.3.weather.0,41.data.3,41,600,Snow,light snow,13d
+41.data.4.weather.0,41.data.4,41,601,Snow,snow,13d
+41.data.5.weather.0,41.data.5,41,601,Snow,snow,13d
+41.data.6.weather.0,41.data.6,41,601,Snow,snow,13d
+41.data.7.weather.0,41.data.7,41,601,Snow,snow,13d
+41.data.8.weather.0,41.data.8,41,600,Snow,light snow,13d
+41.data.9.weather.0,41.data.9,41,600,Snow,light snow,13d
+41.data.10.weather.0,41.data.10,41,600,Snow,light snow,13d
+41.data.11.weather.0,41.data.11,41,600,Snow,light snow,13d
+41.data.12.weather.0,41.data.12,41,600,Snow,light snow,13d
+41.data.13.weather.0,41.data.13,41,601,Snow,snow,13d
+41.data.14.weather.0,41.data.14,41,600,Snow,light snow,13d
+41.data.15.weather.0,41.data.15,41,601,Snow,snow,13d
+41.data.16.weather.0,41.data.16,41,600,Snow,light snow,13d
+42.data.0.weather.0,42.data.0,42,804,Clouds,overcast clouds,04d
+42.data.1.weather.0,42.data.1,42,800,Clear,sky is clear,01d
+42.data.2.weather.0,42.data.2,42,801,Clouds,few clouds,02d
+42.data.3.weather.0,42.data.3,42,501,Rain,moderate rain,10d
+42.data.4.weather.0,42.data.4,42,800,Clear,sky is clear,01d
+42.data.5.weather.0,42.data.5,42,500,Rain,light rain,10d
+42.data.6.weather.0,42.data.6,42,500,Rain,light rain,10d
+42.data.7.weather.0,42.data.7,42,500,Rain,light rain,10d
+42.data.8.weather.0,42.data.8,42,500,Rain,light rain,10d
+42.data.9.weather.0,42.data.9,42,500,Rain,light rain,10d
+42.data.10.weather.0,42.data.10,42,800,Clear,sky is clear,01d
+42.data.11.weather.0,42.data.11,42,501,Rain,moderate rain,10d
+42.data.12.weather.0,42.data.12,42,800,Clear,sky is clear,01d
+42.data.13.weather.0,42.data.13,42,800,Clear,sky is clear,01d
+42.data.14.weather.0,42.data.14,42,500,Rain,light rain,10d
+42.data.15.weather.0,42.data.15,42,500,Rain,light rain,10d
+43.data.0.weather.0,43.data.0,43,600,Snow,light snow,13d
+43.data.1.weather.0,43.data.1,43,800,Clear,sky is clear,01d
+43.data.2.weather.0,43.data.2,43,501,Rain,moderate rain,10d
+43.data.3.weather.0,43.data.3,43,800,Clear,sky is clear,01d
+43.data.4.weather.0,43.data.4,43,500,Rain,light rain,10d
+43.data.5.weather.0,43.data.5,43,501,Rain,moderate rain,10d
+43.data.6.weather.0,43.data.6,43,501,Rain,moderate rain,10d
+43.data.7.weather.0,43.data.7,43,800,Clear,sky is clear,01d
+43.data.8.weather.0,43.data.8,43,500,Rain,light rain,10d
+43.data.9.weather.0,43.data.9,43,500,Rain,light rain,10d
+43.data.10.weather.0,43.data.10,43,800,Clear,sky is clear,01d
+43.data.11.weather.0,43.data.11,43,800,Clear,sky is clear,01d
+43.data.12.weather.0,43.data.12,43,500,Rain,light rain,10d
+43.data.13.weather.0,43.data.13,43,500,Rain,light rain,10d
+43.data.14.weather.0,43.data.14,43,500,Rain,light rain,10d
+43.data.15.weather.0,43.data.15,43,500,Rain,light rain,10d
+43.data.16.weather.0,43.data.16,43,800,Clear,sky is clear,01ddd
+44.data.0.weather.0,44.data.0,44,800,Clear,sky is clear,01d
+44.data.1.weather.0,44.data.1,44,800,Clear,sky is clear,01d
+44.data.2.weather.0,44.data.2,44,500,Rain,light rain,10d
+44.data.3.weather.0,44.data.3,44,500,Rain,light rain,10d
+44.data.4.weather.0,44.data.4,44,600,Snow,light snow,13d
+44.data.5.weather.0,44.data.5,44,500,Rain,light rain,10d
+44.data.6.weather.0,44.data.6,44,800,Clear,sky is clear,01d
+44.data.7.weather.0,44.data.7,44,501,Rain,moderate rain,10d
+44.data.8.weather.0,44.data.8,44,501,Rain,moderate rain,10d
+44.data.9.weather.0,44.data.9,44,502,Rain,heavy intensity rain,10d
+44.data.10.weather.0,44.data.10,44,501,Rain,moderate rain,10d
+44.data.11.weather.0,44.data.11,44,501,Rain,moderate rain,10d
+44.data.12.weather.0,44.data.12,44,500,Rain,light rain,10d
+44.data.13.weather.0,44.data.13,44,500,Rain,light rain,10d
+44.data.14.weather.0,44.data.14,44,501,Rain,moderate rain,10d
+44.data.15.weather.0,44.data.15,44,601,Snow,snow,13d
+44.data.16.weather.0,44.data.16,44,800,Clear,sky is clear,01d
+45.data.0.weather.0,45.data.0,45,800,Clear,sky is clear,01d
+45.data.1.weather.0,45.data.1,45,800,Clear,sky is clear,01d
+45.data.2.weather.0,45.data.2,45,500,Rain,light rain,10d
+45.data.3.weather.0,45.data.3,45,500,Rain,light rain,10d
+45.data.4.weather.0,45.data.4,45,500,Rain,light rain,10d
+45.data.5.weather.0,45.data.5,45,501,Rain,moderate rain,10d
+45.data.6.weather.0,45.data.6,45,501,Rain,moderate rain,10d
+45.data.7.weather.0,45.data.7,45,501,Rain,moderate rain,10d
+45.data.8.weather.0,45.data.8,45,500,Rain,light rain,10d
+45.data.9.weather.0,45.data.9,45,501,Rain,moderate rain,10d
+45.data.10.weather.0,45.data.10,45,600,Snow,light snow,13d
+45.data.11.weather.0,45.data.11,45,600,Snow,light snow,13d
+45.data.12.weather.0,45.data.12,45,500,Rain,light rain,10d
+45.data.13.weather.0,45.data.13,45,500,Rain,light rain,10d
+45.data.14.weather.0,45.data.14,45,500,Rain,light rain,10d
+45.data.15.weather.0,45.data.15,45,500,Rain,light rain,10d
+45.data.16.weather.0,45.data.16,45,500,Rain,light rain,10d
+46.data.0.weather.0,46.data.0,46,801,Clouds,few clouds,02d
+46.data.1.weather.0,46.data.1,46,800,Clear,sky is clear,01d
+46.data.2.weather.0,46.data.2,46,500,Rain,light rain,10d
+46.data.3.weather.0,46.data.3,46,500,Rain,light rain,10d
+46.data.4.weather.0,46.data.4,46,500,Rain,light rain,10d
+46.data.5.weather.0,46.data.5,46,500,Rain,light rain,10d
+46.data.6.weather.0,46.data.6,46,501,Rain,moderate rain,10d
+46.data.7.weather.0,46.data.7,46,501,Rain,moderate rain,10d
+46.data.8.weather.0,46.data.8,46,500,Rain,light rain,10d
+46.data.9.weather.0,46.data.9,46,800,Clear,sky is clear,01d
+46.data.10.weather.0,46.data.10,46,800,Clear,sky is clear,01d
+46.data.11.weather.0,46.data.11,46,800,Clear,sky is clear,01d
+46.data.12.weather.0,46.data.12,46,800,Clear,sky is clear,01d
+46.data.13.weather.0,46.data.13,46,500,Rain,light rain,10d
+46.data.14.weather.0,46.data.14,46,501,Rain,moderate rain,10d
+46.data.15.weather.0,46.data.15,46,501,Rain,moderate rain,10d
+46.data.16.weather.0,46.data.16,46,500,Rain,light rain,10d
+47.data.0.weather.0,47.data.0,47,800,Clear,sky is clear,01d
+47.data.1.weather.0,47.data.1,47,800,Clear,sky is clear,01d
+47.data.2.weather.0,47.data.2,47,500,Rain,light rain,10d
+47.data.3.weather.0,47.data.3,47,500,Rain,light rain,10d
+47.data.4.weather.0,47.data.4,47,500,Rain,light rain,10d
+47.data.5.weather.0,47.data.5,47,501,Rain,moderate rain,10d
+47.data.6.weather.0,47.data.6,47,501,Rain,moderate rain,10d
+47.data.7.weather.0,47.data.7,47,501,Rain,moderate rain,10d
+47.data.8.weather.0,47.data.8,47,500,Rain,light rain,10d
+47.data.9.weather.0,47.data.9,47,800,Clear,sky is clear,01d
+47.data.10.weather.0,47.data.10,47,800,Clear,sky is clear,01d
+47.data.11.weather.0,47.data.11,47,600,Snow,light snow,13d
+47.data.12.weather.0,47.data.12,47,800,Clear,sky is clear,01d
+47.data.13.weather.0,47.data.13,47,500,Rain,light rain,10d
+47.data.14.weather.0,47.data.14,47,501,Rain,moderate rain,10d
+47.data.15.weather.0,47.data.15,47,501,Rain,moderate rain,10d
+47.data.16.weather.0,47.data.16,47,500,Rain,light rain,10d
+48.data.0.weather.0,48.data.0,48,600,Snow,light snow,13d
+48.data.1.weather.0,48.data.1,48,600,Snow,light snow,13d
+48.data.2.weather.0,48.data.2,48,600,Snow,light snow,13d
+48.data.3.weather.0,48.data.3,48,500,Rain,light rain,10d
+48.data.4.weather.0,48.data.4,48,600,Snow,light snow,13d
+48.data.5.weather.0,48.data.5,48,800,Clear,sky is clear,01d
+48.data.6.weather.0,48.data.6,48,500,Rain,light rain,10d
+48.data.7.weather.0,48.data.7,48,500,Rain,light rain,10d
+48.data.8.weather.0,48.data.8,48,600,Snow,light snow,13d
+48.data.9.weather.0,48.data.9,48,800,Clear,sky is clear,01d
+48.data.10.weather.0,48.data.10,48,800,Clear,sky is clear,01d
+48.data.11.weather.0,48.data.11,48,800,Clear,sky is clear,01d
+48.data.12.weather.0,48.data.12,48,800,Clear,sky is clear,01d
+48.data.13.weather.0,48.data.13,48,500,Rain,light rain,10d
+48.data.14.weather.0,48.data.14,48,501,Rain,moderate rain,10d
+48.data.15.weather.0,48.data.15,48,501,Rain,moderate rain,10d
+49.data.0.weather.0,49.data.0,49,802,Clouds,scattered clouds,03n
+49.data.1.weather.0,49.data.1,49,802,Clouds,scattered clouds,03d
+49.data.2.weather.0,49.data.2,49,500,Rain,light rain,10d
+49.data.3.weather.0,49.data.3,49,500,Rain,light rain,10d
+49.data.4.weather.0,49.data.4,49,501,Rain,moderate rain,10d
+49.data.5.weather.0,49.data.5,49,500,Rain,light rain,10d
+49.data.6.weather.0,49.data.6,49,501,Rain,moderate rain,10d
+49.data.7.weather.0,49.data.7,49,502,Rain,heavy intensity rain,10d
+49.data.8.weather.0,49.data.8,49,502,Rain,heavy intensity rain,10d
+49.data.9.weather.0,49.data.9,49,501,Rain,moderate rain,10d
+49.data.10.weather.0,49.data.10,49,502,Rain,heavy intensity rain,10d
+49.data.11.weather.0,49.data.11,49,501,Rain,moderate rain,10d
+49.data.12.weather.0,49.data.12,49,500,Rain,light rain,10d
+49.data.13.weather.0,49.data.13,49,500,Rain,light rain,10d
+49.data.14.weather.0,49.data.14,49,501,Rain,moderate rain,10d
+49.data.15.weather.0,49.data.15,49,500,Rain,light rain,10d
+50.data.0.weather.0,50.data.0,50,500,Rain,light rain,10d
+50.data.1.weather.0,50.data.1,50,500,Rain,light rain,10d
+50.data.2.weather.0,50.data.2,50,500,Rain,light rain,10d
+50.data.3.weather.0,50.data.3,50,600,Snow,light snow,13d
+50.data.4.weather.0,50.data.4,50,600,Snow,light snow,13d
+50.data.5.weather.0,50.data.5,50,500,Rain,light rain,10d
+50.data.6.weather.0,50.data.6,50,800,Clear,sky is clear,01d
+50.data.7.weather.0,50.data.7,50,501,Rain,moderate rain,10d
+50.data.8.weather.0,50.data.8,50,500,Rain,light rain,10d
+50.data.9.weather.0,50.data.9,50,500,Rain,light rain,10d
+50.data.10.weather.0,50.data.10,50,800,Clear,sky is clear,01d
+50.data.11.weather.0,50.data.11,50,800,Clear,sky is clear,01d
+50.data.12.weather.0,50.data.12,50,800,Clear,sky is clear,01d
+50.data.13.weather.0,50.data.13,50,500,Rain,light rain,10d
+50.data.14.weather.0,50.data.14,50,500,Rain,light rain,10d
+50.data.15.weather.0,50.data.15,50,800,Clear,sky is clear,01d
+51.data.0.weather.0,51.data.0,51,500,Rain,light rain,10d
+51.data.1.weather.0,51.data.1,51,500,Rain,light rain,10d
+51.data.2.weather.0,51.data.2,51,802,Clouds,scattered clouds,03d
+51.data.3.weather.0,51.data.3,51,500,Rain,light rain,10d
+51.data.4.weather.0,51.data.4,51,500,Rain,light rain,10d
+51.data.5.weather.0,51.data.5,51,500,Rain,light rain,10d
+51.data.6.weather.0,51.data.6,51,501,Rain,moderate rain,10d
+51.data.7.weather.0,51.data.7,51,501,Rain,moderate rain,10d
+51.data.8.weather.0,51.data.8,51,500,Rain,light rain,10d
+51.data.9.weather.0,51.data.9,51,502,Rain,heavy intensity rain,10d
+51.data.10.weather.0,51.data.10,51,501,Rain,moderate rain,10d
+51.data.11.weather.0,51.data.11,51,501,Rain,moderate rain,10d
+51.data.12.weather.0,51.data.12,51,500,Rain,light rain,10d
+51.data.13.weather.0,51.data.13,51,500,Rain,light rain,10d
+51.data.14.weather.0,51.data.14,51,500,Rain,light rain,10d
+51.data.15.weather.0,51.data.15,51,800,Clear,sky is clear,01dd
+52.data.0.weather.0,52.data.0,52,800,Clear,sky is clear,01d
+52.data.1.weather.0,52.data.1,52,800,Clear,sky is clear,01d
+52.data.2.weather.0,52.data.2,52,800,Clear,sky is clear,01d
+52.data.3.weather.0,52.data.3,52,500,Rain,light rain,10d
+52.data.4.weather.0,52.data.4,52,500,Rain,light rain,10d
+52.data.5.weather.0,52.data.5,52,501,Rain,moderate rain,10d
+52.data.6.weather.0,52.data.6,52,500,Rain,light rain,10d
+52.data.7.weather.0,52.data.7,52,500,Rain,light rain,10d
+52.data.8.weather.0,52.data.8,52,800,Clear,sky is clear,01d
+52.data.9.weather.0,52.data.9,52,800,Clear,sky is clear,01d
+52.data.10.weather.0,52.data.10,52,800,Clear,sky is clear,01d
+52.data.11.weather.0,52.data.11,52,800,Clear,sky is clear,01d
+52.data.12.weather.0,52.data.12,52,800,Clear,sky is clear,01d
+52.data.13.weather.0,52.data.13,52,800,Clear,sky is clear,01d
+52.data.14.weather.0,52.data.14,52,800,Clear,sky is clear,01d
+52.data.15.weather.0,52.data.15,52,800,Clear,sky is clear,01dd
+53.data.0.weather.0,53.data.0,53,600,Snow,light snow,13d
+53.data.1.weather.0,53.data.1,53,801,Clouds,few clouds,02d
+53.data.2.weather.0,53.data.2,53,500,Rain,light rain,10d
+53.data.3.weather.0,53.data.3,53,800,Clear,sky is clear,01d
+53.data.4.weather.0,53.data.4,53,500,Rain,light rain,10d
+53.data.5.weather.0,53.data.5,53,500,Rain,light rain,10d
+53.data.6.weather.0,53.data.6,53,500,Rain,light rain,10d
+53.data.7.weather.0,53.data.7,53,501,Rain,moderate rain,10d
+53.data.8.weather.0,53.data.8,53,800,Clear,sky is clear,01d
+53.data.9.weather.0,53.data.9,53,800,Clear,sky is clear,01d
+53.data.10.weather.0,53.data.10,53,500,Rain,light rain,10d
+53.data.11.weather.0,53.data.11,53,501,Rain,moderate rain,10d
+53.data.12.weather.0,53.data.12,53,500,Rain,light rain,10d
+53.data.13.weather.0,53.data.13,53,500,Rain,light rain,10d
+53.data.14.weather.0,53.data.14,53,501,Rain,moderate rain,10d
+53.data.15.weather.0,53.data.15,53,501,Rain,moderate rain,10d
+53.data.16.weather.0,53.data.16,53,500,Rain,light rain,10d
+54.data.0.weather.0,54.data.0,54,500,Rain,light rain,10d
+54.data.1.weather.0,54.data.1,54,500,Rain,light rain,10d
+54.data.2.weather.0,54.data.2,54,800,Clear,sky is clear,01d
+54.data.3.weather.0,54.data.3,54,800,Clear,sky is clear,01d
+54.data.4.weather.0,54.data.4,54,500,Rain,light rain,10d
+54.data.5.weather.0,54.data.5,54,501,Rain,moderate rain,10d
+54.data.6.weather.0,54.data.6,54,501,Rain,moderate rain,10d
+54.data.7.weather.0,54.data.7,54,500,Rain,light rain,10d
+54.data.8.weather.0,54.data.8,54,500,Rain,light rain,10d
+54.data.9.weather.0,54.data.9,54,800,Clear,sky is clear,01d
+54.data.10.weather.0,54.data.10,54,500,Rain,light rain,10d
+54.data.11.weather.0,54.data.11,54,800,Clear,sky is clear,01d
+54.data.12.weather.0,54.data.12,54,600,Snow,light snow,13d
+54.data.13.weather.0,54.data.13,54,500,Rain,light rain,10d
+54.data.14.weather.0,54.data.14,54,500,Rain,light rain,10d
+54.data.15.weather.0,54.data.15,54,501,Rain,moderate rain,10d
+54.data.16.weather.0,54.data.16,54,500,Rain,light rain,10d
+55.data.0.weather.0,55.data.0,55,800,Clear,sky is clear,02d
+55.data.1.weather.0,55.data.1,55,500,Rain,light rain,10d
+55.data.2.weather.0,55.data.2,55,800,Clear,sky is clear,01d
+55.data.3.weather.0,55.data.3,55,800,Clear,sky is clear,01d
+55.data.4.weather.0,55.data.4,55,500,Rain,light rain,10d
+55.data.5.weather.0,55.data.5,55,502,Rain,heavy intensity rain,10d
+55.data.6.weather.0,55.data.6,55,502,Rain,heavy intensity rain,10d
+55.data.7.weather.0,55.data.7,55,501,Rain,moderate rain,10d
+55.data.8.weather.0,55.data.8,55,500,Rain,light rain,10d
+55.data.9.weather.0,55.data.9,55,500,Rain,light rain,10d
+55.data.10.weather.0,55.data.10,55,800,Clear,sky is clear,01d
+55.data.11.weather.0,55.data.11,55,800,Clear,sky is clear,01d
+55.data.12.weather.0,55.data.12,55,500,Rain,light rain,10d
+55.data.13.weather.0,55.data.13,55,800,Clear,sky is clear,01d
+55.data.14.weather.0,55.data.14,55,800,Clear,sky is clear,01d
+55.data.15.weather.0,55.data.15,55,501,Rain,moderate rain,10d
+55.data.16.weather.0,55.data.16,55,500,Rain,light rain,10d
+56.data.0.weather.0,56.data.0,56,800,Clear,sky is clear,01d
+56.data.1.weather.0,56.data.1,56,802,Clouds,scattered clouds,03d
+56.data.2.weather.0,56.data.2,56,803,Clouds,broken clouds,04d
+56.data.3.weather.0,56.data.3,56,501,Rain,moderate rain,10d
+56.data.4.weather.0,56.data.4,56,500,Rain,light rain,10d
+56.data.5.weather.0,56.data.5,56,500,Rain,light rain,10d
+56.data.6.weather.0,56.data.6,56,500,Rain,light rain,10d
+56.data.7.weather.0,56.data.7,56,500,Rain,light rain,10d
+56.data.8.weather.0,56.data.8,56,500,Rain,light rain,10d
+56.data.9.weather.0,56.data.9,56,500,Rain,light rain,10d
+56.data.10.weather.0,56.data.10,56,800,Clear,sky is clear,01d
+56.data.11.weather.0,56.data.11,56,800,Clear,sky is clear,01d
+56.data.12.weather.0,56.data.12,56,500,Rain,light rain,10d
+56.data.13.weather.0,56.data.13,56,500,Rain,light rain,10d
+56.data.14.weather.0,56.data.14,56,501,Rain,moderate rain,10d
+56.data.15.weather.0,56.data.15,56,500,Rain,light rain,10dd
+57.data.0.weather.0,57.data.0,57,800,Clear,sky is clear,01d
+57.data.1.weather.0,57.data.1,57,600,Snow,light snow,13d
+57.data.2.weather.0,57.data.2,57,601,Snow,snow,13d
+57.data.3.weather.0,57.data.3,57,601,Snow,snow,13d
+57.data.4.weather.0,57.data.4,57,601,Snow,snow,13d
+57.data.5.weather.0,57.data.5,57,601,Snow,snow,13d
+57.data.6.weather.0,57.data.6,57,601,Snow,snow,13d
+57.data.7.weather.0,57.data.7,57,800,Clear,sky is clear,01d
+57.data.8.weather.0,57.data.8,57,500,Rain,light rain,10d
+57.data.9.weather.0,57.data.9,57,800,Clear,sky is clear,01d
+57.data.10.weather.0,57.data.10,57,600,Snow,light snow,13d
+57.data.11.weather.0,57.data.11,57,800,Clear,sky is clear,01d
+57.data.12.weather.0,57.data.12,57,500,Rain,light rain,10d
+57.data.13.weather.0,57.data.13,57,500,Rain,light rain,10d
+57.data.14.weather.0,57.data.14,57,600,Snow,light snow,13d
+57.data.15.weather.0,57.data.15,57,600,Snow,light snow,13d
+57.data.16.weather.0,57.data.16,57,800,Clear,sky is clear,01d
+58.data.0.weather.0,58.data.0,58,501,Rain,moderate rain,10d
+58.data.1.weather.0,58.data.1,58,601,Snow,snow,13d
+58.data.2.weather.0,58.data.2,58,601,Snow,snow,13d
+58.data.3.weather.0,58.data.3,58,600,Snow,light snow,13d
+58.data.4.weather.0,58.data.4,58,600,Snow,light snow,13d
+58.data.5.weather.0,58.data.5,58,600,Snow,light snow,13d
+58.data.6.weather.0,58.data.6,58,600,Snow,light snow,13d
+58.data.7.weather.0,58.data.7,58,800,Clear,sky is clear,01d
+58.data.8.weather.0,58.data.8,58,500,Rain,light rain,10d
+58.data.9.weather.0,58.data.9,58,600,Snow,light snow,13d
+58.data.10.weather.0,58.data.10,58,800,Clear,sky is clear,01d
+58.data.11.weather.0,58.data.11,58,500,Rain,light rain,10d
+58.data.12.weather.0,58.data.12,58,800,Clear,sky is clear,01d
+58.data.13.weather.0,58.data.13,58,501,Rain,moderate rain,10d
+58.data.14.weather.0,58.data.14,58,501,Rain,moderate rain,10d
+58.data.15.weather.0,58.data.15,58,500,Rain,light rain,10d
+58.data.16.weather.0,58.data.16,58,500,Rain,light rain,10ddd
+59.data.0.weather.0,59.data.0,59,500,Rain,light rain,10d
+59.data.1.weather.0,59.data.1,59,500,Rain,light rain,10d
+59.data.2.weather.0,59.data.2,59,800,Clear,sky is clear,01d
+59.data.3.weather.0,59.data.3,59,501,Rain,moderate rain,10d
+59.data.4.weather.0,59.data.4,59,500,Rain,light rain,10d
+59.data.5.weather.0,59.data.5,59,500,Rain,light rain,10d
+59.data.6.weather.0,59.data.6,59,501,Rain,moderate rain,10d
+59.data.7.weather.0,59.data.7,59,500,Rain,light rain,10d
+59.data.8.weather.0,59.data.8,59,500,Rain,light rain,10d
+59.data.9.weather.0,59.data.9,59,501,Rain,moderate rain,10d
+59.data.10.weather.0,59.data.10,59,500,Rain,light rain,10d
+59.data.11.weather.0,59.data.11,59,500,Rain,light rain,10d
+59.data.12.weather.0,59.data.12,59,500,Rain,light rain,10d
+59.data.13.weather.0,59.data.13,59,800,Clear,sky is clear,01d
+59.data.14.weather.0,59.data.14,59,500,Rain,light rain,10d
+59.data.15.weather.0,59.data.15,59,500,Rain,light rain,10d
+59.data.16.weather.0,59.data.16,59,500,Rain,light rain,10ddd
+60.data.0.weather.0,60.data.0,60,502,Rain,heavy intensity rain,10d
+60.data.1.weather.0,60.data.1,60,502,Rain,heavy intensity rain,10d
+60.data.2.weather.0,60.data.2,60,502,Rain,heavy intensity rain,10d
+60.data.3.weather.0,60.data.3,60,500,Rain,light rain,10d
+60.data.4.weather.0,60.data.4,60,500,Rain,light rain,10d
+60.data.5.weather.0,60.data.5,60,501,Rain,moderate rain,10d
+60.data.6.weather.0,60.data.6,60,502,Rain,heavy intensity rain,10d
+60.data.7.weather.0,60.data.7,60,502,Rain,heavy intensity rain,10d
+60.data.8.weather.0,60.data.8,60,502,Rain,heavy intensity rain,10d
+60.data.9.weather.0,60.data.9,60,501,Rain,moderate rain,10d
+60.data.10.weather.0,60.data.10,60,500,Rain,light rain,10d
+60.data.11.weather.0,60.data.11,60,500,Rain,light rain,10d
+60.data.12.weather.0,60.data.12,60,500,Rain,light rain,10d
+60.data.13.weather.0,60.data.13,60,500,Rain,light rain,10d
+60.data.14.weather.0,60.data.14,60,501,Rain,moderate rain,10d
+60.data.15.weather.0,60.data.15,60,500,Rain,light rain,10d
+61.data.0.weather.0,61.data.0,61,500,Rain,light rain,10d
+61.data.1.weather.0,61.data.1,61,500,Rain,light rain,10d
+61.data.2.weather.0,61.data.2,61,500,Rain,light rain,10d
+61.data.3.weather.0,61.data.3,61,800,Clear,sky is clear,01d
+61.data.4.weather.0,61.data.4,61,800,Clear,sky is clear,01d
+61.data.5.weather.0,61.data.5,61,500,Rain,light rain,10d
+61.data.6.weather.0,61.data.6,61,500,Rain,light rain,10d
+61.data.7.weather.0,61.data.7,61,500,Rain,light rain,10d
+61.data.8.weather.0,61.data.8,61,501,Rain,moderate rain,10d
+61.data.9.weather.0,61.data.9,61,501,Rain,moderate rain,10d
+61.data.10.weather.0,61.data.10,61,500,Rain,light rain,10d
+61.data.11.weather.0,61.data.11,61,500,Rain,light rain,10d
+61.data.12.weather.0,61.data.12,61,500,Rain,light rain,10d
+61.data.13.weather.0,61.data.13,61,500,Rain,light rain,10d
+61.data.14.weather.0,61.data.14,61,800,Clear,sky is clear,01d
+61.data.15.weather.0,61.data.15,61,500,Rain,light rain,10d
+61.data.16.weather.0,61.data.16,61,800,Clear,sky is clear,01ddd
+62.data.0.weather.0,62.data.0,62,500,Rain,light rain,10d
+62.data.1.weather.0,62.data.1,62,501,Rain,moderate rain,10d
+62.data.2.weather.0,62.data.2,62,500,Rain,light rain,10d
+62.data.3.weather.0,62.data.3,62,801,Clouds,few clouds,02d
+62.data.4.weather.0,62.data.4,62,500,Rain,light rain,10d
+62.data.5.weather.0,62.data.5,62,800,Clear,sky is clear,01d
+62.data.6.weather.0,62.data.6,62,800,Clear,sky is clear,01d
+62.data.7.weather.0,62.data.7,62,500,Rain,light rain,10d
+62.data.8.weather.0,62.data.8,62,501,Rain,moderate rain,10d
+62.data.9.weather.0,62.data.9,62,501,Rain,moderate rain,10d
+62.data.10.weather.0,62.data.10,62,500,Rain,light rain,10d
+62.data.11.weather.0,62.data.11,62,500,Rain,light rain,10d
+62.data.12.weather.0,62.data.12,62,500,Rain,light rain,10d
+62.data.13.weather.0,62.data.13,62,500,Rain,light rain,10d
+62.data.14.weather.0,62.data.14,62,800,Clear,sky is clear,01d
+62.data.15.weather.0,62.data.15,62,500,Rain,light rain,10d
+62.data.16.weather.0,62.data.16,62,800,Clear,sky is clear,01ddd
+63.data.0.weather.0,63.data.0,63,500,Rain,light rain,10d
+63.data.1.weather.0,63.data.1,63,500,Rain,light rain,10d
+63.data.2.weather.0,63.data.2,63,800,Clear,sky is clear,01d
+63.data.3.weather.0,63.data.3,63,800,Clear,sky is clear,01d
+63.data.4.weather.0,63.data.4,63,501,Rain,moderate rain,10d
+63.data.5.weather.0,63.data.5,63,501,Rain,moderate rain,10d
+63.data.6.weather.0,63.data.6,63,500,Rain,light rain,10d
+63.data.7.weather.0,63.data.7,63,500,Rain,light rain,10d
+63.data.8.weather.0,63.data.8,63,800,Clear,sky is clear,01d
+63.data.9.weather.0,63.data.9,63,800,Clear,sky is clear,01d
+63.data.10.weather.0,63.data.10,63,800,Clear,sky is clear,01d
+63.data.11.weather.0,63.data.11,63,800,Clear,sky is clear,01d
+63.data.12.weather.0,63.data.12,63,800,Clear,sky is clear,01d
+63.data.13.weather.0,63.data.13,63,800,Clear,sky is clear,01d
+63.data.14.weather.0,63.data.14,63,800,Clear,sky is clear,01d
+63.data.15.weather.0,63.data.15,63,500,Rain,light rain,10d
+63.data.16.weather.0,63.data.16,63,500,Rain,light rain,10ddd
+64.data.0.weather.0,64.data.0,64,800,Clear,sky is clear,01d
+64.data.1.weather.0,64.data.1,64,500,Rain,light rain,10d
+64.data.2.weather.0,64.data.2,64,500,Rain,light rain,10d
+64.data.3.weather.0,64.data.3,64,500,Rain,light rain,10d
+64.data.4.weather.0,64.data.4,64,500,Rain,light rain,10d
+64.data.5.weather.0,64.data.5,64,500,Rain,light rain,10d
+64.data.6.weather.0,64.data.6,64,500,Rain,light rain,10d
+64.data.7.weather.0,64.data.7,64,500,Rain,light rain,10d
+64.data.8.weather.0,64.data.8,64,500,Rain,light rain,10d
+64.data.9.weather.0,64.data.9,64,500,Rain,light rain,10d
+64.data.10.weather.0,64.data.10,64,500,Rain,light rain,10d
+64.data.11.weather.0,64.data.11,64,500,Rain,light rain,10d
+64.data.12.weather.0,64.data.12,64,500,Rain,light rain,10d
+64.data.13.weather.0,64.data.13,64,500,Rain,light rain,10d
+64.data.14.weather.0,64.data.14,64,500,Rain,light rain,10d
+64.data.15.weather.0,64.data.15,64,502,Rain,heavy intensity rain,10d
+64.data.16.weather.0,64.data.16,64,500,Rain,light rain,10d
+65.data.0.weather.0,65.data.0,65,800,Clear,sky is clear,01n
+65.data.1.weather.0,65.data.1,65,800,Clear,sky is clear,01d
+65.data.2.weather.0,65.data.2,65,502,Rain,heavy intensity rain,10d
+65.data.3.weather.0,65.data.3,65,502,Rain,heavy intensity rain,10d
+65.data.4.weather.0,65.data.4,65,500,Rain,light rain,10d
+65.data.5.weather.0,65.data.5,65,800,Clear,sky is clear,01d
+65.data.6.weather.0,65.data.6,65,500,Rain,light rain,10d
+65.data.7.weather.0,65.data.7,65,501,Rain,moderate rain,10d
+65.data.8.weather.0,65.data.8,65,501,Rain,moderate rain,10d
+65.data.9.weather.0,65.data.9,65,501,Rain,moderate rain,10d
+65.data.10.weather.0,65.data.10,65,500,Rain,light rain,10d
+65.data.11.weather.0,65.data.11,65,501,Rain,moderate rain,10d
+65.data.12.weather.0,65.data.12,65,501,Rain,moderate rain,10d
+65.data.13.weather.0,65.data.13,65,501,Rain,moderate rain,10d
+65.data.14.weather.0,65.data.14,65,502,Rain,heavy intensity rain,10d
+65.data.15.weather.0,65.data.15,65,500,Rain,light rain,10d
+66.data.0.weather.0,66.data.0,66,501,Rain,moderate rain,10d
+66.data.1.weather.0,66.data.1,66,801,Clouds,few clouds,02d
+66.data.2.weather.0,66.data.2,66,800,Clear,sky is clear,01d
+66.data.3.weather.0,66.data.3,66,800,Clear,sky is clear,01d
+66.data.4.weather.0,66.data.4,66,800,Clear,sky is clear,01d
+66.data.5.weather.0,66.data.5,66,500,Rain,light rain,10d
+66.data.6.weather.0,66.data.6,66,800,Clear,sky is clear,01d
+66.data.7.weather.0,66.data.7,66,800,Clear,sky is clear,01d
+66.data.8.weather.0,66.data.8,66,500,Rain,light rain,10d
+66.data.9.weather.0,66.data.9,66,500,Rain,light rain,10d
+66.data.10.weather.0,66.data.10,66,502,Rain,heavy intensity rain,10d
+66.data.11.weather.0,66.data.11,66,800,Clear,sky is clear,01d
+66.data.12.weather.0,66.data.12,66,800,Clear,sky is clear,01d
+66.data.13.weather.0,66.data.13,66,800,Clear,sky is clear,01d
+66.data.14.weather.0,66.data.14,66,501,Rain,moderate rain,10d
+66.data.15.weather.0,66.data.15,66,500,Rain,light rain,10d
+67.data.0.weather.0,67.data.0,67,800,Clear,sky is clear,01n
+67.data.1.weather.0,67.data.1,67,800,Clear,sky is clear,01d
+67.data.2.weather.0,67.data.2,67,800,Clear,sky is clear,01d
+67.data.3.weather.0,67.data.3,67,800,Clear,sky is clear,01d
+67.data.4.weather.0,67.data.4,67,500,Rain,light rain,10d
+67.data.5.weather.0,67.data.5,67,500,Rain,light rain,10d
+67.data.6.weather.0,67.data.6,67,800,Clear,sky is clear,01d
+67.data.7.weather.0,67.data.7,67,500,Rain,light rain,10d
+67.data.8.weather.0,67.data.8,67,500,Rain,light rain,10d
+67.data.9.weather.0,67.data.9,67,502,Rain,heavy intensity rain,10d
+67.data.10.weather.0,67.data.10,67,502,Rain,heavy intensity rain,10d
+67.data.11.weather.0,67.data.11,67,500,Rain,light rain,10d
+67.data.12.weather.0,67.data.12,67,500,Rain,light rain,10d
+67.data.13.weather.0,67.data.13,67,502,Rain,heavy intensity rain,10d
+67.data.14.weather.0,67.data.14,67,501,Rain,moderate rain,10d
+67.data.15.weather.0,67.data.15,67,500,Rain,light rain,10d
+68.data.0.weather.0,68.data.0,68,501,Rain,moderate rain,10d
+68.data.1.weather.0,68.data.1,68,500,Rain,light rain,10d
+68.data.2.weather.0,68.data.2,68,800,Clear,sky is clear,01d
+68.data.3.weather.0,68.data.3,68,800,Clear,sky is clear,01d
+68.data.4.weather.0,68.data.4,68,800,Clear,sky is clear,01d
+68.data.5.weather.0,68.data.5,68,500,Rain,light rain,10d
+68.data.6.weather.0,68.data.6,68,800,Clear,sky is clear,01d
+68.data.7.weather.0,68.data.7,68,500,Rain,light rain,10d
+68.data.8.weather.0,68.data.8,68,500,Rain,light rain,10d
+68.data.9.weather.0,68.data.9,68,500,Rain,light rain,10d
+68.data.10.weather.0,68.data.10,68,501,Rain,moderate rain,10d
+68.data.11.weather.0,68.data.11,68,500,Rain,light rain,10d
+68.data.12.weather.0,68.data.12,68,500,Rain,light rain,10d
+68.data.13.weather.0,68.data.13,68,500,Rain,light rain,10d
+68.data.14.weather.0,68.data.14,68,500,Rain,light rain,10d
+68.data.15.weather.0,68.data.15,68,500,Rain,light rain,10d
+69.data.0.weather.0,69.data.0,69,800,Clear,sky is clear,01n
+69.data.1.weather.0,69.data.1,69,800,Clear,sky is clear,01d
+69.data.2.weather.0,69.data.2,69,801,Clouds,few clouds,02d
+69.data.3.weather.0,69.data.3,69,500,Rain,light rain,10d
+69.data.4.weather.0,69.data.4,69,800,Clear,sky is clear,01d
+69.data.5.weather.0,69.data.5,69,500,Rain,light rain,10d
+69.data.6.weather.0,69.data.6,69,800,Clear,sky is clear,01d
+69.data.7.weather.0,69.data.7,69,800,Clear,sky is clear,01d
+69.data.8.weather.0,69.data.8,69,800,Clear,sky is clear,01d
+69.data.9.weather.0,69.data.9,69,800,Clear,sky is clear,01d
+69.data.10.weather.0,69.data.10,69,500,Rain,light rain,10d
+69.data.11.weather.0,69.data.11,69,500,Rain,light rain,10d
+69.data.12.weather.0,69.data.12,69,500,Rain,light rain,10d
+69.data.13.weather.0,69.data.13,69,500,Rain,light rain,10d
+69.data.14.weather.0,69.data.14,69,800,Clear,sky is clear,01d
+69.data.15.weather.0,69.data.15,69,500,Rain,light rain,10d
+70.data.0.weather.0,70.data.0,70,800,Clear,sky is clear,01n
+70.data.1.weather.0,70.data.1,70,800,Clear,sky is clear,01d
+70.data.2.weather.0,70.data.2,70,800,Clear,sky is clear,01d
+70.data.3.weather.0,70.data.3,70,500,Rain,light rain,10d
+70.data.4.weather.0,70.data.4,70,500,Rain,light rain,10d
+70.data.5.weather.0,70.data.5,70,500,Rain,light rain,10d
+70.data.6.weather.0,70.data.6,70,500,Rain,light rain,10d
+70.data.7.weather.0,70.data.7,70,500,Rain,light rain,10d
+70.data.8.weather.0,70.data.8,70,500,Rain,light rain,10d
+70.data.9.weather.0,70.data.9,70,502,Rain,heavy intensity rain,10d
+70.data.10.weather.0,70.data.10,70,500,Rain,light rain,10d
+70.data.11.weather.0,70.data.11,70,500,Rain,light rain,10d
+70.data.12.weather.0,70.data.12,70,501,Rain,moderate rain,10d
+70.data.13.weather.0,70.data.13,70,501,Rain,moderate rain,10d
+70.data.14.weather.0,70.data.14,70,500,Rain,light rain,10d
+70.data.15.weather.0,70.data.15,70,501,Rain,moderate rain,10d
+71.data.0.weather.0,71.data.0,71,800,Clear,sky is clear,01d
+71.data.1.weather.0,71.data.1,71,800,Clear,sky is clear,01d
+71.data.2.weather.0,71.data.2,71,600,Snow,light snow,13d
+71.data.3.weather.0,71.data.3,71,500,Rain,light rain,10d
+71.data.4.weather.0,71.data.4,71,601,Snow,snow,13d
+71.data.5.weather.0,71.data.5,71,800,Clear,sky is clear,01d
+71.data.6.weather.0,71.data.6,71,600,Snow,light snow,13d
+71.data.7.weather.0,71.data.7,71,600,Snow,light snow,13d
+71.data.8.weather.0,71.data.8,71,600,Snow,light snow,13d
+71.data.9.weather.0,71.data.9,71,600,Snow,light snow,13d
+71.data.10.weather.0,71.data.10,71,800,Clear,sky is clear,01d
+71.data.11.weather.0,71.data.11,71,800,Clear,sky is clear,01d
+71.data.12.weather.0,71.data.12,71,800,Clear,sky is clear,01d
+71.data.13.weather.0,71.data.13,71,800,Clear,sky is clear,01d
+71.data.14.weather.0,71.data.14,71,800,Clear,sky is clear,01d
+71.data.15.weather.0,71.data.15,71,502,Rain,heavy intensity rain,10d
+72.data.0.weather.0,72.data.0,72,500,Rain,light rain,10d
+72.data.1.weather.0,72.data.1,72,500,Rain,light rain,10d
+72.data.2.weather.0,72.data.2,72,500,Rain,light rain,10d
+72.data.3.weather.0,72.data.3,72,500,Rain,light rain,10d
+72.data.4.weather.0,72.data.4,72,501,Rain,moderate rain,10d
+72.data.5.weather.0,72.data.5,72,500,Rain,light rain,10d
+72.data.6.weather.0,72.data.6,72,501,Rain,moderate rain,10d
+72.data.7.weather.0,72.data.7,72,501,Rain,moderate rain,10d
+72.data.8.weather.0,72.data.8,72,501,Rain,moderate rain,10d
+72.data.9.weather.0,72.data.9,72,501,Rain,moderate rain,10d
+72.data.10.weather.0,72.data.10,72,501,Rain,moderate rain,10d
+72.data.11.weather.0,72.data.11,72,500,Rain,light rain,10d
+72.data.12.weather.0,72.data.12,72,501,Rain,moderate rain,10d
+72.data.13.weather.0,72.data.13,72,501,Rain,moderate rain,10d
+72.data.14.weather.0,72.data.14,72,501,Rain,moderate rain,10d
+72.data.15.weather.0,72.data.15,72,501,Rain,moderate rain,10d
+72.data.16.weather.0,72.data.16,72,500,Rain,light rain,10d
+73.data.0.weather.0,73.data.0,73,501,Rain,moderate rain,10d
+73.data.1.weather.0,73.data.1,73,500,Rain,light rain,10d
+73.data.2.weather.0,73.data.2,73,803,Clouds,broken clouds,04d
+73.data.3.weather.0,73.data.3,73,501,Rain,moderate rain,10d
+73.data.4.weather.0,73.data.4,73,502,Rain,heavy intensity rain,10d
+73.data.5.weather.0,73.data.5,73,502,Rain,heavy intensity rain,10d
+73.data.6.weather.0,73.data.6,73,502,Rain,heavy intensity rain,10d
+73.data.7.weather.0,73.data.7,73,501,Rain,moderate rain,10d
+73.data.8.weather.0,73.data.8,73,500,Rain,light rain,10d
+73.data.9.weather.0,73.data.9,73,501,Rain,moderate rain,10d
+73.data.10.weather.0,73.data.10,73,501,Rain,moderate rain,10d
+73.data.11.weather.0,73.data.11,73,501,Rain,moderate rain,10d
+73.data.12.weather.0,73.data.12,73,500,Rain,light rain,10d
+73.data.13.weather.0,73.data.13,73,501,Rain,moderate rain,10d
+73.data.14.weather.0,73.data.14,73,501,Rain,moderate rain,10d
+73.data.15.weather.0,73.data.15,73,500,Rain,light rain,10d
+74.data.0.weather.0,74.data.0,74,802,Clouds,scattered clouds,03d
+74.data.1.weather.0,74.data.1,74,501,Rain,moderate rain,10d
+74.data.2.weather.0,74.data.2,74,502,Rain,heavy intensity rain,10d
+74.data.3.weather.0,74.data.3,74,501,Rain,moderate rain,10d
+74.data.4.weather.0,74.data.4,74,501,Rain,moderate rain,10d
+74.data.5.weather.0,74.data.5,74,501,Rain,moderate rain,10d
+74.data.6.weather.0,74.data.6,74,502,Rain,heavy intensity rain,10d
+74.data.7.weather.0,74.data.7,74,501,Rain,moderate rain,10d
+74.data.8.weather.0,74.data.8,74,500,Rain,light rain,10d
+74.data.9.weather.0,74.data.9,74,501,Rain,moderate rain,10d
+74.data.10.weather.0,74.data.10,74,501,Rain,moderate rain,10d
+74.data.11.weather.0,74.data.11,74,502,Rain,heavy intensity rain,10d
+74.data.12.weather.0,74.data.12,74,501,Rain,moderate rain,10d
+74.data.13.weather.0,74.data.13,74,501,Rain,moderate rain,10d
+74.data.14.weather.0,74.data.14,74,501,Rain,moderate rain,10d
+74.data.15.weather.0,74.data.15,74,501,Rain,moderate rain,10d
+75.data.0.weather.0,75.data.0,75,501,Rain,moderate rain,10d
+75.data.1.weather.0,75.data.1,75,802,Clouds,scattered clouds,03d
+75.data.2.weather.0,75.data.2,75,804,Clouds,overcast clouds,04d
+75.data.3.weather.0,75.data.3,75,800,Clear,sky is clear,01d
+75.data.4.weather.0,75.data.4,75,501,Rain,moderate rain,10d
+75.data.5.weather.0,75.data.5,75,502,Rain,heavy intensity rain,10d
+75.data.6.weather.0,75.data.6,75,501,Rain,moderate rain,10d
+75.data.7.weather.0,75.data.7,75,501,Rain,moderate rain,10d
+75.data.8.weather.0,75.data.8,75,501,Rain,moderate rain,10d
+75.data.9.weather.0,75.data.9,75,502,Rain,heavy intensity rain,10d
+75.data.10.weather.0,75.data.10,75,500,Rain,light rain,10d
+75.data.11.weather.0,75.data.11,75,500,Rain,light rain,10d
+75.data.12.weather.0,75.data.12,75,501,Rain,moderate rain,10d
+75.data.13.weather.0,75.data.13,75,500,Rain,light rain,10d
+75.data.14.weather.0,75.data.14,75,500,Rain,light rain,10d
+75.data.15.weather.0,75.data.15,75,500,Rain,light rain,10d
+75.data.16.weather.0,75.data.16,75,500,Rain,light rain,10ddd
+76.data.0.weather.0,76.data.0,76,500,Rain,light rain,10d
+76.data.1.weather.0,76.data.1,76,801,Clouds,few clouds,02d
+76.data.2.weather.0,76.data.2,76,500,Rain,light rain,10d
+76.data.3.weather.0,76.data.3,76,501,Rain,moderate rain,10d
+76.data.4.weather.0,76.data.4,76,501,Rain,moderate rain,10d
+76.data.5.weather.0,76.data.5,76,500,Rain,light rain,10d
+76.data.6.weather.0,76.data.6,76,500,Rain,light rain,10d
+76.data.7.weather.0,76.data.7,76,501,Rain,moderate rain,10d
+76.data.8.weather.0,76.data.8,76,500,Rain,light rain,10d
+76.data.9.weather.0,76.data.9,76,501,Rain,moderate rain,10d
+76.data.10.weather.0,76.data.10,76,501,Rain,moderate rain,10d
+76.data.11.weather.0,76.data.11,76,501,Rain,moderate rain,10d
+76.data.12.weather.0,76.data.12,76,501,Rain,moderate rain,10d
+76.data.13.weather.0,76.data.13,76,501,Rain,moderate rain,10d
+76.data.14.weather.0,76.data.14,76,501,Rain,moderate rain,10d
+76.data.15.weather.0,76.data.15,76,501,Rain,moderate rain,10d
+76.data.16.weather.0,76.data.16,76,500,Rain,light rain,10d
+77.data.0.weather.0,77.data.0,77,500,Rain,light rain,10d
+77.data.1.weather.0,77.data.1,77,502,Rain,heavy intensity rain,10d
+77.data.2.weather.0,77.data.2,77,500,Rain,light rain,10d
+77.data.3.weather.0,77.data.3,77,502,Rain,heavy intensity rain,10d
+77.data.4.weather.0,77.data.4,77,501,Rain,moderate rain,10d
+77.data.5.weather.0,77.data.5,77,501,Rain,moderate rain,10d
+77.data.6.weather.0,77.data.6,77,501,Rain,moderate rain,10d
+77.data.7.weather.0,77.data.7,77,500,Rain,light rain,10d
+77.data.8.weather.0,77.data.8,77,501,Rain,moderate rain,10d
+77.data.9.weather.0,77.data.9,77,501,Rain,moderate rain,10d
+77.data.10.weather.0,77.data.10,77,502,Rain,heavy intensity rain,10d
+77.data.11.weather.0,77.data.11,77,502,Rain,heavy intensity rain,10d
+77.data.12.weather.0,77.data.12,77,500,Rain,light rain,10d
+77.data.13.weather.0,77.data.13,77,501,Rain,moderate rain,10d
+77.data.14.weather.0,77.data.14,77,501,Rain,moderate rain,10d
+77.data.15.weather.0,77.data.15,77,500,Rain,light rain,10dd
+78.data.0.weather.0,78.data.0,78,502,Rain,heavy intensity rain,10d
+78.data.1.weather.0,78.data.1,78,502,Rain,heavy intensity rain,10d
+78.data.2.weather.0,78.data.2,78,800,Clear,sky is clear,01d
+78.data.3.weather.0,78.data.3,78,803,Clouds,broken clouds,04d
+78.data.4.weather.0,78.data.4,78,501,Rain,moderate rain,10d
+78.data.5.weather.0,78.data.5,78,501,Rain,moderate rain,10d
+78.data.6.weather.0,78.data.6,78,501,Rain,moderate rain,10d
+78.data.7.weather.0,78.data.7,78,501,Rain,moderate rain,10d
+78.data.8.weather.0,78.data.8,78,501,Rain,moderate rain,10d
+78.data.9.weather.0,78.data.9,78,501,Rain,moderate rain,10d
+78.data.10.weather.0,78.data.10,78,500,Rain,light rain,10d
+78.data.11.weather.0,78.data.11,78,500,Rain,light rain,10d
+78.data.12.weather.0,78.data.12,78,501,Rain,moderate rain,10d
+78.data.13.weather.0,78.data.13,78,501,Rain,moderate rain,10d
+78.data.14.weather.0,78.data.14,78,501,Rain,moderate rain,10d
+78.data.15.weather.0,78.data.15,78,502,Rain,heavy intensity rain,10d
+78.data.16.weather.0,78.data.16,78,502,Rain,heavy intensity rain,10d
+79.data.0.weather.0,79.data.0,79,801,Clouds,few clouds,02d
+79.data.1.weather.0,79.data.1,79,501,Rain,moderate rain,10d
+79.data.2.weather.0,79.data.2,79,502,Rain,heavy intensity rain,10d
+79.data.3.weather.0,79.data.3,79,501,Rain,moderate rain,10d
+79.data.4.weather.0,79.data.4,79,501,Rain,moderate rain,10d
+79.data.5.weather.0,79.data.5,79,501,Rain,moderate rain,10d
+79.data.6.weather.0,79.data.6,79,501,Rain,moderate rain,10d
+79.data.7.weather.0,79.data.7,79,500,Rain,light rain,10d
+79.data.8.weather.0,79.data.8,79,500,Rain,light rain,10d
+79.data.9.weather.0,79.data.9,79,500,Rain,light rain,10d
+79.data.10.weather.0,79.data.10,79,501,Rain,moderate rain,10d
+79.data.11.weather.0,79.data.11,79,501,Rain,moderate rain,10d
+79.data.12.weather.0,79.data.12,79,501,Rain,moderate rain,10d
+79.data.13.weather.0,79.data.13,79,501,Rain,moderate rain,10d
+79.data.14.weather.0,79.data.14,79,501,Rain,moderate rain,10d
+79.data.15.weather.0,79.data.15,79,500,Rain,light rain,10d
+80.data.0.weather.0,80.data.0,80,501,Rain,moderate rain,10d
+80.data.1.weather.0,80.data.1,80,803,Clouds,broken clouds,04d
+80.data.2.weather.0,80.data.2,80,801,Clouds,few clouds,02d
+80.data.3.weather.0,80.data.3,80,801,Clouds,few clouds,02d
+80.data.4.weather.0,80.data.4,80,500,Rain,light rain,10d
+80.data.5.weather.0,80.data.5,80,500,Rain,light rain,10d
+80.data.6.weather.0,80.data.6,80,501,Rain,moderate rain,10d
+80.data.7.weather.0,80.data.7,80,501,Rain,moderate rain,10d
+80.data.8.weather.0,80.data.8,80,500,Rain,light rain,10d
+80.data.9.weather.0,80.data.9,80,500,Rain,light rain,10d
+80.data.10.weather.0,80.data.10,80,800,Clear,sky is clear,01d
+80.data.11.weather.0,80.data.11,80,500,Rain,light rain,10d
+80.data.12.weather.0,80.data.12,80,500,Rain,light rain,10d
+80.data.13.weather.0,80.data.13,80,500,Rain,light rain,10d
+80.data.14.weather.0,80.data.14,80,501,Rain,moderate rain,10d
+80.data.15.weather.0,80.data.15,80,500,Rain,light rain,10d
+80.data.16.weather.0,80.data.16,80,500,Rain,light rain,10ddd
+81.data.0.weather.0,81.data.0,81,800,Clear,sky is clear,01d
+81.data.1.weather.0,81.data.1,81,800,Clear,sky is clear,01d
+81.data.2.weather.0,81.data.2,81,800,Clear,sky is clear,01d
+81.data.3.weather.0,81.data.3,81,803,Clouds,broken clouds,04d
+81.data.4.weather.0,81.data.4,81,500,Rain,light rain,10d
+81.data.5.weather.0,81.data.5,81,501,Rain,moderate rain,10d
+81.data.6.weather.0,81.data.6,81,500,Rain,light rain,10d
+81.data.7.weather.0,81.data.7,81,501,Rain,moderate rain,10d
+81.data.8.weather.0,81.data.8,81,500,Rain,light rain,10d
+81.data.9.weather.0,81.data.9,81,500,Rain,light rain,10d
+81.data.10.weather.0,81.data.10,81,501,Rain,moderate rain,10d
+81.data.11.weather.0,81.data.11,81,501,Rain,moderate rain,10d
+81.data.12.weather.0,81.data.12,81,501,Rain,moderate rain,10d
+81.data.13.weather.0,81.data.13,81,501,Rain,moderate rain,10d
+81.data.14.weather.0,81.data.14,81,500,Rain,light rain,10d
+81.data.15.weather.0,81.data.15,81,501,Rain,moderate rain,10d
+81.data.16.weather.0,81.data.16,81,500,Rain,light rain,10d
+82.data.0.weather.0,82.data.0,82,500,Rain,light rain,10d
+82.data.1.weather.0,82.data.1,82,500,Rain,light rain,10d
+82.data.2.weather.0,82.data.2,82,803,Clouds,broken clouds,04d
+82.data.3.weather.0,82.data.3,82,801,Clouds,few clouds,02d
+82.data.4.weather.0,82.data.4,82,500,Rain,light rain,10d
+82.data.5.weather.0,82.data.5,82,501,Rain,moderate rain,10d
+82.data.6.weather.0,82.data.6,82,500,Rain,light rain,10d
+82.data.7.weather.0,82.data.7,82,500,Rain,light rain,10d
+82.data.8.weather.0,82.data.8,82,501,Rain,moderate rain,10d
+82.data.9.weather.0,82.data.9,82,500,Rain,light rain,10d
+82.data.10.weather.0,82.data.10,82,500,Rain,light rain,10d
+82.data.11.weather.0,82.data.11,82,500,Rain,light rain,10d
+82.data.12.weather.0,82.data.12,82,500,Rain,light rain,10d
+82.data.13.weather.0,82.data.13,82,501,Rain,moderate rain,10d
+82.data.14.weather.0,82.data.14,82,501,Rain,moderate rain,10d
+82.data.15.weather.0,82.data.15,82,501,Rain,moderate rain,10d
+82.data.16.weather.0,82.data.16,82,501,Rain,moderate rain,10d
+83.data.0.weather.0,83.data.0,83,800,Clear,sky is clear,01d
+83.data.1.weather.0,83.data.1,83,800,Clear,sky is clear,01d
+83.data.2.weather.0,83.data.2,83,800,Clear,sky is clear,01d
+83.data.3.weather.0,83.data.3,83,800,Clear,sky is clear,01d
+83.data.4.weather.0,83.data.4,83,500,Rain,light rain,10d
+83.data.5.weather.0,83.data.5,83,501,Rain,moderate rain,10d
+83.data.6.weather.0,83.data.6,83,500,Rain,light rain,10d
+83.data.7.weather.0,83.data.7,83,501,Rain,moderate rain,10d
+83.data.8.weather.0,83.data.8,83,501,Rain,moderate rain,10d
+83.data.9.weather.0,83.data.9,83,501,Rain,moderate rain,10d
+83.data.10.weather.0,83.data.10,83,501,Rain,moderate rain,10d
+83.data.11.weather.0,83.data.11,83,500,Rain,light rain,10d
+83.data.12.weather.0,83.data.12,83,500,Rain,light rain,10d
+83.data.13.weather.0,83.data.13,83,501,Rain,moderate rain,10d
+83.data.14.weather.0,83.data.14,83,501,Rain,moderate rain,10d
+83.data.15.weather.0,83.data.15,83,501,Rain,moderate rain,10d
+83.data.16.weather.0,83.data.16,83,500,Rain,light rain,10d
+84.data.0.weather.0,84.data.0,84,800,Clear,sky is clear,01d
+84.data.1.weather.0,84.data.1,84,800,Clear,sky is clear,01d
+84.data.2.weather.0,84.data.2,84,800,Clear,sky is clear,01d
+84.data.3.weather.0,84.data.3,84,800,Clear,sky is clear,01d
+84.data.4.weather.0,84.data.4,84,800,Clear,sky is clear,01d
+84.data.5.weather.0,84.data.5,84,800,Clear,sky is clear,01d
+84.data.6.weather.0,84.data.6,84,800,Clear,sky is clear,01d
+84.data.7.weather.0,84.data.7,84,800,Clear,sky is clear,01d
+84.data.8.weather.0,84.data.8,84,800,Clear,sky is clear,01d
+84.data.9.weather.0,84.data.9,84,800,Clear,sky is clear,01d
+84.data.10.weather.0,84.data.10,84,800,Clear,sky is clear,01d
+84.data.11.weather.0,84.data.11,84,800,Clear,sky is clear,01d
+84.data.12.weather.0,84.data.12,84,800,Clear,sky is clear,01d
+84.data.13.weather.0,84.data.13,84,800,Clear,sky is clear,01d
+84.data.14.weather.0,84.data.14,84,800,Clear,sky is clear,01d
+84.data.15.weather.0,84.data.15,84,800,Clear,sky is clear,01d
+84.data.16.weather.0,84.data.16,84,800,Clear,sky is clear,01ddd
+85.data.0.weather.0,85.data.0,85,800,Clear,sky is clear,01d
+85.data.1.weather.0,85.data.1,85,800,Clear,sky is clear,01d
+85.data.2.weather.0,85.data.2,85,800,Clear,sky is clear,01d
+85.data.3.weather.0,85.data.3,85,800,Clear,sky is clear,01d
+85.data.4.weather.0,85.data.4,85,800,Clear,sky is clear,01d
+85.data.5.weather.0,85.data.5,85,500,Rain,light rain,10d
+85.data.6.weather.0,85.data.6,85,800,Clear,sky is clear,01d
+85.data.7.weather.0,85.data.7,85,800,Clear,sky is clear,01d
+85.data.8.weather.0,85.data.8,85,500,Rain,light rain,10d
+85.data.9.weather.0,85.data.9,85,800,Clear,sky is clear,01d
+85.data.10.weather.0,85.data.10,85,800,Clear,sky is clear,01d
+85.data.11.weather.0,85.data.11,85,800,Clear,sky is clear,01d
+85.data.12.weather.0,85.data.12,85,800,Clear,sky is clear,01d
+85.data.13.weather.0,85.data.13,85,800,Clear,sky is clear,01d
+85.data.14.weather.0,85.data.14,85,800,Clear,sky is clear,01d
+85.data.15.weather.0,85.data.15,85,800,Clear,sky is clear,01d
+85.data.16.weather.0,85.data.16,85,800,Clear,sky is clear,01ddd
+86.data.0.weather.0,86.data.0,86,802,Clouds,scattered clouds,03d
+86.data.1.weather.0,86.data.1,86,802,Clouds,scattered clouds,03d
+86.data.2.weather.0,86.data.2,86,800,Clear,sky is clear,01d
+86.data.3.weather.0,86.data.3,86,600,Snow,light snow,13d
+86.data.4.weather.0,86.data.4,86,500,Rain,light rain,10d
+86.data.5.weather.0,86.data.5,86,500,Rain,light rain,10d
+86.data.6.weather.0,86.data.6,86,800,Clear,sky is clear,01d
+86.data.7.weather.0,86.data.7,86,501,Rain,moderate rain,10d
+86.data.8.weather.0,86.data.8,86,501,Rain,moderate rain,10d
+86.data.9.weather.0,86.data.9,86,800,Clear,sky is clear,01d
+86.data.10.weather.0,86.data.10,86,600,Snow,light snow,13d
+86.data.11.weather.0,86.data.11,86,600,Snow,light snow,13d
+86.data.12.weather.0,86.data.12,86,800,Clear,sky is clear,01d
+86.data.13.weather.0,86.data.13,86,500,Rain,light rain,10d
+86.data.14.weather.0,86.data.14,86,600,Snow,light snow,13d
+86.data.15.weather.0,86.data.15,86,500,Rain,light rain,10d
+86.data.16.weather.0,86.data.16,86,800,Clear,sky is clear,01ddd
+87.data.0.weather.0,87.data.0,87,500,Rain,light rain,10d
+87.data.1.weather.0,87.data.1,87,500,Rain,light rain,10d
+87.data.2.weather.0,87.data.2,87,800,Clear,sky is clear,02d
+87.data.3.weather.0,87.data.3,87,500,Rain,light rain,10d
+87.data.4.weather.0,87.data.4,87,800,Clear,sky is clear,01d
+87.data.5.weather.0,87.data.5,87,800,Clear,sky is clear,01d
+87.data.6.weather.0,87.data.6,87,500,Rain,light rain,10d
+87.data.7.weather.0,87.data.7,87,500,Rain,light rain,10d
+87.data.8.weather.0,87.data.8,87,500,Rain,light rain,10d
+87.data.9.weather.0,87.data.9,87,501,Rain,moderate rain,10d
+87.data.10.weather.0,87.data.10,87,502,Rain,heavy intensity rain,10d
+87.data.11.weather.0,87.data.11,87,800,Clear,sky is clear,01d
+87.data.12.weather.0,87.data.12,87,800,Clear,sky is clear,01d
+87.data.13.weather.0,87.data.13,87,500,Rain,light rain,10d
+87.data.14.weather.0,87.data.14,87,500,Rain,light rain,10d
+87.data.15.weather.0,87.data.15,87,800,Clear,sky is clear,01d
+88.data.0.weather.0,88.data.0,88,800,Clear,sky is clear,01d
+88.data.1.weather.0,88.data.1,88,800,Clear,sky is clear,01d
+88.data.2.weather.0,88.data.2,88,601,Snow,snow,13d
+88.data.3.weather.0,88.data.3,88,601,Snow,snow,13d
+88.data.4.weather.0,88.data.4,88,601,Snow,snow,13d
+88.data.5.weather.0,88.data.5,88,600,Snow,light snow,13d
+88.data.6.weather.0,88.data.6,88,600,Snow,light snow,13d
+88.data.7.weather.0,88.data.7,88,800,Clear,sky is clear,01d
+88.data.8.weather.0,88.data.8,88,500,Rain,light rain,10d
+88.data.9.weather.0,88.data.9,88,600,Snow,light snow,13d
+88.data.10.weather.0,88.data.10,88,600,Snow,light snow,13d
+88.data.11.weather.0,88.data.11,88,600,Snow,light snow,13d
+88.data.12.weather.0,88.data.12,88,800,Clear,sky is clear,01d
+88.data.13.weather.0,88.data.13,88,500,Rain,light rain,10d
+88.data.14.weather.0,88.data.14,88,500,Rain,light rain,10d
+88.data.15.weather.0,88.data.15,88,500,Rain,light rain,10d
+89.data.0.weather.0,89.data.0,89,501,Rain,moderate rain,10d
+89.data.1.weather.0,89.data.1,89,501,Rain,moderate rain,10d
+89.data.2.weather.0,89.data.2,89,501,Rain,moderate rain,10d
+89.data.3.weather.0,89.data.3,89,501,Rain,moderate rain,10d
+89.data.4.weather.0,89.data.4,89,501,Rain,moderate rain,10d
+89.data.5.weather.0,89.data.5,89,501,Rain,moderate rain,10d
+89.data.6.weather.0,89.data.6,89,502,Rain,heavy intensity rain,10d
+89.data.7.weather.0,89.data.7,89,501,Rain,moderate rain,10d
+89.data.8.weather.0,89.data.8,89,500,Rain,light rain,10d
+89.data.9.weather.0,89.data.9,89,501,Rain,moderate rain,10d
+89.data.10.weather.0,89.data.10,89,501,Rain,moderate rain,10d
+89.data.11.weather.0,89.data.11,89,502,Rain,heavy intensity rain,10d
+89.data.12.weather.0,89.data.12,89,502,Rain,heavy intensity rain,10d
+89.data.13.weather.0,89.data.13,89,501,Rain,moderate rain,10d
+89.data.14.weather.0,89.data.14,89,501,Rain,moderate rain,10d
+89.data.15.weather.0,89.data.15,89,500,Rain,light rain,10d
+90.data.0.weather.0,90.data.0,90,501,Rain,moderate rain,10d
+90.data.1.weather.0,90.data.1,90,501,Rain,moderate rain,10d
+90.data.2.weather.0,90.data.2,90,500,Rain,light rain,10d
+90.data.3.weather.0,90.data.3,90,501,Rain,moderate rain,10d
+90.data.4.weather.0,90.data.4,90,501,Rain,moderate rain,10d
+90.data.5.weather.0,90.data.5,90,501,Rain,moderate rain,10d
+90.data.6.weather.0,90.data.6,90,501,Rain,moderate rain,10d
+90.data.7.weather.0,90.data.7,90,501,Rain,moderate rain,10d
+90.data.8.weather.0,90.data.8,90,500,Rain,light rain,10d
+90.data.9.weather.0,90.data.9,90,501,Rain,moderate rain,10d
+90.data.10.weather.0,90.data.10,90,501,Rain,moderate rain,10d
+90.data.11.weather.0,90.data.11,90,502,Rain,heavy intensity rain,10d
+90.data.12.weather.0,90.data.12,90,502,Rain,heavy intensity rain,10d
+90.data.13.weather.0,90.data.13,90,501,Rain,moderate rain,10d
+90.data.14.weather.0,90.data.14,90,501,Rain,moderate rain,10d
+90.data.15.weather.0,90.data.15,90,500,Rain,light rain,10d
+91.data.0.weather.0,91.data.0,91,802,Clouds,scattered clouds,03d
+91.data.1.weather.0,91.data.1,91,800,Clear,sky is clear,01d
+91.data.2.weather.0,91.data.2,91,800,Clear,sky is clear,01d
+91.data.3.weather.0,91.data.3,91,600,Snow,light snow,13d
+91.data.4.weather.0,91.data.4,91,500,Rain,light rain,10d
+91.data.5.weather.0,91.data.5,91,500,Rain,light rain,10d
+91.data.6.weather.0,91.data.6,91,501,Rain,moderate rain,10d
+91.data.7.weather.0,91.data.7,91,501,Rain,moderate rain,10d
+91.data.8.weather.0,91.data.8,91,501,Rain,moderate rain,10d
+91.data.9.weather.0,91.data.9,91,600,Snow,light snow,13d
+91.data.10.weather.0,91.data.10,91,600,Snow,light snow,13d
+91.data.11.weather.0,91.data.11,91,600,Snow,light snow,13d
+91.data.12.weather.0,91.data.12,91,600,Snow,light snow,13d
+91.data.13.weather.0,91.data.13,91,500,Rain,light rain,10d
+91.data.14.weather.0,91.data.14,91,600,Snow,light snow,13d
+91.data.15.weather.0,91.data.15,91,800,Clear,sky is clear,01d
+91.data.16.weather.0,91.data.16,91,800,Clear,sky is clear,01ddd
+92.data.0.weather.0,92.data.0,92,802,Clouds,scattered clouds,03d
+92.data.1.weather.0,92.data.1,92,800,Clear,sky is clear,01d
+92.data.2.weather.0,92.data.2,92,800,Clear,sky is clear,01d
+92.data.3.weather.0,92.data.3,92,600,Snow,light snow,13d
+92.data.4.weather.0,92.data.4,92,500,Rain,light rain,10d
+92.data.5.weather.0,92.data.5,92,500,Rain,light rain,10d
+92.data.6.weather.0,92.data.6,92,501,Rain,moderate rain,10d
+92.data.7.weather.0,92.data.7,92,501,Rain,moderate rain,10d
+92.data.8.weather.0,92.data.8,92,501,Rain,moderate rain,10d
+92.data.9.weather.0,92.data.9,92,600,Snow,light snow,13d
+92.data.10.weather.0,92.data.10,92,600,Snow,light snow,13d
+92.data.11.weather.0,92.data.11,92,600,Snow,light snow,13d
+92.data.12.weather.0,92.data.12,92,600,Snow,light snow,13d
+92.data.13.weather.0,92.data.13,92,500,Rain,light rain,10d
+92.data.14.weather.0,92.data.14,92,600,Snow,light snow,13d
+92.data.15.weather.0,92.data.15,92,800,Clear,sky is clear,01d
+92.data.16.weather.0,92.data.16,92,800,Clear,sky is clear,01ddd
+93.data.0.weather.0,93.data.0,93,800,Clear,sky is clear,01d
+93.data.1.weather.0,93.data.1,93,800,Clear,sky is clear,01d
+93.data.2.weather.0,93.data.2,93,500,Rain,light rain,10d
+93.data.3.weather.0,93.data.3,93,500,Rain,light rain,10d
+93.data.4.weather.0,93.data.4,93,600,Snow,light snow,13d
+93.data.5.weather.0,93.data.5,93,500,Rain,light rain,10d
+93.data.6.weather.0,93.data.6,93,800,Clear,sky is clear,01d
+93.data.7.weather.0,93.data.7,93,501,Rain,moderate rain,10d
+93.data.8.weather.0,93.data.8,93,501,Rain,moderate rain,10d
+93.data.9.weather.0,93.data.9,93,502,Rain,heavy intensity rain,10d
+93.data.10.weather.0,93.data.10,93,501,Rain,moderate rain,10d
+93.data.11.weather.0,93.data.11,93,501,Rain,moderate rain,10d
+93.data.12.weather.0,93.data.12,93,500,Rain,light rain,10d
+93.data.13.weather.0,93.data.13,93,500,Rain,light rain,10d
+93.data.14.weather.0,93.data.14,93,501,Rain,moderate rain,10d
+93.data.15.weather.0,93.data.15,93,601,Snow,snow,13d
+93.data.16.weather.0,93.data.16,93,800,Clear,sky is clear,01d
+94.data.0.weather.0,94.data.0,94,800,Clear,sky is clear,01d
+94.data.1.weather.0,94.data.1,94,802,Clouds,scattered clouds,03d
+94.data.2.weather.0,94.data.2,94,800,Clear,sky is clear,01d
+94.data.3.weather.0,94.data.3,94,803,Clouds,broken clouds,04d
+94.data.4.weather.0,94.data.4,94,800,Clear,sky is clear,01d
+94.data.5.weather.0,94.data.5,94,800,Clear,sky is clear,01d
+94.data.6.weather.0,94.data.6,94,800,Clear,sky is clear,01d
+94.data.7.weather.0,94.data.7,94,800,Clear,sky is clear,01d
+94.data.8.weather.0,94.data.8,94,501,Rain,moderate rain,10d
+94.data.9.weather.0,94.data.9,94,500,Rain,light rain,10d
+94.data.10.weather.0,94.data.10,94,500,Rain,light rain,10d
+94.data.11.weather.0,94.data.11,94,501,Rain,moderate rain,10d
+94.data.12.weather.0,94.data.12,94,501,Rain,moderate rain,10d
+94.data.13.weather.0,94.data.13,94,502,Rain,heavy intensity rain,10d
+94.data.14.weather.0,94.data.14,94,501,Rain,moderate rain,10d
+94.data.15.weather.0,94.data.15,94,500,Rain,light rain,10d
+94.data.16.weather.0,94.data.16,94,500,Rain,light rain,10d
+95.data.0.weather.0,95.data.0,95,803,Clouds,broken clouds,04d
+95.data.1.weather.0,95.data.1,95,804,Clouds,overcast clouds,04d
+95.data.2.weather.0,95.data.2,95,500,Rain,light rain,10d
+95.data.3.weather.0,95.data.3,95,500,Rain,light rain,10d
+95.data.4.weather.0,95.data.4,95,500,Rain,light rain,10d
+95.data.5.weather.0,95.data.5,95,501,Rain,moderate rain,10d
+95.data.6.weather.0,95.data.6,95,501,Rain,moderate rain,10d
+95.data.7.weather.0,95.data.7,95,600,Snow,light snow,13d
+95.data.8.weather.0,95.data.8,95,500,Rain,light rain,10d
+95.data.9.weather.0,95.data.9,95,600,Snow,light snow,13d
+95.data.10.weather.0,95.data.10,95,800,Clear,sky is clear,01d
+95.data.11.weather.0,95.data.11,95,600,Snow,light snow,13d
+95.data.12.weather.0,95.data.12,95,600,Snow,light snow,13d
+95.data.13.weather.0,95.data.13,95,500,Rain,light rain,10d
+95.data.14.weather.0,95.data.14,95,501,Rain,moderate rain,10d
+95.data.15.weather.0,95.data.15,95,502,Rain,heavy intensity rain,10d
+95.data.16.weather.0,95.data.16,95,500,Rain,light rain,10d
+96.data.0.weather.0,96.data.0,96,500,Rain,light rain,10d
+96.data.1.weather.0,96.data.1,96,802,Clouds,scattered clouds,03d
+96.data.2.weather.0,96.data.2,96,500,Rain,light rain,10d
+96.data.3.weather.0,96.data.3,96,500,Rain,light rain,10d
+96.data.4.weather.0,96.data.4,96,500,Rain,light rain,10d
+96.data.5.weather.0,96.data.5,96,501,Rain,moderate rain,10d
+96.data.6.weather.0,96.data.6,96,501,Rain,moderate rain,10d
+96.data.7.weather.0,96.data.7,96,500,Rain,light rain,10d
+96.data.8.weather.0,96.data.8,96,500,Rain,light rain,10d
+96.data.9.weather.0,96.data.9,96,500,Rain,light rain,10d
+96.data.10.weather.0,96.data.10,96,800,Clear,sky is clear,01d
+96.data.11.weather.0,96.data.11,96,800,Clear,sky is clear,01d
+96.data.12.weather.0,96.data.12,96,500,Rain,light rain,10d
+96.data.13.weather.0,96.data.13,96,500,Rain,light rain,10d
+96.data.14.weather.0,96.data.14,96,501,Rain,moderate rain,10d
+96.data.15.weather.0,96.data.15,96,501,Rain,moderate rain,10d
+96.data.16.weather.0,96.data.16,96,500,Rain,light rain,10d
+97.data.0.weather.0,97.data.0,97,802,Clouds,scattered clouds,03d
+97.data.1.weather.0,97.data.1,97,804,Clouds,overcast clouds,04d
+97.data.2.weather.0,97.data.2,97,801,Clouds,few clouds,02d
+97.data.3.weather.0,97.data.3,97,500,Rain,light rain,10d
+97.data.4.weather.0,97.data.4,97,500,Rain,light rain,10d
+97.data.5.weather.0,97.data.5,97,501,Rain,moderate rain,10d
+97.data.6.weather.0,97.data.6,97,500,Rain,light rain,10d
+97.data.7.weather.0,97.data.7,97,501,Rain,moderate rain,10d
+97.data.8.weather.0,97.data.8,97,500,Rain,light rain,10d
+97.data.9.weather.0,97.data.9,97,500,Rain,light rain,10d
+97.data.10.weather.0,97.data.10,97,500,Rain,light rain,10d
+97.data.11.weather.0,97.data.11,97,800,Clear,sky is clear,01d
+97.data.12.weather.0,97.data.12,97,500,Rain,light rain,10d
+97.data.13.weather.0,97.data.13,97,500,Rain,light rain,10d
+97.data.14.weather.0,97.data.14,97,500,Rain,light rain,10d
+97.data.15.weather.0,97.data.15,97,500,Rain,light rain,10dd
+98.data.0.weather.0,98.data.0,98,500,Rain,light rain,10d
+98.data.1.weather.0,98.data.1,98,500,Rain,light rain,10d
+98.data.2.weather.0,98.data.2,98,800,Clear,sky is clear,02d
+98.data.3.weather.0,98.data.3,98,500,Rain,light rain,10d
+98.data.4.weather.0,98.data.4,98,500,Rain,light rain,10d
+98.data.5.weather.0,98.data.5,98,500,Rain,light rain,10d
+98.data.6.weather.0,98.data.6,98,500,Rain,light rain,10d
+98.data.7.weather.0,98.data.7,98,500,Rain,light rain,10d
+98.data.8.weather.0,98.data.8,98,501,Rain,moderate rain,10d
+98.data.9.weather.0,98.data.9,98,501,Rain,moderate rain,10d
+98.data.10.weather.0,98.data.10,98,500,Rain,light rain,10d
+98.data.11.weather.0,98.data.11,98,500,Rain,light rain,10d
+98.data.12.weather.0,98.data.12,98,500,Rain,light rain,10d
+98.data.13.weather.0,98.data.13,98,500,Rain,light rain,10d
+98.data.14.weather.0,98.data.14,98,500,Rain,light rain,10d
+98.data.15.weather.0,98.data.15,98,500,Rain,light rain,10d
+98.data.16.weather.0,98.data.16,98,500,Rain,light rain,10d
+99.data.0.weather.0,99.data.0,99,800,Clear,sky is clear,01d
+99.data.1.weather.0,99.data.1,99,802,Clouds,scattered clouds,03d
+99.data.2.weather.0,99.data.2,99,800,Clear,sky is clear,01d
+99.data.3.weather.0,99.data.3,99,500,Rain,light rain,10d
+99.data.4.weather.0,99.data.4,99,501,Rain,moderate rain,10d
+99.data.5.weather.0,99.data.5,99,501,Rain,moderate rain,10d
+99.data.6.weather.0,99.data.6,99,500,Rain,light rain,10d
+99.data.7.weather.0,99.data.7,99,800,Clear,sky is clear,01d
+99.data.8.weather.0,99.data.8,99,800,Clear,sky is clear,01d
+99.data.9.weather.0,99.data.9,99,800,Clear,sky is clear,01d
+99.data.10.weather.0,99.data.10,99,800,Clear,sky is clear,01d
+99.data.11.weather.0,99.data.11,99,800,Clear,sky is clear,01d
+99.data.12.weather.0,99.data.12,99,500,Rain,light rain,10d
+99.data.13.weather.0,99.data.13,99,501,Rain,moderate rain,10d
+99.data.14.weather.0,99.data.14,99,500,Rain,light rain,10d
+99.data.15.weather.0,99.data.15,99,800,Clear,sky is clear,01dd
+100.data.0.weather.0,100.data.0,100,800,Clear,sky is clear,02d
+100.data.1.weather.0,100.data.1,100,800,Clear,sky is clear,02d
+100.data.2.weather.0,100.data.2,100,500,Rain,light rain,10d
+100.data.3.weather.0,100.data.3,100,800,Clear,sky is clear,01d
+100.data.4.weather.0,100.data.4,100,500,Rain,light rain,10d
+100.data.5.weather.0,100.data.5,100,501,Rain,moderate rain,10d
+100.data.6.weather.0,100.data.6,100,501,Rain,moderate rain,10d
+100.data.7.weather.0,100.data.7,100,501,Rain,moderate rain,10d
+100.data.8.weather.0,100.data.8,100,500,Rain,light rain,10d
+100.data.9.weather.0,100.data.9,100,800,Clear,sky is clear,01d
+100.data.10.weather.0,100.data.10,100,500,Rain,light rain,10d
+100.data.11.weather.0,100.data.11,100,500,Rain,light rain,10d
+100.data.12.weather.0,100.data.12,100,600,Snow,light snow,13d
+100.data.13.weather.0,100.data.13,100,500,Rain,light rain,10d
+100.data.14.weather.0,100.data.14,100,500,Rain,light rain,10d
+100.data.15.weather.0,100.data.15,100,500,Rain,light rain,10d
+100.data.16.weather.0,100.data.16,100,500,Rain,light rain,10ddd

@@ -1,6 +1,7 @@
 [project]
 name="datapackage_convert"
-    description = "Convert your datapackages"
+description = "Convert your datapackages"
+
 dependencies = []
 readme="README.md"
 repository="https://github.com/kindly/datapackage_convert_py"
@@ -9,3 +10,6 @@ repository="https://github.com/kindly/datapackage_convert_py"
 requires = ["maturin>=0.11,<0.12"]
 build-backend = "maturin"
 
+
+[project.optional-dependencies]
+dev = ["openpyxl", "pandas", "pyarrow"]
