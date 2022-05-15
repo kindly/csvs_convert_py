@@ -10,4 +10,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - XLSX support 
 - Allow options too be passed to rust library
-
+- Docs and tests in python libary
