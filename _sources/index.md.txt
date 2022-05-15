@@ -29,9 +29,9 @@ When refering to a datapackage you can either reference:
 
 ```{toctree}
 :hidden:
-changelog
 merge
 sqlite
 parquet
 xlsx
+changelog
 ```
