@@ -30,4 +30,7 @@ When refering to a datapackage you can either reference:
 :hidden:
 changelog
 merge
+sqlite
+parquet
+xlsx
 ```
