@@ -1,5 +1,7 @@
 # Datapackage Convert
 
+[**Full Documentation**](http://datapackage_convert.opendata.coop/)
+
 Conversions from tabular-data-packages. Currently:
 
 * Merge mulitple datapackages into one.
