@@ -9,6 +9,7 @@ Conversions for tabular-data-packages:
 
 All conversions aim to be memory efficiant and as fast they can be. This is the python library, providing bindings to the [rust library](https://github.com/kindly/datapackage_convert).
 
+[**Contribute on github**](https://github.com/kindly/datapackage_convert_py)
 
 ## Install
 
