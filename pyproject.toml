@@ -12,4 +12,4 @@ build-backend = "maturin"
 
 
 [project.optional-dependencies]
-dev = ["openpyxl", "pandas", "pyarrow"]
+dev = ["openpyxl", "pandas", "pyarrow", "sphynx", "furo", "myst_parser"]

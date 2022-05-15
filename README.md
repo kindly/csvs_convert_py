@@ -5,6 +5,7 @@ Conversions from tabular-data-packages. Currently:
 * Merge mulitple datapackages into one.
 * To SQLite  
 * To Parquet 
+* To XLSX
 
 All conversions aim to be memory efficiant and as fast they can be. This is the python library, providing bindings to the [rust library](https://github.com/kindly/datapackage_convert).
 
@@ -52,3 +53,12 @@ from datapackage_convert import datapackage_to_parquet
 datapackage_to_parquet('output_directory', 'my_datapackage')
 ```
 
+### To xlsx
+
+Will convert to XLSX files. 
+
+```
+from datapackage_convert import datapackage_to_xlsx
+
+datapackage_to_xlsx('output.xlsx', 'my_datapackage')
+```
