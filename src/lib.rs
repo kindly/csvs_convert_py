@@ -35,6 +35,26 @@ fn datapackage_to_sqlite(db_path: String, datapackage: String, kwds: Option<&PyD
 }
 
 #[pyfunction(kwds="**")]
+fn datapackage_to_postgres(postgres_url: String, datapackage: String, kwds: Option<&PyDict>) -> eyre::Result<()> {
+    let mut options = Options::builder().build();
+
+    if let Some(kwds) = kwds {
+        if let Some(delete) = kwds.get_item("delete_input_csv") {
+            if let Ok(delete_input_csv) = delete.extract::<bool>() {
+                options.delete_input_csv = delete_input_csv
+            }
+        }
+        if let Some(drop) = kwds.get_item("drop") {
+            if let Ok(drop) = drop.extract::<bool>() {
+                options.drop = drop
+            }
+        }
+    }
+    datapackage_convert_rs::datapackage_to_postgres_with_options(postgres_url.into(), datapackage, options)?; 
+    Ok(())
+}
+
+#[pyfunction(kwds="**")]
 fn datapackage_to_parquet(output_path: String, datapackage: String, kwds: Option<&PyDict>) -> eyre::Result<()> {
     let mut options = Options::builder().build();
 
@@ -81,6 +101,7 @@ fn datapackage_to_xlsx(xlsx_path: String, datapackage: String, kwds: Option<&PyD
 fn datapackage_convert(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(merge_datapackage, m)?)?;
     m.add_function(wrap_pyfunction!(datapackage_to_sqlite, m)?)?;
+    m.add_function(wrap_pyfunction!(datapackage_to_postgres, m)?)?;
     m.add_function(wrap_pyfunction!(datapackage_to_parquet, m)?)?;
     m.add_function(wrap_pyfunction!(datapackage_to_xlsx, m)?)?;
     Ok(())

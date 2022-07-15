@@ -67,3 +67,9 @@ class TestMerge(unittest.TestCase):
                                                 "1,game1_base,\n",
                                                 "2,game2_base,\n",
                                                 "2,,game1_add_field\n"])
+
+
+class TestPostgres(unittest.TestCase):
+    def test_large(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            datapackage_convert.datapackage_to_postgres(f'postgres://test@localhost/test', 'fixtures/large', drop=True, schema='test')
