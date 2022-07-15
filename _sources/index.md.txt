@@ -4,6 +4,7 @@ Conversions for tabular-data-packages:
 
 * [Merge mulitple datapackages into one](merge.md)
 * [To SQLite](sqlite.md)  
+* [To Postgres](postgres.md)  
 * [To Parquet](parquet.md)
 * [To XLSX](xlsx.md)
 
@@ -31,6 +32,7 @@ When refering to a datapackage you can either reference:
 :hidden:
 merge
 sqlite
+postgres
 parquet
 xlsx
 changelog

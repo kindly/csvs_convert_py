@@ -2,10 +2,12 @@
 <html class="no-js" lang="en">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="#" /><link rel="search" title="Search" href="search.html" />
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="To Parquet" href="parquet.html" /><link rel="prev" title="To Sqlite" href="sqlite.html" />
 
-    <meta name="generator" content="sphinx-5.0.2, furo 2022.04.07"/><title>Index - Datapackage Convert 0.4 documentation</title>
-<link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <meta name="generator" content="sphinx-5.0.2, furo 2022.04.07"/>
+        <title>To Postgres - Datapackage Convert 0.4 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=68f4518137b9aefe99b631505a2064c3c42c9852" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
     
@@ -132,7 +134,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -152,10 +154,10 @@
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <ul>
+  <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="merge.html">Merge</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sqlite.html">To Sqlite</a></li>
-<li class="toctree-l1"><a class="reference internal" href="postgres.html">To Postgres</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">To Postgres</a></li>
 <li class="toctree-l1"><a class="reference internal" href="parquet.html">To Parquet</a></li>
 <li class="toctree-l1"><a class="reference internal" href="xlsx.html">To XLSX</a></li>
 <li class="toctree-l1"><a class="reference internal" href="changelog.html">Change Log</a></li>
@@ -185,16 +187,53 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main">
-          
-<section class="genindex-section">
-  <h1 id="index">Index</h1>
-  <div class="genindex-jumpbox"></div>
+          <section id="to-postgres">
+<h1>To Postgres<a class="headerlink" href="#to-postgres" title="Permalink to this heading">#</a></h1>
+<p>Convert tabular-datapackage to postgres database.</p>
+<section id="usage-example">
+<h2>Usage Example<a class="headerlink" href="#usage-example" title="Permalink to this heading">#</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">datapackage_convert</span> <span class="kn">import</span> <span class="n">datapackage_to_postgres</span>
+
+<span class="n">datapackage_to_postgres</span><span class="p">(</span><span class="sa">f</span><span class="s1">'postgresql://user:postgres@localhost/db'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">,</span> <span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">schema</span><span class="o">=</span><span class="s1">'myschema'</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="options">
+<h2>Options<a class="headerlink" href="#options" title="Permalink to this heading">#</a></h2>
+<p>First argument is a database connection string using the <a class="reference external" href="https://docs.rs/postgres/latest/postgres/config/struct.Config.html#examples-1">format expressed here</a>.  Second argument is path to datapackage.
+If a table does not exist in the database they will be created.</p>
+<p>If the table already exists in the database, rows will be appended to the existing table. There will be errors if the field definitions of the datapackage do not match the field definitions in the database.</p>
+<section id="schema">
+<h3>schema<a class="headerlink" href="#schema" title="Permalink to this heading">#</a></h3>
+<p>This will put the tables in the datapackage into a postgres schema. If the schema does not exist it will be created.</p>
+<p>Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">datapackage_to_postgres</span><span class="p">(</span><span class="sa">f</span><span class="s1">'postgresql://user:postgres@localhost/db'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">,</span> <span class="n">schema</span><span class="o">=</span><span class="s1">'myschema'</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="drop">
+<h3>drop<a class="headerlink" href="#drop" title="Permalink to this heading">#</a></h3>
+<p>This will drop the tables in the database expressed in the datapackage before recreating them.  WARNING: data may be lost if you select this option.</p>
+<p>Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">datapackage_to_postgres</span><span class="p">(</span><span class="sa">f</span><span class="s1">'postgresql://user:postgres@localhost/db'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">,</span> <span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="delete-input-csv">
+<h3>delete_input_csv<a class="headerlink" href="#delete-input-csv" title="Permalink to this heading">#</a></h3>
+<p>This will delete the input csvs from the orginal datapackage.  This is useful if the files are large and you just want to keep the sqlite databasae and not the CSV files.</p>
+<p>Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">datapackage_to_postgres</span><span class="p">(</span><span class="sa">f</span><span class="s1">'postgresql://user:postgres@localhost/db'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">,</span> <span class="n">delete_input_csv</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
 </section>
 
         </article>
@@ -202,8 +241,26 @@
       <footer>
         
         <div class="related-pages">
-          
-          
+          <a class="next-page" href="parquet.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">To Parquet</div>
+              </div>
+              <svg><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="sqlite.html">
+              <svg><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">To Sqlite</div>
+                
+              </div>
+            </a>
         </div>
         <div class="bottom-of-page">
           <div class="left-details">
@@ -224,8 +281,33 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contents
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">To Postgres</a><ul>
+<li><a class="reference internal" href="#usage-example">Usage Example</a></li>
+<li><a class="reference internal" href="#options">Options</a><ul>
+<li><a class="reference internal" href="#schema">schema</a></li>
+<li><a class="reference internal" href="#drop">drop</a></li>
+<li><a class="reference internal" href="#delete-input-csv">delete_input_csv</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
