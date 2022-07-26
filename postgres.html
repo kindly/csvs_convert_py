@@ -5,7 +5,7 @@
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="To Parquet" href="parquet.html" /><link rel="prev" title="To Sqlite" href="sqlite.html" />
 
-    <meta name="generator" content="sphinx-5.0.2, furo 2022.04.07"/>
+    <meta name="generator" content="sphinx-5.1.1, furo 2022.04.07"/>
         <title>To Postgres - Datapackage Convert 0.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=68f4518137b9aefe99b631505a2064c3c42c9852" />
@@ -200,14 +200,26 @@
 <h2>Usage Example<a class="headerlink" href="#usage-example" title="Permalink to this heading">#</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">datapackage_convert</span> <span class="kn">import</span> <span class="n">datapackage_to_postgres</span>
 
-<span class="n">datapackage_to_postgres</span><span class="p">(</span><span class="sa">f</span><span class="s1">'postgresql://user:postgres@localhost/db'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">,</span> <span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">schema</span><span class="o">=</span><span class="s1">'myschema'</span><span class="p">)</span>
+<span class="n">datapackage_to_postgres</span><span class="p">(</span><span class="s1">'postgresql://user:postgres@localhost/db'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">,</span> <span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">schema</span><span class="o">=</span><span class="s1">'myschema'</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="usage-example-from-enviroment-variable">
+<h2>Usage Example From Enviroment Variable<a class="headerlink" href="#usage-example-from-enviroment-variable" title="Permalink to this heading">#</a></h2>
+<p>Uses environment variable DATABASE_URL.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">datapackage_to_postgres</span><span class="p">(</span><span class="s1">'env'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Uses environment variable MY_ENV_VAR.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">datapackage_to_postgres</span><span class="p">(</span><span class="s1">'env=MY_ENV_VAR'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 <section id="options">
 <h2>Options<a class="headerlink" href="#options" title="Permalink to this heading">#</a></h2>
-<p>First argument is a database connection string using the <a class="reference external" href="https://docs.rs/postgres/latest/postgres/config/struct.Config.html#examples-1">format expressed here</a>.  Second argument is path to datapackage.
-If a table does not exist in the database they will be created.</p>
+<p>First argument is a database connection string using the <a class="reference external" href="https://docs.rs/postgres/latest/postgres/config/struct.Config.html#examples-1">format expressed here</a>.  If you want the connection string to be got from an environment variable then use the string <code class="docutils literal notranslate"><span class="pre">env</span></code> (for default <code class="docutils literal notranslate"><span class="pre">DATABASE_URL</span></code> enviroment variable) or <code class="docutils literal notranslate"><span class="pre">env=MY_ENV_VAR</span></code> (for <code class="docutils literal notranslate"><span class="pre">MY_ENV_VAR</span></code> environment variable).</p>
+<p>Second argument is the path to datapackage.</p>
+<p>If a table does not exist in the database they will be created.</p>
 <p>If the table already exists in the database, rows will be appended to the existing table. There will be errors if the field definitions of the datapackage do not match the field definitions in the database.</p>
 <section id="schema">
 <h3>schema<a class="headerlink" href="#schema" title="Permalink to this heading">#</a></h3>
@@ -295,6 +307,7 @@ If a table does not exist in the database they will be created.</p>
             <ul>
 <li><a class="reference internal" href="#">To Postgres</a><ul>
 <li><a class="reference internal" href="#usage-example">Usage Example</a></li>
+<li><a class="reference internal" href="#usage-example-from-enviroment-variable">Usage Example From Enviroment Variable</a></li>
 <li><a class="reference internal" href="#options">Options</a><ul>
 <li><a class="reference internal" href="#schema">schema</a></li>
 <li><a class="reference internal" href="#drop">drop</a></li>
