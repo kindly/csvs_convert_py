@@ -8,6 +8,7 @@ Conversions from tabular-data-packages. Currently:
 * To SQLite  
 * To Parquet 
 * To XLSX
+* To Postgres
 
 All conversions aim to be memory efficiant and as fast they can be. This is the python library, providing bindings to the [rust library](https://github.com/kindly/datapackage_convert).
 
@@ -64,4 +65,14 @@ Will convert to XLSX files.
 from datapackage_convert import datapackage_to_xlsx
 
 datapackage_to_xlsx('output.xlsx', 'my_datapackage')
+```
+
+### To postgres
+
+Will insert data into postgres database. 
+
+```
+from datapackage_convert import datapackage_to_postgres
+
+datapackage_to_xlsx('postgres://name:pass@host/dbname', 'my_datapackage')
 ```

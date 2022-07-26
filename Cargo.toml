@@ -1,13 +1,13 @@
 [package]
 name = "datapackage_convert_py"
-version = "0.5.1"
+version = "0.5.2"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 #datapackage_convert = { path = "../datapackage_convert" }
-datapackage_convert = "0.5.1"
+datapackage_convert = "0.5.6"
 pyo3 = { version = "0.16.2", features = ["extension-module", "eyre"] }
 eyre = "*"
 
