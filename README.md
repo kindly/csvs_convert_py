@@ -14,7 +14,7 @@ pip install csvs_convert
 
 ## Aims
 
-* Thorough type guessing of CSV columns, so there is no need to configure types of each field. Scans whole file first to make sure all types in column are consistent. Can detect over 30 date/time formats as well as JSON data.
+* Thorough type guessing of CSV columns, so there is no need to configure types of each field. Scans whole file first to make sure all types in a column are consistent. Can detect over 30 date/time formats as well as JSON data.
 * Quick conversions/type guessing (uses rust underneath). Uses fast methods specific for each output format:
     * `copy` for postgres
     * Prepared statements for sqlite using c API.
@@ -28,7 +28,7 @@ pip install csvs_convert
 ## Drawbacks
 
 * CSV files currently need header rows.
-* Whole file needs to be on disk as whole CSV is analyzed therefore file read twice.
+* Whole file needs to be on disk as whole CSV is analyzed therefore files are read twice.
 
 ## Conversion Docs
 
