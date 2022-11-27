@@ -1,11 +1,11 @@
 <!doctype html>
-<html class="no-js">
+<html class="no-js" lang="en">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="To Sqlite" href="sqlite.html" />
 
-    <meta name="generator" content="sphinx-4.5.0, furo 2022.04.07"/>
+    <meta name="generator" content="sphinx-5.3.0, furo 2022.04.07"/>
         <title>CSVs Convert 0.7 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=68f4518137b9aefe99b631505a2064c3c42c9852" />
@@ -196,10 +196,10 @@
         </div>
         <article role="main">
           <section id="csvs-convert">
-<h1>CSVS Convert<a class="headerlink" href="#csvs-convert" title="Permalink to this headline">#</a></h1>
+<h1>CSVS Convert<a class="headerlink" href="#csvs-convert" title="Permalink to this heading">#</a></h1>
 <p>Converts CSV files into XLSX/SQLITE/POSTGRESQL/PARQUET fast.</p>
 <section id="aims">
-<h2>Aims<a class="headerlink" href="#aims" title="Permalink to this headline">#</a></h2>
+<h2>Aims<a class="headerlink" href="#aims" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Thorough type guessing of CSV columns, so there is no need to configure types of each column. Scans whole file first to make sure all types in a column are consistent.</p></li>
 <li><p>Quick conversions (uses rust underneath). Uses fast methods for each output format.</p></li>
@@ -210,14 +210,14 @@
 </ul>
 </section>
 <section id="drawbacks">
-<h2>Drawbacks<a class="headerlink" href="#drawbacks" title="Permalink to this headline">#</a></h2>
+<h2>Drawbacks<a class="headerlink" href="#drawbacks" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p>CSV files currently need header rows.</p></li>
 <li><p>Whole file needs to be on disk as whole CSV is analyzed.</p></li>
 </ul>
 </section>
 <section id="conversion-docs">
-<h2>Conversion Docs<a class="headerlink" href="#conversion-docs" title="Permalink to this headline">#</a></h2>
+<h2>Conversion Docs<a class="headerlink" href="#conversion-docs" title="Permalink to this heading">#</a></h2>
 <p>Conversions for CSV files:</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="sqlite.html"><span class="doc std std-doc">To SQLite</span></a></p></li>
@@ -231,13 +231,13 @@
 <p><a class="reference external" href="https://github.com/kindly/csvs_convert_py"><strong>Contribute on github</strong></a></p>
 </section>
 <section id="install">
-<h2>Install<a class="headerlink" href="#install" title="Permalink to this headline">#</a></h2>
+<h2>Install<a class="headerlink" href="#install" title="Permalink to this heading">#</a></h2>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install csvs_convert
 </pre></div>
 </div>
 </section>
 <section id="usage-from-csv-files">
-<h2>Usage From CSV files.<a class="headerlink" href="#usage-from-csv-files" title="Permalink to this headline">#</a></h2>
+<h2>Usage From CSV files.<a class="headerlink" href="#usage-from-csv-files" title="Permalink to this heading">#</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">csvs_convert</span>
 
 <span class="c1">#sqlite</span>
@@ -252,7 +252,7 @@
 </div>
 </section>
 <section id="usage-from-datapackage">
-<h2>Usage from datapackage<a class="headerlink" href="#usage-from-datapackage" title="Permalink to this headline">#</a></h2>
+<h2>Usage from datapackage<a class="headerlink" href="#usage-from-datapackage" title="Permalink to this heading">#</a></h2>
 <p>A datapackage is a file that contains metadata about the tables its specification is described <a class="reference external" href="https://datahub.io/docs/data-packages/tabular">here</a>.</p>
 <p>To generate <code class="docutils literal notranslate"><span class="pre">datapackage.json</span></code> file you can use:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">csvs_convert</span><span class="o">.</span><span class="n">csvs_to_datapackage</span><span class="p">(</span><span class="s1">'path/to/datapackage.json'</span><span class="p">,</span> <span class="p">[</span><span class="s2">"fixtures/large/csv/data.csv"</span><span class="p">])</span>
@@ -267,7 +267,7 @@
 <li><p>A zip file containing a <code class="docutils literal notranslate"><span class="pre">datapackage.json</span></code> file. e.g. <code class="docutils literal notranslate"><span class="pre">my_datapackage.zip</span></code></p></li>
 </ul>
 <section id="examples">
-<h3>Examples:<a class="headerlink" href="#examples" title="Permalink to this headline">#</a></h3>
+<h3>Examples:<a class="headerlink" href="#examples" title="Permalink to this heading">#</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">csvs_convert</span>
 
 <span class="c1">#sqlite</span>
@@ -357,7 +357,9 @@
 </div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/scripts/furo.js"></script>
     </body>
 </html>

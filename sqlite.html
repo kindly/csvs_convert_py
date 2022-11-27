@@ -1,11 +1,11 @@
 <!doctype html>
-<html class="no-js">
+<html class="no-js" lang="en">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="To Postgres" href="postgres.html" /><link rel="prev" title="CSVS Convert" href="index.html" />
 
-    <meta name="generator" content="sphinx-4.5.0, furo 2022.04.07"/>
+    <meta name="generator" content="sphinx-5.3.0, furo 2022.04.07"/>
         <title>To Sqlite - CSVs Convert 0.7 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=68f4518137b9aefe99b631505a2064c3c42c9852" />
@@ -196,10 +196,10 @@
         </div>
         <article role="main">
           <section id="to-sqlite">
-<h1>To Sqlite<a class="headerlink" href="#to-sqlite" title="Permalink to this headline">#</a></h1>
+<h1>To Sqlite<a class="headerlink" href="#to-sqlite" title="Permalink to this heading">#</a></h1>
 <p>Convert csvs to sqlite.</p>
 <section id="from-csv-files-usage-example">
-<h2>From CSV files usage example<a class="headerlink" href="#from-csv-files-usage-example" title="Permalink to this headline">#</a></h2>
+<h2>From CSV files usage example<a class="headerlink" href="#from-csv-files-usage-example" title="Permalink to this heading">#</a></h2>
 <p>First argument is name of database file.  If database already exists new tables will created with in it.  Second is path to datapackage.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">csvs_convert</span> <span class="kn">import</span> <span class="n">csvs_to_sqlite</span>
 
@@ -208,7 +208,7 @@
 </div>
 </section>
 <section id="from-datapackage-usage-example">
-<h2>From datapackage usage example<a class="headerlink" href="#from-datapackage-usage-example" title="Permalink to this headline">#</a></h2>
+<h2>From datapackage usage example<a class="headerlink" href="#from-datapackage-usage-example" title="Permalink to this heading">#</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">csvs_convert</span> <span class="kn">import</span> <span class="n">datapackage_to_sqlite</span>
 
 <span class="n">datapackage_to_sqlite</span><span class="p">(</span><span class="s1">'output.db'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">)</span>
@@ -216,7 +216,7 @@
 </div>
 </section>
 <section id="evolve">
-<h2>Evolve<a class="headerlink" href="#evolve" title="Permalink to this headline">#</a></h2>
+<h2>Evolve<a class="headerlink" href="#evolve" title="Permalink to this heading">#</a></h2>
 <p>See <a class="reference internal" href="evolve.html"><span class="doc std std-doc">Evolve</span></a></p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">csvs_to_sqlite</span><span class="p">(</span><span class="s1">'sqlite.db'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'/path/to/file.csv'</span><span class="p">],</span> <span class="n">evolve</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
@@ -299,7 +299,9 @@
 </div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/scripts/furo.js"></script>
     </body>
 </html>

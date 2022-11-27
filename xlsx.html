@@ -1,11 +1,11 @@
 <!doctype html>
-<html class="no-js">
+<html class="no-js" lang="en">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Options" href="options.html" /><link rel="prev" title="To Parquet" href="parquet.html" />
 
-    <meta name="generator" content="sphinx-4.5.0, furo 2022.04.07"/>
+    <meta name="generator" content="sphinx-5.3.0, furo 2022.04.07"/>
         <title>To XLSX - CSVs Convert 0.7 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=68f4518137b9aefe99b631505a2064c3c42c9852" />
@@ -196,10 +196,10 @@
         </div>
         <article role="main">
           <section id="to-xlsx">
-<h1>To XLSX<a class="headerlink" href="#to-xlsx" title="Permalink to this headline">#</a></h1>
+<h1>To XLSX<a class="headerlink" href="#to-xlsx" title="Permalink to this heading">#</a></h1>
 <p>Convert tabular-datapackage to XLSX file.</p>
 <section id="usage-example">
-<h2>Usage Example<a class="headerlink" href="#usage-example" title="Permalink to this headline">#</a></h2>
+<h2>Usage Example<a class="headerlink" href="#usage-example" title="Permalink to this heading">#</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">datapackage_convert</span> <span class="kn">import</span> <span class="n">datapackage_to_xlsx</span>
 
 <span class="n">datapackage_to_xlsx</span><span class="p">(</span><span class="s1">'output.xlsx'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'path/to/datapackage'</span><span class="p">])</span>
@@ -207,7 +207,7 @@
 </div>
 </section>
 <section id="usage-example-from-datapackage">
-<h2>Usage Example From Datapackage<a class="headerlink" href="#usage-example-from-datapackage" title="Permalink to this headline">#</a></h2>
+<h2>Usage Example From Datapackage<a class="headerlink" href="#usage-example-from-datapackage" title="Permalink to this heading">#</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">datapackage_convert</span> <span class="kn">import</span> <span class="n">datapackage_to_xlsx</span>
 
 <span class="n">datapackage_to_xlsx</span><span class="p">(</span><span class="s1">'output.xlsx'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">)</span>
@@ -215,7 +215,7 @@
 </div>
 </section>
 <section id="notes-and-caveats">
-<h2>Notes and Caveats<a class="headerlink" href="#notes-and-caveats" title="Permalink to this headline">#</a></h2>
+<h2>Notes and Caveats<a class="headerlink" href="#notes-and-caveats" title="Permalink to this heading">#</a></h2>
 <p>Sheet names can not be longer than 31 characters in XLSX files.  The tool will truncate them if this is the case.  Updating the datapackage resource <code class="docutils literal notranslate"><span class="pre">title</span></code> fields and using the <code class="docutils literal notranslate"><span class="pre">use_titles</span></code> option can be used to customize sheet names.</p>
 </section>
 </section>
@@ -295,7 +295,9 @@
 </div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/scripts/furo.js"></script>
     </body>
 </html>

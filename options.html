@@ -1,11 +1,11 @@
 <!doctype html>
-<html class="no-js">
+<html class="no-js" lang="en">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Evolve" href="evolve.html" /><link rel="prev" title="To XLSX" href="xlsx.html" />
 
-    <meta name="generator" content="sphinx-4.5.0, furo 2022.04.07"/>
+    <meta name="generator" content="sphinx-5.3.0, furo 2022.04.07"/>
         <title>Options - CSVs Convert 0.7 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=68f4518137b9aefe99b631505a2064c3c42c9852" />
@@ -196,9 +196,9 @@
         </div>
         <article role="main">
           <section id="options">
-<h1>Options<a class="headerlink" href="#options" title="Permalink to this headline">#</a></h1>
+<h1>Options<a class="headerlink" href="#options" title="Permalink to this heading">#</a></h1>
 <section id="delimiter">
-<h2>Delimiter<a class="headerlink" href="#delimiter" title="Permalink to this headline">#</a></h2>
+<h2>Delimiter<a class="headerlink" href="#delimiter" title="Permalink to this heading">#</a></h2>
 <p><code class="docutils literal notranslate"><span class="pre">delimiter</span></code> will set the delimiter for all tables. If not given it will be detected and if not will default to <code class="docutils literal notranslate"><span class="pre">','</span></code>.
 Will use value in <code class="docutils literal notranslate"><span class="pre">datapackage.json</span></code> instead if exists. Can only be a single character.</p>
 <p>Example:</p>
@@ -208,7 +208,7 @@ Will use value in <code class="docutils literal notranslate"><span class="pre">d
 </div>
 </section>
 <section id="quote">
-<h2>Quote<a class="headerlink" href="#quote" title="Permalink to this headline">#</a></h2>
+<h2>Quote<a class="headerlink" href="#quote" title="Permalink to this heading">#</a></h2>
 <p><code class="docutils literal notranslate"><span class="pre">quote</span></code> will set the quote character for all tables. By default will try and be detected and if not will default to <code class="docutils literal notranslate"><span class="pre">'"'</span></code>.
 Will use value in <code class="docutils literal notranslate"><span class="pre">datapackage.json</span></code> instead if exists. Can only be a single character. Not for parquet conversion.</p>
 <p>Example:</p>
@@ -218,7 +218,7 @@ Will use value in <code class="docutils literal notranslate"><span class="pre">d
 </div>
 </section>
 <section id="delete-input-csv">
-<h2>Delete Input CSV<a class="headerlink" href="#delete-input-csv" title="Permalink to this headline">#</a></h2>
+<h2>Delete Input CSV<a class="headerlink" href="#delete-input-csv" title="Permalink to this heading">#</a></h2>
 <p><code class="docutils literal notranslate"><span class="pre">delete_input_csv</span></code> deletes input CSVS after converting them.</p>
 <p>Example:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">csvs_convert</span> <span class="kn">import</span> <span class="n">csvs_to_sqlite</span>
@@ -227,7 +227,7 @@ Will use value in <code class="docutils literal notranslate"><span class="pre">d
 </div>
 </section>
 <section id="drop">
-<h2>Drop<a class="headerlink" href="#drop" title="Permalink to this headline">#</a></h2>
+<h2>Drop<a class="headerlink" href="#drop" title="Permalink to this heading">#</a></h2>
 <p><code class="docutils literal notranslate"><span class="pre">drop</span></code> when inserting into a database, if a table with that name exists, drop the table before loading the new data. SQLITE and POSTGRES only.</p>
 <p>Example:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">csvs_convert</span> <span class="kn">import</span> <span class="n">csvs_to_sqlite</span>
@@ -236,7 +236,7 @@ Will use value in <code class="docutils literal notranslate"><span class="pre">d
 </div>
 </section>
 <section id="evolve">
-<h2>Evolve<a class="headerlink" href="#evolve" title="Permalink to this headline">#</a></h2>
+<h2>Evolve<a class="headerlink" href="#evolve" title="Permalink to this heading">#</a></h2>
 <p>See <a class="reference internal" href="evolve.html"><span class="doc std std-doc">Evolve</span></a></p>
 </section>
 </section>
@@ -318,7 +318,9 @@ Will use value in <code class="docutils literal notranslate"><span class="pre">d
 </div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/scripts/furo.js"></script>
     </body>
 </html>
