@@ -74,7 +74,7 @@ As you can see the `games.csv` files have been merged and the fields from both e
 
 ### delete_input_csv
 
-This will delete the input csvs from the orginal datapackages once merged.  This is useful if the files are large and you just want to keep the merged datapackages.
+This will delete the input csvs from the original datapackages once merged.  This is useful if the files are large and you just want to keep the merged datapackages.
 
 Example
 
@@ -86,4 +86,4 @@ merge_datapackage(f'/tmp/output', ['base_datapackage', 'add_field_and_file'], de
 
 A new `datapackage.json` is created after merging.  
 
-If the two or more files are merged and thier fields match but the fields are of different types then the new `datapackage.json` will just fall back to saying the field is a `string`.
+If the two or more files are merged and their fields match but the fields are of different types then the new `datapackage.json` will just fall back to saying the field is a `string`.

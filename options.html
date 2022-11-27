@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="To XLSX" href="xlsx.html" /><link rel="prev" title="To Postgres" href="postgres.html" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Evolve" href="evolve.html" /><link rel="prev" title="To XLSX" href="xlsx.html" />
 
     <meta name="generator" content="sphinx-5.3.0, furo 2022.04.07"/>
-        <title>To Parquet - Datapackage Convert 0.4 documentation</title>
+        <title>Options - Datapackage Convert 0.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=68f4518137b9aefe99b631505a2064c3c42c9852" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
@@ -158,9 +158,9 @@
 <li class="toctree-l1"><a class="reference internal" href="merge.html">Merge</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sqlite.html">To Sqlite</a></li>
 <li class="toctree-l1"><a class="reference internal" href="postgres.html">To Postgres</a></li>
-<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">To Parquet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parquet.html">To Parquet</a></li>
 <li class="toctree-l1"><a class="reference internal" href="xlsx.html">To XLSX</a></li>
-<li class="toctree-l1"><a class="reference internal" href="options.html">Options</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Options</a></li>
 <li class="toctree-l1"><a class="reference internal" href="evolve.html">Evolve</a></li>
 <li class="toctree-l1"><a class="reference internal" href="changelog.html">Change Log</a></li>
 </ul>
@@ -195,24 +195,49 @@
           </label>
         </div>
         <article role="main">
-          <section id="to-parquet">
-<h1>To Parquet<a class="headerlink" href="#to-parquet" title="Permalink to this heading">#</a></h1>
-<p>Convert csvs to parquet files.</p>
-<section id="usage-example">
-<h2>Usage Example<a class="headerlink" href="#usage-example" title="Permalink to this heading">#</a></h2>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">csvs_convert</span> <span class="kn">import</span> <span class="n">csvs_to_parquet</span>
-
-<span class="n">csvs_to_parquet</span><span class="p">(</span><span class="s1">'/path/to/output_dir'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'/path/to/data.csv])</span>
+          <section id="options">
+<h1>Options<a class="headerlink" href="#options" title="Permalink to this heading">#</a></h1>
+<section id="delimiter">
+<h2>Delimiter<a class="headerlink" href="#delimiter" title="Permalink to this heading">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">delimiter</span></code> will set the delimiter for all tables. If not given it will be detected and if not will default to <code class="docutils literal notranslate"><span class="pre">','</span></code>.
+Will use value in <code class="docutils literal notranslate"><span class="pre">datapackage.json</span></code> instead if exists. Can only be a single character.</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">csvs_convert</span> <span class="kn">import</span> <span class="n">csvs_to_sqlite</span>
+<span class="n">csvs_to_sqlite</span><span class="p">(</span><span class="s1">'output.db'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'data.csv'</span><span class="p">,</span> <span class="s1">'data2.csv'</span><span class="p">],</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">","</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
-<section id="usage-example-from-datapackage">
-<h2>Usage Example From Datapackage<a class="headerlink" href="#usage-example-from-datapackage" title="Permalink to this heading">#</a></h2>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">csvs_convert</span> <span class="kn">import</span> <span class="n">datapackage_to_parquet</span>
-
-<span class="n">datapackage_to_parquet</span><span class="p">(</span><span class="s1">'/path/to/output_dir'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">)</span>
+<section id="quote">
+<h2>Quote<a class="headerlink" href="#quote" title="Permalink to this heading">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">quote</span></code> will set the quote character for all tables. By default will try and be detected and if not will default to <code class="docutils literal notranslate"><span class="pre">'"'</span></code>.
+Will use value in <code class="docutils literal notranslate"><span class="pre">datapackage.json</span></code> instead if exists. Can only be a single character. Not for parquet conversion.</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">csvs_convert</span> <span class="kn">import</span> <span class="n">csvs_to_sqlite</span>
+<span class="n">csvs_to_sqlite</span><span class="p">(</span><span class="sa">f</span><span class="s1">'output.db'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'data.csv'</span><span class="p">,</span> <span class="s1">'data2.csv'</span><span class="p">],</span> <span class="n">quote</span><span class="o">=</span><span class="s1">'"'</span><span class="p">)</span>
 </pre></div>
 </div>
+</section>
+<section id="delete-input-csv">
+<h2>Delete Input CSV<a class="headerlink" href="#delete-input-csv" title="Permalink to this heading">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">delete_input_csv</span></code> deletes input CSVS after converting them.</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">csvs_convert</span> <span class="kn">import</span> <span class="n">csvs_to_sqlite</span>
+<span class="n">csvs_to_sqlite</span><span class="p">(</span><span class="sa">f</span><span class="s1">'output.db'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'data.csv'</span><span class="p">,</span> <span class="s1">'data2.csv'</span><span class="p">],</span> <span class="n">delete_input_csv</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="drop">
+<h2>Drop<a class="headerlink" href="#drop" title="Permalink to this heading">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">drop</span></code> when inserting into a database, if a table with that name exists, drop the table before loading the new data. SQLITE and POSTGRES only.</p>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">csvs_convert</span> <span class="kn">import</span> <span class="n">csvs_to_sqlite</span>
+<span class="n">csvs_to_sqlite</span><span class="p">(</span><span class="sa">f</span><span class="s1">'output.db'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'data.csv'</span><span class="p">,</span> <span class="s1">'data2.csv'</span><span class="p">],</span> <span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="evolve">
+<h2>Evolve<a class="headerlink" href="#evolve" title="Permalink to this heading">#</a></h2>
+<p>See <a class="reference internal" href="evolve.html"><span class="doc std std-doc">Evolve</span></a></p>
 </section>
 </section>
 
@@ -221,23 +246,23 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="xlsx.html">
+          <a class="next-page" href="evolve.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">To XLSX</div>
+                <div class="title">Evolve</div>
               </div>
               <svg><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="postgres.html">
+          <a class="prev-page" href="xlsx.html">
               <svg><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">To Postgres</div>
+                <div class="title">To XLSX</div>
                 
               </div>
             </a>
@@ -273,9 +298,12 @@
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">To Parquet</a><ul>
-<li><a class="reference internal" href="#usage-example">Usage Example</a></li>
-<li><a class="reference internal" href="#usage-example-from-datapackage">Usage Example From Datapackage</a></li>
+<li><a class="reference internal" href="#">Options</a><ul>
+<li><a class="reference internal" href="#delimiter">Delimiter</a></li>
+<li><a class="reference internal" href="#quote">Quote</a></li>
+<li><a class="reference internal" href="#delete-input-csv">Delete Input CSV</a></li>
+<li><a class="reference internal" href="#drop">Drop</a></li>
+<li><a class="reference internal" href="#evolve">Evolve</a></li>
 </ul>
 </li>
 </ul>

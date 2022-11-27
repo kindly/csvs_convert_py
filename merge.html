@@ -2,10 +2,10 @@
 <html class="no-js" lang="en">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="To Sqlite" href="sqlite.html" /><link rel="prev" title="Datapackage Convert" href="index.html" />
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="To Sqlite" href="sqlite.html" /><link rel="prev" title="CSVS Convert" href="index.html" />
 
-    <meta name="generator" content="sphinx-5.1.1, furo 2022.04.07"/>
+    <meta name="generator" content="sphinx-5.3.0, furo 2022.04.07"/>
         <title>Merge - Datapackage Convert 0.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=68f4518137b9aefe99b631505a2064c3c42c9852" />
@@ -160,6 +160,8 @@
 <li class="toctree-l1"><a class="reference internal" href="postgres.html">To Postgres</a></li>
 <li class="toctree-l1"><a class="reference internal" href="parquet.html">To Parquet</a></li>
 <li class="toctree-l1"><a class="reference internal" href="xlsx.html">To XLSX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="options.html">Options</a></li>
+<li class="toctree-l1"><a class="reference internal" href="evolve.html">Evolve</a></li>
 <li class="toctree-l1"><a class="reference internal" href="changelog.html">Change Log</a></li>
 </ul>
 
@@ -294,7 +296,7 @@
 <h2>Options<a class="headerlink" href="#options" title="Permalink to this heading">#</a></h2>
 <section id="delete-input-csv">
 <h3>delete_input_csv<a class="headerlink" href="#delete-input-csv" title="Permalink to this heading">#</a></h3>
-<p>This will delete the input csvs from the orginal datapackages once merged.  This is useful if the files are large and you just want to keep the merged datapackages.</p>
+<p>This will delete the input csvs from the original datapackages once merged.  This is useful if the files are large and you just want to keep the merged datapackages.</p>
 <p>Example</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">merge_datapackage</span><span class="p">(</span><span class="sa">f</span><span class="s1">'/tmp/output'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'base_datapackage'</span><span class="p">,</span> <span class="s1">'add_field_and_file'</span><span class="p">],</span> <span class="n">delete_input_csv</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
@@ -304,7 +306,7 @@
 <section id="notes-and-caveats">
 <h2>Notes and Caveats<a class="headerlink" href="#notes-and-caveats" title="Permalink to this heading">#</a></h2>
 <p>A new <code class="docutils literal notranslate"><span class="pre">datapackage.json</span></code> is created after merging.</p>
-<p>If the two or more files are merged and thier fields match but the fields are of different types then the new <code class="docutils literal notranslate"><span class="pre">datapackage.json</span></code> will just fall back to saying the field is a <code class="docutils literal notranslate"><span class="pre">string</span></code>.</p>
+<p>If the two or more files are merged and their fields match but the fields are of different types then the new <code class="docutils literal notranslate"><span class="pre">datapackage.json</span></code> will just fall back to saying the field is a <code class="docutils literal notranslate"><span class="pre">string</span></code>.</p>
 </section>
 </section>
 
@@ -393,6 +395,7 @@
     <script src="_static/underscore.js"></script>
     <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/scripts/furo.js"></script>
     </body>
 </html>

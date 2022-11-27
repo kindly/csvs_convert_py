@@ -2,10 +2,10 @@
 <html class="no-js" lang="en">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="To Postgres" href="postgres.html" /><link rel="prev" title="Merge" href="merge.html" />
 
-    <meta name="generator" content="sphinx-5.1.1, furo 2022.04.07"/>
+    <meta name="generator" content="sphinx-5.3.0, furo 2022.04.07"/>
         <title>To Sqlite - Datapackage Convert 0.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=68f4518137b9aefe99b631505a2064c3c42c9852" />
@@ -160,6 +160,8 @@
 <li class="toctree-l1"><a class="reference internal" href="postgres.html">To Postgres</a></li>
 <li class="toctree-l1"><a class="reference internal" href="parquet.html">To Parquet</a></li>
 <li class="toctree-l1"><a class="reference internal" href="xlsx.html">To XLSX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="options.html">Options</a></li>
+<li class="toctree-l1"><a class="reference internal" href="evolve.html">Evolve</a></li>
 <li class="toctree-l1"><a class="reference internal" href="changelog.html">Change Log</a></li>
 </ul>
 
@@ -195,26 +197,30 @@
         <article role="main">
           <section id="to-sqlite">
 <h1>To Sqlite<a class="headerlink" href="#to-sqlite" title="Permalink to this heading">#</a></h1>
-<p>Convert tabular-datapackage to sqlite.</p>
-<section id="usage-example">
-<h2>Usage Example<a class="headerlink" href="#usage-example" title="Permalink to this heading">#</a></h2>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">datapackage_convert</span> <span class="kn">import</span> <span class="n">datapackage_to_sqlite</span>
-
-<span class="n">datapackage_to_sqlite</span><span class="p">(</span><span class="sa">f</span><span class="s1">'output.db'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">)</span>
-</pre></div>
-</div>
-</section>
-<section id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this heading">#</a></h2>
+<p>Convert csvs to sqlite.</p>
+<section id="from-csv-files-usage-example">
+<h2>From CSV files usage example<a class="headerlink" href="#from-csv-files-usage-example" title="Permalink to this heading">#</a></h2>
 <p>First argument is name of database file.  If database already exists new tables will created with in it.  Second is path to datapackage.</p>
-<section id="delete-input-csv">
-<h3>delete_input_csv<a class="headerlink" href="#delete-input-csv" title="Permalink to this heading">#</a></h3>
-<p>This will delete the input csvs from the orginal datapackage.  This is useful if the files are large and you just want to keep the sqlite databasae and not the CSV files.</p>
-<p>Example</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">datapackage_to_sqlite</span><span class="p">(</span><span class="sa">f</span><span class="s1">'output.db'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">,</span> <span class="n">delete_input_csv</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">csvs_convert</span> <span class="kn">import</span> <span class="n">csvs_to_sqlite</span>
+
+<span class="n">csvs_to_sqlite</span><span class="p">(</span><span class="sa">f</span><span class="s1">'output.db'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'data.csv'</span><span class="p">,</span> <span class="s1">'data2.csv'</span><span class="p">])</span>
 </pre></div>
 </div>
 </section>
+<section id="from-datapackage-usage-example">
+<h2>From datapackage usage example<a class="headerlink" href="#from-datapackage-usage-example" title="Permalink to this heading">#</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">csvs_convert</span> <span class="kn">import</span> <span class="n">datapackage_to_sqlite</span>
+
+<span class="n">datapackage_to_sqlite</span><span class="p">(</span><span class="s1">'output.db'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="evolve">
+<h2>Evolve<a class="headerlink" href="#evolve" title="Permalink to this heading">#</a></h2>
+<p>See <a class="reference internal" href="evolve.html"><span class="doc std std-doc">Evolve</span></a></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">csvs_to_sqlite</span><span class="p">(</span><span class="s1">'sqlite.db'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'/path/to/file.csv'</span><span class="p">],</span> <span class="n">evolve</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
 </section>
 </section>
 
@@ -276,11 +282,9 @@
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">To Sqlite</a><ul>
-<li><a class="reference internal" href="#usage-example">Usage Example</a></li>
-<li><a class="reference internal" href="#options">Options</a><ul>
-<li><a class="reference internal" href="#delete-input-csv">delete_input_csv</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#from-csv-files-usage-example">From CSV files usage example</a></li>
+<li><a class="reference internal" href="#from-datapackage-usage-example">From datapackage usage example</a></li>
+<li><a class="reference internal" href="#evolve">Evolve</a></li>
 </ul>
 </li>
 </ul>
@@ -297,6 +301,7 @@
     <script src="_static/underscore.js"></script>
     <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/scripts/furo.js"></script>
     </body>
 </html>
