@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Datapackage Convert'
+project = 'CSVs Convert'
 copyright = '2021-2022, David Raznick'
 author = 'David Raznick'
 
