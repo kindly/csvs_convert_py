@@ -40,68 +40,25 @@ jobs:
           name: wheels
           path: dist
 
-  windows-x64:
+  windows:
     runs-on: windows-latest
-    if: "startsWith(github.ref, 'refs/tags/')"
-    env:
-      LIBCLANG_PATH: 'C:\Program Files\LLVM\bin'
+    strategy:
+      matrix:
+        target: [x64, x86]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
           python-version: 3.9
-          architecture: x64
-      - name: Install Rust toolchain
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
-          profile: minimal
-          default: true
-      - name: Set up Clang
-        uses: egor-tensin/setup-clang@v1
-        with:
-          version: latest
-          platform: x64
+          architecture: ${{ matrix.target }}
+      - uses: dtolnay/rust-toolchain@stable
       - name: Build wheels
-        uses: messense/maturin-action@v1
+        uses: PyO3/maturin-action@v1
         with:
           target: ${{ matrix.target }}
-          args: --release --out dist 
+          args: --release --out dist
       - name: Upload wheels
-        uses: actions/upload-artifact@v2
-        with:
-          name: wheels
-          path: dist
-
-  windows-x86:
-    runs-on: windows-latest
-    if: "startsWith(github.ref, 'refs/tags/')"
-    env:
-      LIBCLANG_PATH: 'C:\Program Files\LLVM\bin'
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: 3.9
-          architecture: x86
-      - name: Install Rust toolchain
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
-          profile: minimal
-          default: true
-      - name: Set up Clang
-        uses: egor-tensin/setup-clang@v1
-        with:
-          version: latest
-          platform: any
-      - name: Build wheels
-        uses: messense/maturin-action@v1
-        with:
-          target: ${{ matrix.target }}
-          args: --release --out dist 
-      - name: Upload wheels
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: wheels
           path: dist
