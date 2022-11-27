@@ -99,7 +99,7 @@ jobs:
         uses: messense/maturin-action@v1
         with:
           target: ${{ matrix.target }}
-          args: --release --out dist --no-sdist 
+          args: --release --out dist 
       - name: Upload wheels
         uses: actions/upload-artifact@v2
         with:
