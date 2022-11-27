@@ -1,11 +1,11 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Change Log" href="changelog.html" /><link rel="prev" title="Evolve" href="evolve.html" />
 
-    <meta name="generator" content="sphinx-5.3.0, furo 2022.04.07"/>
+    <meta name="generator" content="sphinx-4.5.0, furo 2022.04.07"/>
         <title>Merge - CSVs Convert 0.7 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=68f4518137b9aefe99b631505a2064c3c42c9852" />
@@ -196,10 +196,10 @@
         </div>
         <article role="main">
           <section id="merge">
-<h1>Merge<a class="headerlink" href="#merge" title="Permalink to this heading">#</a></h1>
+<h1>Merge<a class="headerlink" href="#merge" title="Permalink to this headline">#</a></h1>
 <p>Merge two or more tabular datapackages.  If the paths within the datapackage match append the CSV files together, including fields from the matching CSV files.</p>
 <section id="usage-example">
-<h2>Usage Example<a class="headerlink" href="#usage-example" title="Permalink to this heading">#</a></h2>
+<h2>Usage Example<a class="headerlink" href="#usage-example" title="Permalink to this headline">#</a></h2>
 <p>This is a simple example of merging two datapackages where the second file adds a field and a new file.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">datapackage_convert</span> <span class="kn">import</span> <span class="n">merge_datapackage</span>
 
@@ -207,7 +207,7 @@
 </pre></div>
 </div>
 <section id="base-datapackage">
-<h3>base_datapackage<a class="headerlink" href="#base-datapackage" title="Permalink to this heading">#</a></h3>
+<h3>base_datapackage<a class="headerlink" href="#base-datapackage" title="Permalink to this headline">#</a></h3>
 <p>The base_datapackage directory in the above example looks like:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── base_datapackage
 │   ├── csv
@@ -233,7 +233,7 @@
 </table></div>
 </section>
 <section id="add-field-and-file-datapackage">
-<h3>add_field_and_file datapackage<a class="headerlink" href="#add-field-and-file-datapackage" title="Permalink to this heading">#</a></h3>
+<h3>add_field_and_file datapackage<a class="headerlink" href="#add-field-and-file-datapackage" title="Permalink to this headline">#</a></h3>
 <p>We are merging to following datapackage</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── add_field
 │   ├── csv
@@ -257,7 +257,7 @@
 </table></div>
 </section>
 <section id="result-datapackage">
-<h3>result datapackage<a class="headerlink" href="#result-datapackage" title="Permalink to this heading">#</a></h3>
+<h3>result datapackage<a class="headerlink" href="#result-datapackage" title="Permalink to this headline">#</a></h3>
 <p>After merging the output folder looks like:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── add_field
 │   ├── csv
@@ -293,9 +293,9 @@
 </section>
 </section>
 <section id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this heading">#</a></h2>
+<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">#</a></h2>
 <section id="delete-input-csv">
-<h3>delete_input_csv<a class="headerlink" href="#delete-input-csv" title="Permalink to this heading">#</a></h3>
+<h3>delete_input_csv<a class="headerlink" href="#delete-input-csv" title="Permalink to this headline">#</a></h3>
 <p>This will delete the input csvs from the original datapackages once merged.  This is useful if the files are large and you just want to keep the merged datapackages.</p>
 <p>Example</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">merge_datapackage</span><span class="p">(</span><span class="sa">f</span><span class="s1">'/tmp/output'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'base_datapackage'</span><span class="p">,</span> <span class="s1">'add_field_and_file'</span><span class="p">],</span> <span class="n">delete_input_csv</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -304,7 +304,7 @@
 </section>
 </section>
 <section id="notes-and-caveats">
-<h2>Notes and Caveats<a class="headerlink" href="#notes-and-caveats" title="Permalink to this heading">#</a></h2>
+<h2>Notes and Caveats<a class="headerlink" href="#notes-and-caveats" title="Permalink to this headline">#</a></h2>
 <p>A new <code class="docutils literal notranslate"><span class="pre">datapackage.json</span></code> is created after merging.</p>
 <p>If the two or more files are merged and their fields match but the fields are of different types then the new <code class="docutils literal notranslate"><span class="pre">datapackage.json</span></code> will just fall back to saying the field is a <code class="docutils literal notranslate"><span class="pre">string</span></code>.</p>
 </section>
@@ -393,9 +393,7 @@
 </div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
-    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/scripts/furo.js"></script>
     </body>
 </html>
