@@ -1,32 +1,91 @@
-# Datapackage Convert
+# CSVS Convert
 
-Conversions for tabular-data-packages:
+Converts CSV files into XLSX/SQLITE/POSTGRESQL/PARQUET fast.  
 
-* [Merge mulitple datapackages into one](merge.md)
+## Aims
+
+* Quick conversions (uses rust underneath). Uses fast methods for each output format.
+* Thorough type guessing of CSV columns, so there is no need to configure types of each column. Scans whole file first to make sure all types in column are consistent.
+* Tries to limit errors when inserting data into database by resorting to "text" if type guessing can't determine a more specific type.
+* When inserting into existing databases automatically change schema of target to allow new data (`evolve` option).
+* Memory efficient. All csvs and outputs are streamed so should take up very little memory.
+* Gather stats and information about CSV files into datapacakge.json file and can use it for customizing conversion.
+
+## Drawbacks
+
+* CSV files currently need header rows.
+* Whole file needs to be on disk as whole CSV is analyzed.
+
+## Conversion Docs
+
+Conversions for CSV files:
+
 * [To SQLite](sqlite.md)  
-* [To Postgres](postgres.md)  
+* [To Postgres](postgres.md)
 * [To Parquet](parquet.md)
 * [To XLSX](xlsx.md)
+* [Merge multiple csv datapackages into one](merge.md)
 
-All conversions aim to be memory efficiant and as fast they can be. This is the python library, providing bindings to the [rust library](https://github.com/kindly/datapackage_convert).
+** [Full Option Reference](options.md) **
 
-[**Contribute on github**](https://github.com/kindly/datapackage_convert_py)
+This is the python library, providing bindings to the [rust library](https://github.com/kindly/csvs_convert).
+
+[**Contribute on github**](https://github.com/kindly/csvs_convert_py)
 
 ## Install
 
 ```bash
-pip install datapackage_convert
+pip install csvs_convert
 ```
 
-## Usage
+## Usage From CSV files.
 
-When refering to a datapackage you can either reference:
+```
+import csvs_convert
+
+#sqlite
+csvs_convert.csvs_to_sqlite("sqlite.db", ["file.csv"])
+#postgres
+csvs_convert.csvs_to_postgres("postgresql://user:postgres@localhost/db", ["file.csv"])
+#parquet
+csvs_convert.csvs_to_parquet("output", ["file.csv"])
+#xlsx
+csvs_convert.csvs_to_xlsx("output.xlsx", ["sqlite.db"])
+```
+
+## Usage from datapackage
+
+A datapackage is a file that contains metadata about the tables its specification is described [here](https://datahub.io/docs/data-packages/tabular).
+
+To generate `datapackage.json` file you can use:
+
+```
+csvs_convert.csvs_to_datapackage('path/to/datapackage.json', ["fixtures/large/csv/data.csv"])
+```
+
+Other tools can also generate these files.
+
+You can use this file and alter it as needed. Mostly it is useful if you want to use the same schema across multiple files, as it will save time not having to do the type guessing for every file.
+
+When referring to a datapackage you can either reference:
 
 * A `datapackage.json` file.
 * A datapackage directory containing a `datapackage.json` file. e.g.  `/a/datapackage/dir`
 * A zip file containing a `datapackage.json` file. e.g. `my_datapackage.zip`
 
+### Examples:
+```
+import csvs_convert
 
+#sqlite
+csvs_convert.datapackage_to_sqlite("sqlite.db", "path/to/datapackage.json")
+#postgres
+csvs_convert.datapackage_to_postgres("postgresql://user:postgres@localhost/db", "path/to/datapackage.json")
+#parquet
+csvs_convert.datapackage_to_parquet("path/to/directory", ["sqlite.db"])
+#xlsx
+csvs_convert.datapackage_to_xlsx("output.xlsx", "path/to/datapackage.json")
+```
 
 ```{toctree}
 :hidden:
@@ -35,5 +94,7 @@ sqlite
 postgres
 parquet
 xlsx
+options
+evolve
 changelog
 ```

@@ -1,10 +1,10 @@
 [project]
-name="datapackage_convert"
-description = "Convert your datapackages"
+name="csvs_convert"
+description = "Convert your csvs fast"
 
 dependencies = []
 readme="README.md"
-repository="https://github.com/kindly/datapackage_convert_py"
+repository="https://github.com/kindly/csvs_convert_py"
 
 [build-system]
 requires = ["maturin>=0.11,<0.12"]

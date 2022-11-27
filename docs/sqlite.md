@@ -1,25 +1,29 @@
 # To Sqlite
 
-Convert tabular-datapackage to sqlite.
+Convert csvs to sqlite.
 
-## Usage Example
-
-```
-from datapackage_convert import datapackage_to_sqlite
-
-datapackage_to_sqlite(f'output.db', '/path/to/datapackage')
-```
-
-## Options
+## From CSV files usage example
 
 First argument is name of database file.  If database already exists new tables will created with in it.  Second is path to datapackage.
 
-### delete_input_csv
+```
+from csvs_convert import csvs_to_sqlite
 
-This will delete the input csvs from the orginal datapackage.  This is useful if the files are large and you just want to keep the sqlite databasae and not the CSV files.
+csvs_to_sqlite(f'output.db', ['data.csv', 'data2.csv'])
+```
 
-Example
+## From datapackage usage example
 
 ```
-datapackage_to_sqlite(f'output.db', '/path/to/datapackage', delete_input_csv=True)
+from csvs_convert import datapackage_to_sqlite
+
+datapackage_to_sqlite('output.db', '/path/to/datapackage')
+```
+
+## Evolve
+
+See [](evolve.md)
+
+```
+csvs_to_sqlite('sqlite.db', ['/path/to/file.csv'], evolve=True)
 ```
