@@ -4,7 +4,7 @@ Converts CSV files into XLSX/SQLITE/POSTGRESQL/PARQUET fast.
 
 ## Aims
 
-* Thorough type guessing of CSV columns, so there is no need to configure types of each column. Scans whole file first to make sure all types in column are consistent.
+* Thorough type guessing of CSV columns, so there is no need to configure types of each column. Scans whole file first to make sure all types in a column are consistent.
 * Quick conversions (uses rust underneath). Uses fast methods for each output format.
 * Tries to limit errors when inserting data into database by resorting to "text" if type guessing can't determine a more specific type.
 * When inserting into existing databases automatically change schema of target to allow new data (`evolve` option).
