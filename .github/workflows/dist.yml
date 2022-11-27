@@ -14,8 +14,8 @@ jobs:
         # in this example, there is a newer version already installed, 3.7.7, so the older version will be downloaded
         python-version: ['3.7', '3.8', '3.9', '3.10', '3.11']
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
           architecture: x64
@@ -29,11 +29,11 @@ jobs:
         uses: messense/maturin-action@v1
         with:
           target: x86_64
-          args: --release --out dist --no-sdist
+          args: --release --sdist --out dist
       - name: Build wheels - universal2
         uses: messense/maturin-action@v1
         with:
-          args: --release --universal2 --out dist --no-sdist
+          args: --release --universal2 --out dist
       - name: Upload wheels
         uses: actions/upload-artifact@v2
         with:
@@ -46,8 +46,8 @@ jobs:
     env:
       LIBCLANG_PATH: 'C:\Program Files\LLVM\bin'
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.9
           architecture: x64
@@ -66,7 +66,7 @@ jobs:
         uses: messense/maturin-action@v1
         with:
           target: ${{ matrix.target }}
-          args: --release --out dist --no-sdist 
+          args: --release --out dist 
       - name: Upload wheels
         uses: actions/upload-artifact@v2
         with:
@@ -121,7 +121,7 @@ jobs:
     - name: Make wheel
       run: |
         sudo docker build -t flatterer-anylinux .
-        sudo docker run  -v $(pwd):/io flatterer-anylinux build --release --out dist
+        sudo docker run  -v $(pwd):/io flatterer-anylinux build --no-sdist --release --out dist
     - name: Upload wheels
       uses: actions/upload-artifact@v2
       with:
