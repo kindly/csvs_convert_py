@@ -4,11 +4,11 @@ Converts CSV files into XLSX/SQLITE/POSTGRESQL/PARQUET fast.
 
 ## Aims
 
-* Quick conversions (uses rust underneath). Uses fast methods for each output format.
 * Thorough type guessing of CSV columns, so there is no need to configure types of each column. Scans whole file first to make sure all types in column are consistent.
+* Quick conversions (uses rust underneath). Uses fast methods for each output format.
 * Tries to limit errors when inserting data into database by resorting to "text" if type guessing can't determine a more specific type.
 * When inserting into existing databases automatically change schema of target to allow new data (`evolve` option).
-* Memory efficient. All csvs and outputs are streamed so should take up very little memory.
+* Memory efficient. All csvs and outputs are streamed so all conversions should take up very little memory.
 * Gather stats and information about CSV files into datapacakge.json file and can use it for customizing conversion.
 
 ## Drawbacks
@@ -26,7 +26,7 @@ Conversions for CSV files:
 * [To XLSX](xlsx.md)
 * [Merge multiple csv datapackages into one](merge.md)
 
-** [Full Option Reference](options.md) **
+**[Full Option Reference](options.md)**
 
 This is the python library, providing bindings to the [rust library](https://github.com/kindly/csvs_convert).
 
@@ -89,12 +89,12 @@ csvs_convert.datapackage_to_xlsx("output.xlsx", "path/to/datapackage.json")
 
 ```{toctree}
 :hidden:
-merge
 sqlite
 postgres
 parquet
 xlsx
 options
 evolve
+merge
 changelog
 ```
