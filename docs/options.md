@@ -45,3 +45,23 @@ csvs_to_sqlite(f'output.db', ['data.csv', 'data2.csv'], drop=True)
 ## Evolve
 
 See [](evolve.md)
+
+## Stats
+
+`stats` produces statistical stats about the data in the CSV files parsed.
+
+```
+from csvs_convert import csvs_to_sqlite
+datpackage = csvs_to_sqlite(f'output.db', ['data.csv', 'data2.csv'], stats=True)
+```
+
+The datapackage now contains stats about the file.
+
+A CSV version of the stats can be produced by using `stats_csv` which is the path to where you want the CSV to be be.
+
+```
+from csvs_convert import csvs_to_sqlite
+datpackage = csvs_to_sqlite(f'output.db', ['data.csv', 'data2.csv'], stats_csv='/path/to/file.csv')
+```
+
+If `stats_csv` option is set the `stats` option is automatically set.

@@ -6,8 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-#datapackage_convert = { path = "../datapackage_convert" }
-csvs_convert = "0.7.0"
+csvs_convert = { path = "../datapackage_convert" }
+#csvs_convert = "0.7.0"
 pyo3 = { version = "0.16.2", features = ["extension-module", "eyre"] }
 eyre = "*"
 

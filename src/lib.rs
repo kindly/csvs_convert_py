@@ -53,6 +53,16 @@ fn kwds_to_options(kwds: Option<&PyDict>) -> Options {
                 options.delimiter = delimiter
             }
         }
+        if let Some(stats) = kwds.get_item("stats") {
+            if let Ok(stats) = stats.extract() {
+                options.stats = stats 
+            }
+        }
+        if let Some(stats_csv) = kwds.get_item("stats_csv") {
+            if let Ok(stats_csv) = stats_csv.extract() {
+                options.stats_csv = stats_csv
+            }
+        }
     }
     options
 }
@@ -72,10 +82,10 @@ fn datapackage_to_sqlite(db_path: String, datapackage: String, kwds: Option<&PyD
 }
 
 #[pyfunction(kwds="**")]
-fn csvs_to_sqlite(db_path: String, csvs: Vec<PathBuf>, kwds: Option<&PyDict>) -> eyre::Result<()> {
+fn csvs_to_sqlite(db_path: String, csvs: Vec<PathBuf>, kwds: Option<&PyDict>) -> eyre::Result<String> {
     let options = kwds_to_options(kwds);
-    csvs_convert_rs::csvs_to_sqlite_with_options(db_path.into(), csvs, options)?; 
-    Ok(())
+    let output = csvs_convert_rs::csvs_to_sqlite_with_options(db_path.into(), csvs, options)?; 
+    Ok(output.to_string())
 }
 
 #[pyfunction(kwds="**")]
@@ -86,10 +96,10 @@ fn datapackage_to_postgres(postgres_url: String, datapackage: String, kwds: Opti
 }
 
 #[pyfunction(kwds="**")]
-fn csvs_to_postgres(postgres_url: String, csvs: Vec<PathBuf>, kwds: Option<&PyDict>) -> eyre::Result<()> {
+fn csvs_to_postgres(postgres_url: String, csvs: Vec<PathBuf>, kwds: Option<&PyDict>) -> eyre::Result<String> {
     let options = kwds_to_options(kwds);
-    csvs_convert_rs::csvs_to_postgres_with_options(postgres_url.into(), csvs, options)?; 
-    Ok(())
+    let output = csvs_convert_rs::csvs_to_postgres_with_options(postgres_url.into(), csvs, options)?; 
+    Ok(output.to_string())
 }
 
 #[pyfunction(kwds="**")]
@@ -100,17 +110,17 @@ fn datapackage_to_parquet(output_path: String, datapackage: String, kwds: Option
 }
 
 #[pyfunction(kwds="**")]
-fn csvs_to_parquet(output_path: String, csvs: Vec<PathBuf>, kwds: Option<&PyDict>) -> eyre::Result<()> {
+fn csvs_to_parquet(output_path: String, csvs: Vec<PathBuf>, kwds: Option<&PyDict>) -> eyre::Result<String> {
     let options = kwds_to_options(kwds);
-    csvs_convert_rs::csvs_to_parquet_with_options(output_path.into(), csvs, options)?; 
-    Ok(())
+    let output = csvs_convert_rs::csvs_to_parquet_with_options(output_path.into(), csvs, options)?; 
+    Ok(output.to_string())
 }
 
 #[pyfunction(kwds="**")]
-fn csvs_to_xlsx(xlsx_path: String, csvs: Vec<PathBuf>, kwds: Option<&PyDict>) -> eyre::Result<()> {
+fn csvs_to_xlsx(xlsx_path: String, csvs: Vec<PathBuf>, kwds: Option<&PyDict>) -> eyre::Result<String> {
     let options = kwds_to_options(kwds);
-    csvs_convert_rs::csvs_to_xlsx_with_options(xlsx_path.into(), csvs, options)?; 
-    Ok(())
+    let output = csvs_convert_rs::csvs_to_xlsx_with_options(xlsx_path.into(), csvs, options)?; 
+    Ok(output.to_string())
 }
 
 #[pyfunction(kwds="**")]
@@ -126,7 +136,15 @@ fn csvs_to_datapackage(mut datapackage: PathBuf, csvs: Vec<PathBuf>, kwds: Optio
     if datapackage.ends_with("datapackage.json") {
         datapackage.pop();
     }
-    csvs_convert_rs::output_datapackage(csvs, datapackage, options.delimiter, options.quote)?;
+    let describe_options = 
+        csvs_convert_rs::DescribeOptions::builder().
+        delimiter(options.delimiter).
+        quote(options.quote).
+        stats_csv(options.stats_csv).
+        stats(options.stats).
+        build();
+
+    csvs_convert_rs::output_datapackage(csvs, datapackage, &describe_options)?;
     Ok(())
 }
 
