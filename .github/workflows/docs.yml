@@ -15,6 +15,8 @@ jobs:
         python-version: ${{ matrix.python-version }}
         architecture: x64
     - name: Install requirements_docs.txt
+      run: pip install maturin
+    - name: Install requirements_docs.txt
       run: pip install .[dev]
     - name: Install and Build 🔧
       working-directory: ./docs
