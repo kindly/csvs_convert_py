@@ -1,18 +1,15 @@
 [package]
 name = "csvs_convert_py"
-version = "0.7.1"
+version = "0.7.2"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 #csvs_convert = { path = "../datapackage_convert" }
-csvs_convert = "0.7.1"
+csvs_convert = "0.7.2"
 pyo3 = { version = "0.16.2", features = ["extension-module", "eyre"] }
 eyre = "*"
-
-[patch.crates-io]
-succinct = { git = 'https://github.com/kindly/succinct-rs', ref='4f3d570388aecb635a0479607f2ae06c9f8c0d56' }
 
 [lib]
 name = "csvs_convert"
