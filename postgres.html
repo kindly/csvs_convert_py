@@ -1,11 +1,11 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="To Parquet" href="parquet.html" /><link rel="prev" title="To Sqlite" href="sqlite.html" />
 
-    <meta name="generator" content="sphinx-5.3.0, furo 2022.04.07"/>
+    <meta name="generator" content="sphinx-4.5.0, furo 2022.04.07"/>
         <title>To Postgres - CSVs Convert 0.7 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=68f4518137b9aefe99b631505a2064c3c42c9852" />
@@ -196,12 +196,12 @@
         </div>
         <article role="main">
           <section id="to-postgres">
-<h1>To Postgres<a class="headerlink" href="#to-postgres" title="Permalink to this heading">#</a></h1>
+<h1>To Postgres<a class="headerlink" href="#to-postgres" title="Permalink to this headline">#</a></h1>
 <p>A database connection string is needed, using the <a class="reference external" href="https://docs.rs/postgres/latest/postgres/config/struct.Config.html#examples-1">format expressed here</a>.  If you want the connection string to be got from an environment variable then use the string <code class="docutils literal notranslate"><span class="pre">env</span></code> (for default <code class="docutils literal notranslate"><span class="pre">DATABASE_URL</span></code> enviroment variable) or <code class="docutils literal notranslate"><span class="pre">env=MY_ENV_VAR</span></code> (for <code class="docutils literal notranslate"><span class="pre">MY_ENV_VAR</span></code> environment variable).</p>
 <p>If a table does not exist in the database it will be created.</p>
 <p>If the table already exists in the database, rows will be appended to the existing table. There will be errors if the field definitions of the data do not match the field definitions in the database unless <code class="docutils literal notranslate"><span class="pre">evolve=True</span></code> is set.  Use <code class="docutils literal notranslate"><span class="pre">drop=True</span></code> if instead you want delete the table if it exists.</p>
 <section id="usage-example">
-<h2>Usage Example<a class="headerlink" href="#usage-example" title="Permalink to this heading">#</a></h2>
+<h2>Usage Example<a class="headerlink" href="#usage-example" title="Permalink to this headline">#</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">csvs_convert</span> <span class="kn">import</span> <span class="n">csvs_to_postgres</span>
 
 <span class="n">csvs_to_postgres</span><span class="p">(</span><span class="s1">'postgresql://user:postgres@localhost/db'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'/path/to/file.csv'</span><span class="p">],</span> <span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">schema</span><span class="o">=</span><span class="s1">'myschema'</span><span class="p">)</span>
@@ -209,7 +209,7 @@
 </div>
 </section>
 <section id="usage-example-from-datapackage">
-<h2>Usage Example from datapackage<a class="headerlink" href="#usage-example-from-datapackage" title="Permalink to this heading">#</a></h2>
+<h2>Usage Example from datapackage<a class="headerlink" href="#usage-example-from-datapackage" title="Permalink to this headline">#</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">csvs_convert</span> <span class="kn">import</span> <span class="n">datapackage_to_postgres</span>
 
 <span class="n">datapackage_to_postgres</span><span class="p">(</span><span class="s1">'postgresql://user:postgres@localhost/db'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">,</span> <span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">schema</span><span class="o">=</span><span class="s1">'myschema'</span><span class="p">)</span>
@@ -217,7 +217,7 @@
 </div>
 </section>
 <section id="usage-example-from-enviroment-variable">
-<h2>Usage Example From Enviroment Variable<a class="headerlink" href="#usage-example-from-enviroment-variable" title="Permalink to this heading">#</a></h2>
+<h2>Usage Example From Enviroment Variable<a class="headerlink" href="#usage-example-from-enviroment-variable" title="Permalink to this headline">#</a></h2>
 <p>Uses environment variable DATABASE_URL.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">csvs_to_postgres</span><span class="p">(</span><span class="s1">'env'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'/path/to/file.csv'</span><span class="p">])</span>
 </pre></div>
@@ -228,21 +228,21 @@
 </div>
 </section>
 <section id="evolve">
-<h2>Evolve<a class="headerlink" href="#evolve" title="Permalink to this heading">#</a></h2>
+<h2>Evolve<a class="headerlink" href="#evolve" title="Permalink to this headline">#</a></h2>
 <p>See <a class="reference internal" href="evolve.html"><span class="doc std std-doc">Evolve</span></a></p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">csvs_to_postgres</span><span class="p">(</span><span class="s1">'postgresql://user:postgres@localhost/db'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'/path/to/file.csv'</span><span class="p">],</span> <span class="n">evolve</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 <section id="schema">
-<h2>Schema<a class="headerlink" href="#schema" title="Permalink to this heading">#</a></h2>
+<h2>Schema<a class="headerlink" href="#schema" title="Permalink to this headline">#</a></h2>
 <p>This will put the tables in the datapackage into a postgres schema. If the schema does not exist it will be created.</p>
 <p>Example</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">datapackage_to_postgres</span><span class="p">(</span><span class="s1">'postgresql://user:postgres@localhost/db'</span><span class="p">,</span> <span class="s1">'/path/to/datapackage'</span><span class="p">,</span> <span class="n">schema</span><span class="o">=</span><span class="s1">'myschema'</span><span class="p">)</span>
 </pre></div>
 </div>
 <section id="drop">
-<h3>Drop<a class="headerlink" href="#drop" title="Permalink to this heading">#</a></h3>
+<h3>Drop<a class="headerlink" href="#drop" title="Permalink to this headline">#</a></h3>
 <p>This will drop the tables in the database before recreating them.  WARNING: data may be lost if you select this option.</p>
 <p>Example</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">csvs_to_postgres</span><span class="p">(</span><span class="s1">'postgresql://user:postgres@localhost/db'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'/path/to/data.csv'</span><span class="p">],</span> <span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -332,9 +332,7 @@
 </div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
-    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/scripts/furo.js"></script>
     </body>
 </html>

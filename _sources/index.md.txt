@@ -63,7 +63,11 @@ To generate `datapackage.json` file you can use:
 csvs_convert.csvs_to_datapackage('path/to/datapackage.json', ["fixtures/large/csv/data.csv"])
 ```
 
-Other tools can also generate these files.
+Also the other `csvs_to_*` commands return the datapackagage as a python dict eg:
+
+```
+    datapackage = csvs_convert.csvs_to_xlsx("output.xlsx", ["sqlite.db"])
+```
 
 You can use this file and alter it as needed. Mostly it is useful if you want to use the same schema across multiple files, as it will save time not having to do the type guessing for every file.
 
