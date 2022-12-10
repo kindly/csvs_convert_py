@@ -11,6 +11,8 @@ csvs_convert = "0.7.1"
 pyo3 = { version = "0.16.2", features = ["extension-module", "eyre"] }
 eyre = "*"
 
+[patch.crates-io]
+succinct = { git = 'https://github.com/kindly/succinct-rs', ref='4f3d570388aecb635a0479607f2ae06c9f8c0d56' }
 
 [lib]
 name = "csvs_convert"
