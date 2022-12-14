@@ -65,3 +65,15 @@ datpackage = csvs_to_sqlite(f'output.db', ['data.csv', 'data2.csv'], stats_csv='
 ```
 
 If `stats_csv` option is set the `stats` option is automatically set.
+
+## Threads
+
+`threads=n` makes the type checking and stats generation faster.  Some statistics will not be generated howerver in threaded mode.
+
+e.g
+```
+from csvs_convert import csvs_to_sqlite
+datpackage = csvs_to_sqlite(f'output.db', ['data.csv', 'data2.csv'], stats=True, threads=8)
+```
+
+This will use 8 threads. Using a number near the number of cores in you computer should lead to the fastest results.
