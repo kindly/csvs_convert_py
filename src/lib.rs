@@ -63,6 +63,11 @@ fn kwds_to_options(kwds: Option<&PyDict>) -> Options {
                 options.stats_csv = stats_csv
             }
         }
+        if let Some(threads) = kwds.get_item("threads") {
+            if let Ok(threads) = threads.extract() {
+                options.threads = threads
+            }
+        }
     }
     options
 }
@@ -142,6 +147,7 @@ fn csvs_to_datapackage(mut datapackage: PathBuf, csvs: Vec<PathBuf>, kwds: Optio
         quote(options.quote).
         stats_csv(options.stats_csv).
         stats(options.stats).
+        threads(options.threads).
         build();
 
     csvs_convert_rs::output_datapackage(csvs, datapackage, &describe_options)?;

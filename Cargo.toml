@@ -1,13 +1,13 @@
 [package]
 name = "csvs_convert_py"
-version = "0.7.2"
+version = "0.7.3"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 #csvs_convert = { path = "../datapackage_convert" }
-csvs_convert = "0.7.2"
+csvs_convert = "0.7.3"
 pyo3 = { version = "0.16.2", features = ["extension-module", "eyre"] }
 eyre = "*"
 
