@@ -254,6 +254,16 @@ Will use value in <code class="docutils literal notranslate"><span class="pre">d
 </div>
 <p>If <code class="docutils literal notranslate"><span class="pre">stats_csv</span></code> option is set the <code class="docutils literal notranslate"><span class="pre">stats</span></code> option is automatically set.</p>
 </section>
+<section id="threads">
+<h2>Threads<a class="headerlink" href="#threads" title="Permalink to this headline">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">threads=n</span></code> makes the type checking and stats generation faster.  Some statistics will not be generated howerver in threaded mode.</p>
+<p>e.g</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">csvs_convert</span> <span class="kn">import</span> <span class="n">csvs_to_sqlite</span>
+<span class="n">datpackage</span> <span class="o">=</span> <span class="n">csvs_to_sqlite</span><span class="p">(</span><span class="sa">f</span><span class="s1">'output.db'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'data.csv'</span><span class="p">,</span> <span class="s1">'data2.csv'</span><span class="p">],</span> <span class="n">stats</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">threads</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>This will use 8 threads. Using a number near the number of cores in you computer should lead to the fastest results.</p>
+</section>
 </section>
 
         </article>
@@ -320,6 +330,7 @@ Will use value in <code class="docutils literal notranslate"><span class="pre">d
 <li><a class="reference internal" href="#drop">Drop</a></li>
 <li><a class="reference internal" href="#evolve">Evolve</a></li>
 <li><a class="reference internal" href="#stats">Stats</a></li>
+<li><a class="reference internal" href="#threads">Threads</a></li>
 </ul>
 </li>
 </ul>
