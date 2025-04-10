@@ -10,7 +10,7 @@ pip install csvs_convert
 
 ## Docs
 
-[Full Documentaion](http://datapackage_convert.opendata.coop)
+[Full Documentaion](https://csvsconvert.flatterer.dev/)
 
 ## Aims
 
